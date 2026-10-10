@@ -1,0 +1,3000 @@
+[build CXX] sc/source/ui/view/viewutil.cxx
+[build CXX] sc/source/ui/view/waitoff.cxx
+[build CXX] sc/source/ui/xmlsource/xmlsourcedlg.cxx
+[build CXX] sc/source/filter/dif/difexp.cxx
+[build CXX] sc/source/filter/dif/difimp.cxx
+[build CXX] sc/source/filter/excel/colrowst.cxx
+[build CXX] sc/source/filter/excel/excdoc.cxx
+[build CXX] sc/source/filter/excel/excel.cxx
+[build CXX] sc/source/filter/excel/excform.cxx
+[build CXX] sc/source/filter/excel/excform8.cxx
+[build CXX] sc/source/filter/excel/excimp8.cxx
+[build CXX] sc/source/filter/excel/excrecds.cxx
+[build CXX] sc/source/filter/excel/exctools.cxx
+[build CXX] sc/source/filter/excel/expop2.cxx
+[build CXX] sc/source/filter/excel/fontbuff.cxx
+[build CXX] sc/source/filter/excel/frmbase.cxx
+[build CXX] sc/source/filter/excel/impop.cxx
+[build CXX] sc/source/filter/excel/namebuff.cxx
+[build CXX] sc/source/filter/excel/read.cxx
+[build CXX] sc/source/filter/excel/tokstack.cxx
+[build CXX] sc/source/filter/excel/xechart.cxx
+[build CXX] sc/source/filter/excel/xecontent.cxx
+[build CXX] sc/source/filter/excel/xedbdata.cxx
+[build CXX] sc/source/filter/excel/xeescher.cxx
+[build CXX] sc/source/filter/excel/xeextlst.cxx
+[build CXX] sc/source/filter/excel/xeformula.cxx
+[build CXX] sc/source/filter/excel/xehelper.cxx
+[build CXX] sc/source/filter/excel/xelink.cxx
+[build CXX] sc/source/filter/excel/xename.cxx
+[build CXX] sc/source/filter/excel/xepage.cxx
+[build CXX] sc/source/filter/excel/xepivot.cxx
+[build CXX] sc/source/filter/excel/xepivotxml.cxx
+[build CXX] sc/source/filter/excel/xerecord.cxx
+[build CXX] sc/source/filter/excel/xeroot.cxx
+[build CXX] sc/source/filter/excel/xestream.cxx
+[build CXX] sc/source/filter/excel/xestring.cxx
+[build CXX] sc/source/filter/excel/xestyle.cxx
+[build CXX] sc/source/filter/excel/xetable.cxx
+[build CXX] sc/source/filter/excel/xeview.cxx
+[build CXX] sc/source/filter/excel/xichart.cxx
+[build CXX] sc/source/filter/excel/xicontent.cxx
+[build CXX] sc/source/filter/excel/xiescher.cxx
+[build CXX] sc/source/filter/excel/xiformula.cxx
+[build CXX] sc/source/filter/excel/xihelper.cxx
+[build CXX] sc/source/filter/excel/xilink.cxx
+[build CXX] sc/source/filter/excel/xiname.cxx
+[build CXX] sc/source/filter/excel/xipage.cxx
+[build CXX] sc/source/filter/excel/xipivot.cxx
+[build CXX] sc/source/filter/excel/xiroot.cxx
+[build CXX] sc/source/filter/excel/xistream.cxx
+[build CXX] sc/source/filter/excel/xistring.cxx
+[build CXX] sc/source/filter/excel/xistyle.cxx
+[build CXX] sc/source/filter/excel/xiview.cxx
+[build CXX] sc/source/filter/excel/xladdress.cxx
+[build CXX] sc/source/filter/excel/xlchart.cxx
+[build CXX] sc/source/filter/excel/xlescher.cxx
+[build CXX] sc/source/filter/excel/xlformula.cxx
+[build CXX] sc/source/filter/excel/xlpage.cxx
+[build CXX] sc/source/filter/excel/xlpivot.cxx
+[build CXX] sc/source/filter/excel/xlroot.cxx
+[build CXX] sc/source/filter/excel/xlstyle.cxx
+[build CXX] sc/source/filter/excel/xltoolbar.cxx
+[build CXX] sc/source/filter/excel/xltools.cxx
+[build CXX] sc/source/filter/excel/xltracer.cxx
+[build CXX] sc/source/filter/excel/xlview.cxx
+[build CXX] sc/source/filter/excel/export/NamedSheetViews.cxx
+[build CXX] sc/source/filter/excel/export/SparklineExt.cxx
+[build CXX] sc/source/filter/excel/export/ExportTools.cxx
+[build CXX] sc/source/filter/ftools/fapihelper.cxx
+[build CXX] sc/source/filter/ftools/fprogressbar.cxx
+[build CXX] sc/source/filter/ftools/ftools.cxx
+[build CXX] sc/source/filter/ftools/sharedformulagroups.cxx
+[build CXX] sc/source/filter/html/htmlexp.cxx
+[build CXX] sc/source/filter/html/htmlexp2.cxx
+[build CXX] sc/source/filter/html/htmlimp.cxx
+[build CXX] sc/source/filter/html/htmlpars.cxx
+[build CXX] sc/source/filter/lotus/filter.cxx
+[build CXX] sc/source/filter/lotus/lotattr.cxx
+[build CXX] sc/source/filter/lotus/lotform.cxx
+[build CXX] sc/source/filter/lotus/lotimpop.cxx
+[build CXX] sc/source/filter/lotus/lotread.cxx
+[build CXX] sc/source/filter/lotus/lotus.cxx
+[build CXX] sc/source/filter/lotus/memory.cxx
+[build CXX] sc/source/filter/lotus/op.cxx
+[build CXX] sc/source/filter/lotus/optab.cxx
+[build CXX] sc/source/filter/lotus/tool.cxx
+[build CXX] sc/source/filter/qpro/qpro.cxx
+[build CXX] sc/source/filter/qpro/qproform.cxx
+[build CXX] sc/source/filter/qpro/qprostyle.cxx
+[build CXX] sc/source/filter/rtf/eeimpars.cxx
+[build CXX] sc/source/filter/rtf/expbase.cxx
+[build CXX] sc/source/filter/rtf/rtfexp.cxx
+[build CXX] sc/source/filter/rtf/rtfimp.cxx
+[build CXX] sc/source/filter/rtf/rtfparse.cxx
+[build CXX] sc/source/filter/xcl97/XclExpChangeTrack.cxx
+[build CXX] sc/source/filter/xcl97/XclImpChangeTrack.cxx
+[build CXX] sc/source/filter/xcl97/xcl97esc.cxx
+[build CXX] sc/source/filter/xcl97/xcl97rec.cxx
+[build CXX] sc/source/filter/oox/excelfilter.cxx
+[build CXX] sc/source/filter/oox/addressconverter.cxx
+[build CXX] sc/source/filter/oox/autofilterbuffer.cxx
+[build CXX] sc/source/filter/oox/autofiltercontext.cxx
+[build CXX] sc/source/filter/oox/biffhelper.cxx
+[build CXX] sc/source/filter/oox/chartsheetfragment.cxx
+[build CXX] sc/source/filter/oox/commentsbuffer.cxx
+[build CXX] sc/source/filter/oox/commentsfragment.cxx
+[build CXX] sc/source/filter/oox/personsfragment.cxx
+[build CXX] sc/source/filter/oox/threadedcommentsfragment.cxx
+[build CXX] sc/source/filter/oox/NamedSheetViewFragment.cxx
+[build CXX] sc/source/filter/oox/NamedSheetViewImporter.cxx
+[build CXX] sc/source/filter/oox/condformatbuffer.cxx
+[build CXX] sc/source/filter/oox/condformatcontext.cxx
+[build CXX] sc/source/filter/oox/connectionsbuffer.cxx
+[build CXX] sc/source/filter/oox/connectionsfragment.cxx
+[build CXX] sc/source/filter/oox/defnamesbuffer.cxx
+[build CXX] sc/source/filter/oox/drawingbase.cxx
+[build CXX] sc/source/filter/oox/drawingfragment.cxx
+[build CXX] sc/source/filter/oox/excelchartconverter.cxx
+[build CXX] sc/source/filter/oox/excelhandlers.cxx
+[build CXX] sc/source/filter/oox/excelvbaproject.cxx
+[build CXX] sc/source/filter/oox/externallinkbuffer.cxx
+[build CXX] sc/source/filter/oox/externallinkfragment.cxx
+[build CXX] sc/source/filter/oox/extlstcontext.cxx
+[build CXX] sc/source/filter/oox/formulabase.cxx
+[build CXX] sc/source/filter/oox/formulabuffer.cxx
+[build CXX] sc/source/filter/oox/formulaparser.cxx
+[build CXX] sc/source/filter/oox/numberformatsbuffer.cxx
+[build CXX] sc/source/filter/oox/ooxformulaparser.cxx
+[build CXX] sc/source/filter/oox/pagesettings.cxx
+[build CXX] sc/source/filter/oox/patterncache.cxx
+[build CXX] sc/source/filter/oox/pivotcachebuffer.cxx
+[build CXX] sc/source/filter/oox/pivotcachefragment.cxx
+[build CXX] sc/source/filter/oox/pivottablebuffer.cxx
+[build CXX] sc/source/filter/oox/pivottablefragment.cxx
+[build CXX] sc/source/filter/oox/PivotTableFormat.cxx
+[build CXX] sc/source/filter/oox/PivotTableFormatContext.cxx
+[build CXX] sc/source/filter/oox/querytablebuffer.cxx
+[build CXX] sc/source/filter/oox/querytablefragment.cxx
+[build CXX] sc/source/filter/oox/revisionfragment.cxx
+[build CXX] sc/source/filter/oox/richstringcontext.cxx
+[build CXX] sc/source/filter/oox/richstring.cxx
+[build CXX] sc/source/filter/oox/scenariobuffer.cxx
+[build CXX] sc/source/filter/oox/scenariocontext.cxx
+[build CXX] sc/source/filter/oox/sharedstringsbuffer.cxx
+[build CXX] sc/source/filter/oox/sharedstringsfragment.cxx
+[build CXX] sc/source/filter/oox/sheetdatabuffer.cxx
+[build CXX] sc/source/filter/oox/sheetdatacontext.cxx
+[build CXX] sc/source/filter/oox/SparklineFragment.cxx
+[build CXX] sc/source/filter/oox/stylesbuffer.cxx
+[build CXX] sc/source/filter/oox/stylesfragment.cxx
+[build CXX] sc/source/filter/oox/tablebuffer.cxx
+[build CXX] sc/source/filter/oox/tablecolumnsbuffer.cxx
+[build CXX] sc/source/filter/oox/tablecolumnscontext.cxx
+[build CXX] sc/source/filter/oox/tablefragment.cxx
+[build CXX] sc/source/filter/oox/themebuffer.cxx
+[build CXX] sc/source/filter/oox/unitconverter.cxx
+[build CXX] sc/source/filter/oox/viewsettings.cxx
+[build CXX] sc/source/filter/oox/workbookfragment.cxx
+[build CXX] sc/source/filter/oox/workbookhelper.cxx
+[build CXX] sc/source/filter/oox/workbooksettings.cxx
+[build CXX] sc/source/filter/oox/worksheetbuffer.cxx
+[build CXX] sc/source/filter/oox/worksheetfragment.cxx
+[build CXX] sc/source/filter/oox/worksheethelper.cxx
+[build CXX] sc/source/filter/oox/worksheetsettings.cxx
+[build CXX] sc/source/filter/orcus/autofilter.cxx
+[build CXX] sc/source/filter/orcus/global.cxx
+[build CXX] sc/source/filter/orcus/interface.cxx
+[build CXX] sc/source/filter/orcus/orcusfiltersimpl.cxx
+[build CXX] sc/source/filter/orcus/xmlcontext.cxx
+[build CXX] sc/source/filter/orcus/filterdetect.cxx
+[build CXX] sc/source/filter/orcus/utils.cxx
+[build CXX] sc/source/ui/attrdlg/attrdlg.cxx
+[build CXX] sc/source/ui/attrdlg/scdlgfact.cxx
+[build CXX] sc/source/ui/attrdlg/scuiexp.cxx
+[build CXX] sc/source/ui/attrdlg/tabpages.cxx
+[build CXX] sc/source/ui/cctrl/editfield.cxx
+[build CXX] sc/source/ui/condformat/condformatmgr.cxx
+[build CXX] sc/source/ui/dbgui/dapidata.cxx
+[build CXX] sc/source/ui/dbgui/dapitype.cxx
+[build CXX] sc/source/ui/dbgui/dpgroupdlg.cxx
+[build CXX] sc/source/ui/dbgui/pfiltdlg.cxx
+[build CXX] sc/source/ui/dbgui/pvfundlg.cxx
+[build CXX] sc/source/ui/dbgui/scendlg.cxx
+[build CXX] sc/source/ui/dbgui/scuiasciiopt.cxx
+[build CXX] sc/source/ui/dbgui/scuiimoptdlg.cxx
+[build CXX] sc/source/ui/dbgui/sortdlg.cxx
+[build CXX] sc/source/ui/dbgui/sortkeydlg.cxx
+[build CXX] sc/source/ui/dbgui/subtdlg.cxx
+[build CXX] sc/source/ui/dbgui/textimportoptions.cxx
+[build CXX] sc/source/ui/dbgui/tpsort.cxx
+[build CXX] sc/source/ui/dbgui/tpsubt.cxx
+[build CXX] sc/source/ui/docshell/tpstat.cxx
+[build CXX] sc/source/ui/miscdlgs/crdlg.cxx
+[build CXX] sc/source/ui/miscdlgs/datafdlg.cxx
+[build CXX] sc/source/ui/miscdlgs/delcldlg.cxx
+[build CXX] sc/source/ui/miscdlgs/delcodlg.cxx
+[build CXX] sc/source/ui/miscdlgs/filldlg.cxx
+[build CXX] sc/source/ui/miscdlgs/gototabdlg.cxx
+[build CXX] sc/source/ui/miscdlgs/groupdlg.cxx
+[build CXX] sc/source/ui/miscdlgs/inscldlg.cxx
+[build CXX] sc/source/ui/miscdlgs/inscodlg.cxx
+[build CXX] sc/source/ui/miscdlgs/instbdlg.cxx
+[build CXX] sc/source/ui/miscdlgs/lbseldlg.cxx
+[build CXX] sc/source/ui/miscdlgs/linkarea.cxx
+[build CXX] sc/source/ui/miscdlgs/mtrindlg.cxx
+[build CXX] sc/source/ui/miscdlgs/mvtabdlg.cxx
+[build CXX] sc/source/ui/miscdlgs/namecrea.cxx
+[build CXX] sc/source/ui/miscdlgs/shtabdlg.cxx
+[build CXX] sc/source/ui/miscdlgs/strindlg.cxx
+[build CXX] sc/source/ui/miscdlgs/tabbgcolordlg.cxx
+[build CXX] sc/source/ui/miscdlgs/textdlgs.cxx
+[build CXX] sc/source/ui/namedlg/namepast.cxx
+[build CXX] sc/source/ui/optdlg/calcoptionsdlg.cxx
+[build CXX] sc/source/ui/optdlg/opredlin.cxx
+[build CXX] sc/source/ui/optdlg/tpcalc.cxx
+[build CXX] sc/source/ui/optdlg/tpcompatibility.cxx
+[build CXX] sc/source/ui/optdlg/tpformula.cxx
+[build CXX] sc/source/ui/optdlg/tpdefaults.cxx
+[build CXX] sc/source/ui/optdlg/tpprint.cxx
+[build CXX] sc/source/ui/optdlg/tpusrlst.cxx
+[build CXX] sc/source/ui/optdlg/tpview.cxx
+[build CXX] sc/source/ui/pagedlg/hfedtdlg.cxx
+[build CXX] sc/source/ui/pagedlg/scuitphfedit.cxx
+[build CXX] sc/source/ui/pagedlg/tphf.cxx
+[build CXX] sc/source/ui/pagedlg/tptable.cxx
+[build CXX] sc/source/ui/styleui/styledlg.cxx
+[build CXX] sc/source/ui/vba/excelvbahelper.cxx
+[build CXX] sc/source/ui/vba/vbaapplication.cxx
+[build CXX] sc/source/ui/vba/vbaassistant.cxx
+[build CXX] sc/source/ui/vba/vbaaxes.cxx
+[build CXX] sc/source/ui/vba/vbaaxis.cxx
+[build CXX] sc/source/ui/vba/vbaaxistitle.cxx
+[build CXX] sc/source/ui/vba/vbaborders.cxx
+[build CXX] sc/source/ui/vba/vbacharacters.cxx
+[build CXX] sc/source/ui/vba/vbachart.cxx
+[build CXX] sc/source/ui/vba/vbachartobject.cxx
+[build CXX] sc/source/ui/vba/vbachartobjects.cxx
+[build CXX] sc/source/ui/vba/vbacharttitle.cxx
+[build CXX] sc/source/ui/vba/vbacomment.cxx
+[build CXX] sc/source/ui/vba/vbacomments.cxx
+[build CXX] sc/source/ui/vba/vbacondition.cxx
+[build CXX] sc/source/ui/vba/vbadialog.cxx
+[build CXX] sc/source/ui/vba/vbadialogs.cxx
+[build CXX] sc/source/ui/vba/vbaeventshelper.cxx
+[build CXX] sc/source/ui/vba/vbafiledialog.cxx
+[build CXX] sc/source/ui/vba/vbafiledialogitems.cxx
+[build CXX] sc/source/ui/vba/vbafont.cxx
+[build CXX] sc/source/ui/vba/vbaformat.cxx
+[build CXX] sc/source/ui/vba/vbaformatcondition.cxx
+[build CXX] sc/source/ui/vba/vbaformatconditions.cxx
+[build CXX] sc/source/ui/vba/vbaglobals.cxx
+[build CXX] sc/source/ui/vba/vbahyperlink.cxx
+[build CXX] sc/source/ui/vba/vbahyperlinks.cxx
+[build CXX] sc/source/ui/vba/vbainterior.cxx
+[build CXX] sc/source/ui/vba/vbalineshape.cxx
+[build CXX] sc/source/ui/vba/vbamenubar.cxx
+[build CXX] sc/source/ui/vba/vbamenubars.cxx
+[build CXX] sc/source/ui/vba/vbamenu.cxx
+[build CXX] sc/source/ui/vba/vbamenus.cxx
+[build CXX] sc/source/ui/vba/vbamenuitem.cxx
+[build CXX] sc/source/ui/vba/vbamenuitems.cxx
+[build CXX] sc/source/ui/vba/vbaname.cxx
+[build CXX] sc/source/ui/vba/vbanames.cxx
+[build CXX] sc/source/ui/vba/vbaoleobject.cxx
+[build CXX] sc/source/ui/vba/vbaoleobjects.cxx
+[build CXX] sc/source/ui/vba/vbaoutline.cxx
+[build CXX] sc/source/ui/vba/vbaovalshape.cxx
+[build CXX] sc/source/ui/vba/vbapagebreak.cxx
+[build CXX] sc/source/ui/vba/vbapagebreaks.cxx
+[build CXX] sc/source/ui/vba/vbapagesetup.cxx
+[build CXX] sc/source/ui/vba/vbapalette.cxx
+[build CXX] sc/source/ui/vba/vbapane.cxx
+[build CXX] sc/source/ui/vba/vbapivotcache.cxx
+[build CXX] sc/source/ui/vba/vbapivottable.cxx
+[build CXX] sc/source/ui/vba/vbapivottables.cxx
+[build CXX] sc/source/ui/vba/vbarange.cxx
+[build CXX] sc/source/ui/vba/vbasheetobject.cxx
+[build CXX] sc/source/ui/vba/vbasheetobjects.cxx
+[build CXX] sc/source/ui/vba/vbastyle.cxx
+[build CXX] sc/source/ui/vba/vbastyles.cxx
+[build CXX] sc/source/ui/vba/vbatextboxshape.cxx
+[build CXX] sc/source/ui/vba/vbatextframe.cxx
+[build CXX] sc/source/ui/vba/vbavalidation.cxx
+[build CXX] sc/source/ui/vba/vbawindow.cxx
+[build CXX] sc/source/ui/vba/vbawindows.cxx
+[build CXX] sc/source/ui/vba/vbaworkbook.cxx
+[build CXX] sc/source/ui/vba/vbaworkbooks.cxx
+[build CXX] sc/source/ui/vba/vbaworksheet.cxx
+[build CXX] sc/source/ui/vba/vbaworksheets.cxx
+[build CXX] sc/source/ui/vba/vbawsfunction.cxx
+[build DEP] LNK:Library/libdlgprovlo.a.d
+[build LNK] Library/libdlgprovlo.a
+[build DEP] LNK:Library/libvbaeventslo.a.d
+[build LNK] Library/libvbaeventslo.a
+[build CXX] sd/source/ui/accessibility/AccessibleDocumentViewBase.cxx
+[build CXX] sd/source/ui/accessibility/AccessibleDrawDocumentView.cxx
+[build CXX] sd/source/ui/accessibility/AccessibleOutlineEditSource.cxx
+[build CXX] sd/source/ui/accessibility/AccessibleOutlineView.cxx
+[build CXX] sd/source/ui/accessibility/AccessiblePageShape.cxx
+[build CXX] sd/source/ui/accessibility/AccessiblePresentationGraphicShape.cxx
+[build CXX] sd/source/ui/accessibility/AccessiblePresentationOLEShape.cxx
+[build CXX] sd/source/ui/accessibility/AccessiblePresentationShape.cxx
+[build CXX] sd/source/ui/accessibility/AccessibleSlideSorterObject.cxx
+[build CXX] sd/source/ui/accessibility/AccessibleSlideSorterView.cxx
+[build CXX] sd/source/ui/accessibility/AccessibleViewForwarder.cxx
+[build CXX] sd/source/ui/accessibility/SdShapeTypes.cxx
+[build CXX] sd/source/core/CustomAnimationCloner.cxx
+[build CXX] sd/source/core/CustomAnimationEffect.cxx
+[build CXX] sd/source/core/CustomAnimationPreset.cxx
+[build CXX] sd/source/core/EffectMigration.cxx
+[build CXX] sd/source/core/ModelTraverser.cxx
+[build CXX] sd/source/core/PageListWatcher.cxx
+[build CXX] sd/source/core/TransitionPreset.cxx
+[build CXX] sd/source/core/ThemeColorChanger.cxx
+[build CXX] sd/source/core/anminfo.cxx
+[build CXX] sd/source/core/annotations/Annotation.cxx
+[build CXX] sd/source/core/cusshow.cxx
+[build CXX] sd/source/core/SlideSectionManager.cxx
+[build CXX] sd/source/core/UndoSlideSection.cxx
+[build CXX] sd/source/core/drawdoc.cxx
+[build CXX] sd/source/core/drawdoc2.cxx
+[build CXX] sd/source/core/drawdoc3.cxx
+[build CXX] sd/source/core/drawdoc4.cxx
+[build CXX] sd/source/core/drawdoc_animations.cxx
+[build CXX] sd/source/core/pglink.cxx
+[build CXX] sd/source/core/sdpage.cxx
+[build CXX] sd/source/core/sdpage2.cxx
+[build CXX] sd/source/core/sdpage_animations.cxx
+[build CXX] sd/source/core/shapelist.cxx
+[build CXX] sd/source/core/stlfamily.cxx
+[build CXX] sd/source/core/stlpool.cxx
+[build CXX] sd/source/core/stlsheet.cxx
+[build CXX] sd/source/core/typemap.cxx
+[build CXX] sd/source/core/undo/undofactory.cxx
+[build CXX] sd/source/core/undo/undomanager.cxx
+[build CXX] sd/source/core/undo/undoobjects.cxx
+[build CXX] sd/source/core/undoanim.cxx
+[build CXX] sd/source/filter/cgm/sdcgmfilter.cxx
+[build CXX] sd/source/filter/eppt/eppt.cxx
+[build CXX] sd/source/filter/eppt/epptso.cxx
+[build CXX] sd/source/filter/eppt/escherex.cxx
+[build CXX] sd/source/filter/eppt/pptexanimations.cxx
+[build CXX] sd/source/filter/eppt/pptexsoundcollection.cxx
+[build CXX] sd/source/filter/eppt/pptx-epptbase.cxx
+[build CXX] sd/source/filter/eppt/pptx-epptooxml.cxx
+[build CXX] sd/source/filter/eppt/pptx-animations.cxx
+[build CXX] sd/source/filter/eppt/pptx-animations-cond.cxx
+[build CXX] sd/source/filter/eppt/pptx-animations-nodectx.cxx
+[build CXX] sd/source/filter/eppt/pptx-grouptable.cxx
+[build CXX] sd/source/filter/eppt/pptx-stylesheet.cxx
+[build CXX] sd/source/filter/eppt/pptx-text.cxx
+[build CXX] sd/source/filter/ppt/ppt97animations.cxx
+[build CXX] sd/source/filter/ppt/pptatom.cxx
+[build CXX] sd/source/filter/ppt/pptin.cxx
+[build CXX] sd/source/filter/ppt/pptinanimations.cxx
+[build CXX] sd/source/filter/ppt/propread.cxx
+[build CXX] sd/source/filter/grf/sdgrffilter.cxx
+[build CXX] sd/source/filter/html/htmlex.cxx
+[build CXX] sd/source/filter/html/a11yex.cxx
+[build CXX] sd/source/filter/html/sdhtmlfilter.cxx
+[build CXX] sd/source/filter/pdf/sdpdffilter.cxx
+[build CXX] sd/source/filter/sdfilter.cxx
+[build CXX] sd/source/filter/sdpptwrp.cxx
+[build CXX] sd/source/filter/xml/sdtransform.cxx
+[build CXX] sd/source/filter/xml/sdxmlwrp.cxx
+[build CXX] sd/source/helper/simplereferencecomponent.cxx
+[build CXX] sd/source/ui/animations/CustomAnimationDialog.cxx
+[build CXX] sd/source/ui/animations/CustomAnimationList.cxx
+[build CXX] sd/source/ui/animations/CustomAnimationPane.cxx
+[build CXX] sd/source/ui/animations/STLPropertySet.cxx
+[build CXX] sd/source/ui/animations/SlideTransitionPane.cxx
+[build CXX] sd/source/ui/animations/motionpathtag.cxx
+[build CXX] sd/source/ui/annotations/annotationmanager.cxx
+[build CXX] sd/source/ui/annotations/AnnotationPopup.cxx
+[build CXX] sd/source/ui/annotations/annotationwindow.cxx
+[build CXX] sd/source/ui/app/optsitem.cxx
+[build CXX] sd/source/ui/app/sddll.cxx
+[build CXX] sd/source/ui/app/sdmod.cxx
+[build CXX] sd/source/ui/app/sdmod1.cxx
+[build CXX] sd/source/ui/app/sdmod2.cxx
+[build CXX] sd/source/ui/app/sdpopup.cxx
+[build CXX] sd/source/ui/app/sdxfer.cxx
+[build CXX] sd/source/ui/app/tmplctrl.cxx
+[build CXX] sd/source/ui/app/scalectrl.cxx
+[build CXX] sd/source/ui/controller/slidelayoutcontroller.cxx
+[build CXX] sd/source/ui/controller/displaymodecontroller.cxx
+[build CXX] sd/source/ui/dlg/AnimationChildWindow.cxx
+[build CXX] sd/source/ui/dlg/LayerTabBar.cxx
+[build CXX] sd/source/ui/dlg/NavigatorChildWindow.cxx
+[build CXX] sd/source/ui/dlg/PaneChildWindows.cxx
+[build CXX] sd/source/ui/dlg/PaneShells.cxx
+[build CXX] sd/source/ui/dlg/SpellDialogChildWindow.cxx
+[build CXX] sd/source/ui/dlg/TemplateScanner.cxx
+[build CXX] sd/source/ui/dlg/animobjs.cxx
+[build CXX] sd/source/ui/dlg/diactrl.cxx
+[build CXX] sd/source/ui/dlg/filedlg.cxx
+[build CXX] sd/source/ui/dlg/gluectrl.cxx
+[build CXX] sd/source/ui/dlg/ins_paste.cxx
+[build CXX] sd/source/ui/dlg/layeroptionsdlg.cxx
+[build CXX] sd/source/ui/dlg/navigatr.cxx
+[build CXX] sd/source/ui/dlg/sdabstdlg.cxx
+[build CXX] sd/source/ui/dlg/sdtreelb.cxx
+[build CXX] sd/source/ui/dlg/SelectLayerDlg.cxx
+[build CXX] sd/source/ui/dlg/titledockwin.cxx
+[build CXX] sd/source/ui/dlg/unchss.cxx
+[build CXX] sd/source/ui/dlg/UndoThemeChange.cxx
+[build CXX] sd/source/ui/docshell/docshel2.cxx
+[build CXX] sd/source/ui/docshell/docshel3.cxx
+[build CXX] sd/source/ui/docshell/docshel4.cxx
+[build CXX] sd/source/ui/docshell/docshell.cxx
+[build CXX] sd/source/ui/docshell/grdocsh.cxx
+[build CXX] sd/source/ui/docshell/sdclient.cxx
+[build CXX] sd/source/ui/framework/configuration/ChangeRequestQueue.cxx
+[build CXX] sd/source/ui/framework/configuration/ChangeRequestQueueProcessor.cxx
+[build CXX] sd/source/ui/framework/configuration/Configuration.cxx
+[build CXX] sd/source/ui/framework/configuration/ConfigurationClassifier.cxx
+[build CXX] sd/source/ui/framework/configuration/ConfigurationController.cxx
+[build CXX] sd/source/ui/framework/configuration/ConfigurationControllerBroadcaster.cxx
+[build CXX] sd/source/ui/framework/configuration/ConfigurationControllerResourceManager.cxx
+[build CXX] sd/source/ui/framework/configuration/ConfigurationTracer.cxx
+[build CXX] sd/source/ui/framework/configuration/ConfigurationUpdater.cxx
+[build CXX] sd/source/ui/framework/configuration/GenericConfigurationChangeRequest.cxx
+[build CXX] sd/source/ui/framework/configuration/ResourceFactoryManager.cxx
+[build CXX] sd/source/ui/framework/configuration/ResourceId.cxx
+[build CXX] sd/source/ui/framework/configuration/UpdateRequest.cxx
+[build CXX] sd/source/ui/framework/factories/BasicPaneFactory.cxx
+[build CXX] sd/source/ui/framework/factories/BasicToolBarFactory.cxx
+[build CXX] sd/source/ui/framework/factories/BasicViewFactory.cxx
+[build CXX] sd/source/ui/framework/factories/ChildWindowPane.cxx
+[build CXX] sd/source/ui/framework/factories/FrameWindowPane.cxx
+[build CXX] sd/source/ui/framework/factories/FullScreenPane.cxx
+[build CXX] sd/source/ui/framework/factories/Pane.cxx
+[build CXX] sd/source/ui/framework/factories/PresentationFactory.cxx
+[build CXX] sd/source/ui/framework/factories/ViewShellWrapper.cxx
+[build CXX] sd/source/ui/framework/module/CenterViewFocusModule.cxx
+[build CXX] sd/source/ui/framework/module/DrawModule.cxx
+[build CXX] sd/source/ui/framework/module/ImpressModule.cxx
+[build CXX] sd/source/ui/framework/module/ModuleController.cxx
+[build CXX] sd/source/ui/framework/module/NotesPaneModule.cxx
+[build CXX] sd/source/ui/framework/module/PresentationModule.cxx
+[build CXX] sd/source/ui/framework/module/ShellStackGuard.cxx
+[build CXX] sd/source/ui/framework/module/SlideSorterModule.cxx
+[build CXX] sd/source/ui/framework/module/ToolBarModule.cxx
+[build CXX] sd/source/ui/framework/module/ViewTabBarModule.cxx
+[build CXX] sd/source/ui/framework/tools/FrameworkHelper.cxx
+[build CXX] sd/source/ui/func/bulmaper.cxx
+[build CXX] sd/source/ui/func/fuarea.cxx
+[build CXX] sd/source/ui/func/fubullet.cxx
+[build CXX] sd/source/ui/func/fuchar.cxx
+[build CXX] sd/source/ui/func/fucon3d.cxx
+[build CXX] sd/source/ui/func/fuconarc.cxx
+[build CXX] sd/source/ui/func/fuconbez.cxx
+[build CXX] sd/source/ui/func/fuconcs.cxx
+[build CXX] sd/source/ui/func/fuconnct.cxx
+[build CXX] sd/source/ui/func/fuconrec.cxx
+[build CXX] sd/source/ui/func/fuconstr.cxx
+[build CXX] sd/source/ui/func/fuconuno.cxx
+[build CXX] sd/source/ui/func/fucopy.cxx
+[build CXX] sd/source/ui/func/fucushow.cxx
+[build CXX] sd/source/ui/func/fudraw.cxx
+[build CXX] sd/source/ui/func/fudspord.cxx
+[build CXX] sd/source/ui/func/fuediglu.cxx
+[build CXX] sd/source/ui/func/fuexecuteinteraction.cxx
+[build CXX] sd/source/ui/func/fuexpand.cxx
+[build CXX] sd/source/ui/func/fuformatpaintbrush.cxx
+[build CXX] sd/source/ui/func/fuhhconv.cxx
+[build CXX] sd/source/ui/func/fuinsert.cxx
+[build CXX] sd/source/ui/func/fuinsfil.cxx
+[build CXX] sd/source/ui/func/fuline.cxx
+[build CXX] sd/source/ui/func/fulinend.cxx
+[build CXX] sd/source/ui/func/fulink.cxx
+[build CXX] sd/source/ui/func/fumeasur.cxx
+[build CXX] sd/source/ui/func/fumorph.cxx
+[build CXX] sd/source/ui/func/funavig.cxx
+[build CXX] sd/source/ui/func/fuoaprms.cxx
+[build CXX] sd/source/ui/func/fuolbull.cxx
+[build CXX] sd/source/ui/func/fuoltext.cxx
+[build CXX] sd/source/ui/func/fupage.cxx
+[build CXX] sd/source/ui/func/fuparagr.cxx
+[build CXX] sd/source/ui/func/fupoor.cxx
+[build CXX] sd/source/ui/func/fuprlout.cxx
+[build CXX] sd/source/ui/func/fuprobjs.cxx
+[build CXX] sd/source/ui/func/fuscale.cxx
+[build CXX] sd/source/ui/func/fusearch.cxx
+[build CXX] sd/source/ui/func/fusel.cxx
+[build CXX] sd/source/ui/func/fusldlg.cxx
+[build CXX] sd/source/ui/func/fusnapln.cxx
+[build CXX] sd/source/ui/func/fusumry.cxx
+[build CXX] sd/source/ui/func/futempl.cxx
+[build CXX] sd/source/ui/func/futext.cxx
+[build CXX] sd/source/ui/func/futhes.cxx
+[build CXX] sd/source/ui/func/futransf.cxx
+[build CXX] sd/source/ui/func/futxtatt.cxx
+[build CXX] sd/source/ui/func/fuvect.cxx
+[build CXX] sd/source/ui/func/fuzoom.cxx
+[build CXX] sd/source/ui/func/sdundogr.cxx
+[build CXX] sd/source/ui/func/smarttag.cxx
+[build CXX] sd/source/ui/func/undoback.cxx
+[build CXX] sd/source/ui/func/undoheaderfooter.cxx
+[build CXX] sd/source/ui/func/undolayer.cxx
+[build CXX] sd/source/ui/func/undopage.cxx
+[build CXX] sd/source/ui/func/unmovss.cxx
+[build CXX] sd/source/ui/func/unoaprms.cxx
+[build CXX] sd/source/ui/func/unprlout.cxx
+[build CXX] sd/source/ui/presenter/CanvasUpdateRequester.cxx
+[build CXX] sd/source/ui/presenter/PresenterCanvas.cxx
+[build CXX] sd/source/ui/presenter/PresenterHelper.cxx
+[build CXX] sd/source/ui/presenter/PresenterPreviewCache.cxx
+[build CXX] sd/source/ui/presenter/SlideRenderer.cxx
+[build CXX] sd/source/ui/sidebar/AllMasterPagesSelector.cxx
+[build CXX] sd/source/ui/sidebar/CurrentMasterPagesSelector.cxx
+[build CXX] sd/source/ui/sidebar/DocumentHelper.cxx
+[build CXX] sd/source/ui/sidebar/LayoutMenu.cxx
+[build CXX] sd/source/ui/sidebar/MasterPageContainer.cxx
+[build CXX] sd/source/ui/sidebar/MasterPageContainerFiller.cxx
+[build CXX] sd/source/ui/sidebar/MasterPageContainerProviders.cxx
+[build CXX] sd/source/ui/sidebar/MasterPageContainerQueue.cxx
+[build CXX] sd/source/ui/sidebar/MasterPageDescriptor.cxx
+[build CXX] sd/source/ui/sidebar/MasterPageObserver.cxx
+[build CXX] sd/source/ui/sidebar/MasterPagesSelector.cxx
+[build CXX] sd/source/ui/sidebar/NavigatorWrapper.cxx
+[build CXX] sd/source/ui/sidebar/PanelFactory.cxx
+[build CXX] sd/source/ui/sidebar/RecentlyUsedMasterPages.cxx
+[build CXX] sd/source/ui/sidebar/RecentMasterPagesSelector.cxx
+[build CXX] sd/source/ui/sidebar/SlideBackground.cxx
+[build CXX] sd/source/ui/sidebar/SlideMasterPagesAllToolBoxControl.cxx
+[build CXX] sd/source/ui/slideshow/PaneHider.cxx
+[build CXX] sd/source/ui/slideshow/SlideShowRestarter.cxx
+[build CXX] sd/source/ui/slideshow/showwin.cxx
+[build CXX] sd/source/ui/slideshow/slideshow.cxx
+[build CXX] sd/source/ui/slideshow/slideshowimpl.cxx
+[build CXX] sd/source/ui/slideshow/slideshowviewimpl.cxx
+[build CXX] sd/source/ui/slidesorter/cache/SlsBitmapCache.cxx
+[build CXX] sd/source/ui/slidesorter/cache/SlsBitmapCompressor.cxx
+[build CXX] sd/source/ui/slidesorter/cache/SlsBitmapFactory.cxx
+[build CXX] sd/source/ui/slidesorter/cache/SlsCacheCompactor.cxx
+[build CXX] sd/source/ui/slidesorter/cache/SlsGenericPageCache.cxx
+[build CXX] sd/source/ui/slidesorter/cache/SlsPageCache.cxx
+[build CXX] sd/source/ui/slidesorter/cache/SlsPageCacheManager.cxx
+[build CXX] sd/source/ui/slidesorter/cache/SlsQueueProcessor.cxx
+[build CXX] sd/source/ui/slidesorter/cache/SlsRequestFactory.cxx
+[build CXX] sd/source/ui/slidesorter/cache/SlsRequestQueue.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlideSorterController.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlsAnimationFunction.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlsAnimator.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlsClipboard.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlsCurrentSlideManager.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlsDragAndDropContext.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlsFocusManager.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlsInsertionIndicatorHandler.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlsListener.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlsPageSelector.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlsProperties.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlsScrollBarManager.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlsSelectionFunction.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlsSelectionManager.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlsSelectionObserver.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlsSlotManager.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlsTransferableData.cxx
+[build CXX] sd/source/ui/slidesorter/controller/SlsVisibleAreaManager.cxx
+[build CXX] sd/source/ui/slidesorter/model/SlideSorterModel.cxx
+[build CXX] sd/source/ui/slidesorter/model/SlsPageDescriptor.cxx
+[build CXX] sd/source/ui/slidesorter/model/SlsPageEnumeration.cxx
+[build CXX] sd/source/ui/slidesorter/model/SlsPageEnumerationProvider.cxx
+[build CXX] sd/source/ui/slidesorter/model/SlsVisualState.cxx
+[build CXX] sd/source/ui/slidesorter/shell/SlideSorter.cxx
+[build CXX] sd/source/ui/slidesorter/shell/SlideSorterViewShell.cxx
+[build CXX] sd/source/ui/slidesorter/view/SlideSorterView.cxx
+[build CXX] sd/source/ui/slidesorter/view/SlsFramePainter.cxx
+[build CXX] sd/source/ui/slidesorter/view/SlsInsertAnimator.cxx
+[build CXX] sd/source/ui/slidesorter/view/SlsInsertionIndicatorOverlay.cxx
+[build CXX] sd/source/ui/slidesorter/view/SlsSectionHeaderPainter.cxx
+[build CXX] sd/source/ui/slidesorter/view/SlsLayeredDevice.cxx
+[build CXX] sd/source/ui/slidesorter/view/SlsLayouter.cxx
+[build CXX] sd/source/ui/slidesorter/view/SlsPageObjectLayouter.cxx
+[build CXX] sd/source/ui/slidesorter/view/SlsPageObjectPainter.cxx
+[build CXX] sd/source/ui/slidesorter/view/SlsTheme.cxx
+[build CXX] sd/source/ui/slidesorter/view/SlsToolTip.cxx
+[build CXX] sd/source/ui/slidesorter/view/SlsViewCacheContext.cxx
+[build CXX] sd/source/ui/table/TableDesignPane.cxx
+[build CXX] sd/source/ui/table/tablefunction.cxx
+[build CXX] sd/source/ui/table/tableobjectbar.cxx
+[build CXX] sd/source/ui/tools/AsynchronousCall.cxx
+[build CXX] sd/source/ui/tools/ConfigurationAccess.cxx
+[build CXX] sd/source/ui/tools/EventMultiplexer.cxx
+[build CXX] sd/source/ui/tools/GraphicSizeCheck.cxx
+[build CXX] sd/source/ui/tools/IconCache.cxx
+[build CXX] sd/source/ui/tools/IdleDetection.cxx
+[build CXX] sd/source/ui/tools/PreviewRenderer.cxx
+[build CXX] sd/source/ui/tools/SdGlobalResourceContainer.cxx
+[build CXX] sd/source/ui/tools/SlideshowLayerRenderer.cxx
+[build CXX] sd/source/ui/tools/SlotStateListener.cxx
+[build CXX] sd/source/ui/tools/TimerBasedTaskExecution.cxx
+[build CXX] sd/source/ui/uitest/uiobject.cxx
+[build CXX] sd/source/ui/unoidl/DrawController.cxx
+[build CXX] sd/source/ui/unoidl/SdUnoDrawView.cxx
+[build CXX] sd/source/ui/unoidl/SdUnoOutlineView.cxx
+[build CXX] sd/source/ui/unoidl/SdUnoSlideView.cxx
+[build CXX] sd/source/ui/unoidl/UnoDocumentSettings.cxx
+[build CXX] sd/source/ui/unoidl/randomnode.cxx
+[build CXX] sd/source/ui/unoidl/unocpres.cxx
+[build CXX] sd/source/ui/unoidl/unodoc.cxx
+[build CXX] sd/source/ui/unoidl/unolayer.cxx
+[build CXX] sd/source/ui/unoidl/unomodel.cxx
+[build CXX] sd/source/ui/unoidl/unomodule.cxx
+[build CXX] sd/source/ui/unoidl/unoobj.cxx
+[build CXX] sd/source/ui/unoidl/unopage.cxx
+[build CXX] sd/source/ui/unoidl/unopback.cxx
+[build CXX] sd/source/ui/unoidl/unopool.cxx
+[build CXX] sd/source/ui/unoidl/unosrch.cxx
+[build CXX] sd/source/ui/unoidl/unowcntr.cxx
+[build CXX] sd/source/ui/view/DocumentRenderer.cxx
+[build CXX] sd/source/ui/view/FormShellManager.cxx
+[build CXX] sd/source/ui/view/GraphicObjectBar.cxx
+[build CXX] sd/source/ui/view/GraphicViewShellBase.cxx
+[build CXX] sd/source/ui/view/ImpressViewShellBase.cxx
+[build CXX] sd/source/ui/view/MediaObjectBar.cxx
+[build CXX] sd/source/ui/view/OutlineViewShellBase.cxx
+[build CXX] sd/source/ui/view/Outliner.cxx
+[build CXX] sd/source/ui/view/OutlinerIterator.cxx
+[build CXX] sd/source/ui/view/PresentationViewShellBase.cxx
+[build CXX] sd/source/ui/view/SlideSorterViewShellBase.cxx
+[build CXX] sd/source/ui/view/ToolBarManager.cxx
+[build CXX] sd/source/ui/view/ViewClipboard.cxx
+[build CXX] sd/source/ui/view/ViewShellBase.cxx
+[build CXX] sd/source/ui/view/ViewShellHint.cxx
+[build CXX] sd/source/ui/view/ViewShellImplementation.cxx
+[build CXX] sd/source/ui/view/ViewShellManager.cxx
+[build CXX] sd/source/ui/view/ViewTabBar.cxx
+[build CXX] sd/source/ui/view/WindowUpdater.cxx
+[build CXX] sd/source/ui/view/clview.cxx
+[build CXX] sd/source/ui/view/drawview.cxx
+[build CXX] sd/source/ui/view/drbezob.cxx
+[build CXX] sd/source/ui/view/drtxtob.cxx
+[build CXX] sd/source/ui/view/drtxtob1.cxx
+[build CXX] sd/source/ui/view/drviews1.cxx
+[build CXX] sd/source/ui/view/drviews2.cxx
+[build CXX] sd/source/ui/view/drviews3.cxx
+[build CXX] sd/source/ui/view/drviews4.cxx
+[build CXX] sd/source/ui/view/drviews5.cxx
+[build CXX] sd/source/ui/view/drviews6.cxx
+[build CXX] sd/source/ui/view/drviews7.cxx
+[build CXX] sd/source/ui/view/drviews8.cxx
+[build CXX] sd/source/ui/view/drviews9.cxx
+[build CXX] sd/source/ui/view/drviewsa.cxx
+[build CXX] sd/source/ui/view/drviewsb.cxx
+[build CXX] sd/source/ui/view/drviewsc.cxx
+[build CXX] sd/source/ui/view/drviewsd.cxx
+[build CXX] sd/source/ui/view/drviewse.cxx
+[build CXX] sd/source/ui/view/drviewsf.cxx
+[build CXX] sd/source/ui/view/drviewsg.cxx
+[build CXX] sd/source/ui/view/drviewsh.cxx
+[build CXX] sd/source/ui/view/drviewsi.cxx
+[build CXX] sd/source/ui/view/drviewsj.cxx
+[build CXX] sd/source/ui/view/drviewsk.cxx
+[build CXX] sd/source/ui/view/drvwshrg.cxx
+[build CXX] sd/source/ui/view/frmview.cxx
+[build CXX] sd/source/ui/view/grviewsh.cxx
+[build CXX] sd/source/ui/view/outlnvs2.cxx
+[build CXX] sd/source/ui/view/outlnvsh.cxx
+[build CXX] sd/source/ui/view/outlview.cxx
+[build CXX] sd/source/ui/view/presvish.cxx
+[build CXX] sd/source/ui/view/sdruler.cxx
+[build CXX] sd/source/ui/view/sdview.cxx
+[build CXX] sd/source/ui/view/sdview2.cxx
+[build CXX] sd/source/ui/view/sdview3.cxx
+[build CXX] sd/source/ui/view/sdview4.cxx
+[build CXX] sd/source/ui/view/sdview5.cxx
+[build CXX] sd/source/ui/view/sdwindow.cxx
+[build CXX] sd/source/ui/view/tabcontr.cxx
+[build CXX] sd/source/ui/view/unmodpg.cxx
+[build CXX] sd/source/ui/view/viewoverlaymanager.cxx
+[build CXX] sd/source/ui/view/viewshe2.cxx
+[build CXX] sd/source/ui/view/viewshe3.cxx
+[build CXX] sd/source/ui/view/viewshel.cxx
+[build CXX] sd/source/ui/view/zoomlist.cxx
+[build CXX] sd/source/ui/view/NotesPanelView.cxx
+[build CXX] sd/source/ui/view/NotesPanelViewShell.cxx
+[build CXX] sd/source/ui/remotecontrol/BufferedStreamSocket.cxx
+[build CXX] sd/source/ui/remotecontrol/Communicator.cxx
+[build CXX] sd/source/ui/remotecontrol/ImagePreparer.cxx
+[build CXX] sd/source/ui/remotecontrol/Server.cxx
+[build CXX] sd/source/ui/remotecontrol/Receiver.cxx
+[build CXX] sd/source/ui/remotecontrol/Listener.cxx
+[build CXX] sd/source/ui/remotecontrol/Transmitter.cxx
+[build CXX] sd/source/ui/remotecontrol/DiscoveryService.cxx
+[build CXX] sd/source/ui/dlg/brkdlg.cxx
+[build CXX] sd/source/ui/dlg/copydlg.cxx
+[build CXX] sd/source/ui/dlg/custsdlg.cxx
+[build CXX] sd/source/ui/dlg/dlgchar.cxx
+[build CXX] sd/source/ui/dlg/dlgfield.cxx
+[build CXX] sd/source/ui/dlg/dlgolbul.cxx
+[build CXX] sd/source/ui/dlg/dlgpage.cxx
+[build CXX] sd/source/ui/dlg/dlgsnap.cxx
+[build CXX] sd/source/ui/dlg/headerfooterdlg.cxx
+[build CXX] sd/source/ui/dlg/inspagob.cxx
+[build CXX] sd/source/ui/dlg/masterlayoutdlg.cxx
+[build CXX] sd/source/ui/dlg/morphdlg.cxx
+[build CXX] sd/source/ui/dlg/paragr.cxx
+[build CXX] sd/source/ui/dlg/present.cxx
+[build CXX] sd/source/ui/dlg/prltempl.cxx
+[build CXX] sd/source/ui/dlg/prntopts.cxx
+[build CXX] sd/source/ui/dlg/RemoteDialog.cxx
+[build CXX] sd/source/ui/dlg/RemoteDialogClientBox.cxx
+[build CXX] sd/source/ui/dlg/sddlgfact.cxx
+[build CXX] sd/source/ui/dlg/sdpreslt.cxx
+[build CXX] sd/source/ui/dlg/sduiexp.cxx
+[build CXX] sd/source/ui/dlg/tabtempl.cxx
+[build CXX] sd/source/ui/dlg/tpaction.cxx
+[build CXX] sd/source/ui/dlg/tpoption.cxx
+[build CXX] sd/source/ui/dlg/vectdlg.cxx
+[build CXX] sd/source/ui/dlg/PhotoAlbumDialog.cxx
+[build CXX] sd/source/ui/dlg/BulletAndPositionDlg.cxx
+[build CXX] sd/source/console/AccessibleFocusManager.cxx
+[build CXX] sd/source/console/AccessibleNotes.cxx
+[build CXX] sd/source/console/AccessibleObject.cxx
+[build CXX] sd/source/console/AccessibleParagraph.cxx
+[build CXX] sd/source/console/PresenterAccessibility.cxx
+[build CXX] sd/source/console/PresenterBitmapContainer.cxx
+[build CXX] sd/source/console/PresenterButton.cxx
+[build CXX] sd/source/console/PresenterCanvasHelper.cxx
+[build CXX] sd/source/console/PresenterConfigurationAccess.cxx
+[build CXX] sd/source/console/PresenterController.cxx
+[build CXX] sd/source/console/PresenterCurrentSlideObserver.cxx
+[build CXX] sd/source/console/PresenterFrameworkObserver.cxx
+[build CXX] sd/source/console/PresenterGeometryHelper.cxx
+[build CXX] sd/source/console/PresenterHelpView.cxx
+[build CXX] sd/source/console/PresenterNotesView.cxx
+[build CXX] sd/source/console/PresenterPaintManager.cxx
+[build CXX] sd/source/console/PresenterPane.cxx
+[build CXX] sd/source/console/PresenterPaneBase.cxx
+[build CXX] sd/source/console/PresenterPaneBorderPainter.cxx
+[build CXX] sd/source/console/PresenterPaneContainer.cxx
+[build CXX] sd/source/console/PresenterPaneFactory.cxx
+[build CXX] sd/source/console/PresenterProtocolHandler.cxx
+[build CXX] sd/source/console/PresenterScreen.cxx
+[build CXX] sd/source/console/PresenterScrollBar.cxx
+[build CXX] sd/source/console/PresenterSlidePreview.cxx
+[build CXX] sd/source/console/PresenterSlideShowView.cxx
+[build CXX] sd/source/console/PresenterSlideSorter.cxx
+[build CXX] sd/source/console/PresenterSprite.cxx
+[build CXX] sd/source/console/PresenterSpritePane.cxx
+[build CXX] sd/source/console/PresenterTextView.cxx
+[build CXX] sd/source/console/PresenterTheme.cxx
+[build CXX] sd/source/console/PresenterTimer.cxx
+[build CXX] sd/source/console/PresenterToolBar.cxx
+[build CXX] sd/source/console/PresenterUIPainter.cxx
+[build CXX] sd/source/console/PresenterViewFactory.cxx
+[build CXX] sd/source/console/PresenterWindowManager.cxx
+[build DEP] LNK:Library/libslideshowlo.a.d
+[build LNK] Library/libslideshowlo.a
+[build CXX] starmath/source/ElementsDockingWindow.cxx
+[build CXX] starmath/source/SmElementsPanel.cxx
+[build CXX] starmath/source/SmPanelFactory.cxx
+[build CXX] starmath/source/SmPropertiesPanel.cxx
+[build CXX] starmath/source/accessibility.cxx
+[build CXX] starmath/source/action.cxx
+[build CXX] starmath/source/caret.cxx
+[build CXX] starmath/source/cfgitem.cxx
+[build CXX] starmath/source/cursor.cxx
+[build CXX] starmath/source/dialog.cxx
+[build CXX] starmath/source/document.cxx
+[build CXX] starmath/source/edit.cxx
+[build CXX] starmath/source/smediteng.cxx
+[build CXX] starmath/source/format.cxx
+[build CXX] starmath/source/mathtype.cxx
+[build CXX] starmath/source/node.cxx
+[build CXX] starmath/source/ooxmlexport.cxx
+[build CXX] starmath/source/ooxmlimport.cxx
+[build CXX] starmath/source/rtfexport.cxx
+[build CXX] starmath/source/parsebase.cxx
+[build CXX] starmath/source/parse.cxx
+[build CXX] starmath/source/parse5.cxx
+[build CXX] starmath/source/rect.cxx
+[build CXX] starmath/source/smdll.cxx
+[build CXX] starmath/source/smmod.cxx
+[build CXX] starmath/source/symbol.cxx
+[build CXX] starmath/source/tmpdevice.cxx
+[build CXX] starmath/source/typemap.cxx
+[build CXX] starmath/source/unodoc.cxx
+[build CXX] starmath/source/unofilter.cxx
+[build CXX] starmath/source/unomodel.cxx
+[build CXX] starmath/source/utility.cxx
+[build CXX] starmath/source/view.cxx
+[build CXX] starmath/source/visitors.cxx
+[build CXX] starmath/source/wordexportbase.cxx
+[build CXX] starmath/source/mathml/xparsmlbase.cxx
+[build CXX] starmath/source/mathml/mathmlattr.cxx
+[build CXX] starmath/source/mathml/mathmlexport.cxx
+[build CXX] starmath/source/mathml/mathmlimport.cxx
+[build CXX] starmath/source/mathml/mathmlMo.cxx
+[build CXX] starmath/source/mathml/export.cxx
+[build CXX] starmath/source/mathml/import.cxx
+[build CXX] starmath/source/mathml/iterator.cxx
+[build CXX] starmath/source/mathml/attribute.cxx
+[build CXX] starmath/source/mathml/element.cxx
+[build CXX] starmath/source/mathml/starmathdatabase.cxx
+[build CMP] starmath/util/smd
+[build DEP] LNK:Library/libsvxlo.a.d
+[build LNK] Library/libsvxlo.a
+[build CMP] svx/util/svxcore
+[build CXX] sw/source/core/access/acccell.cxx
+[build CXX] sw/source/core/access/acccontext.cxx
+[build CXX] sw/source/core/access/accdoc.cxx
+[build CXX] sw/source/core/access/accembedded.cxx
+[build CXX] sw/source/core/access/accfootnote.cxx
+[build CXX] sw/source/core/access/accframe.cxx
+[build CXX] sw/source/core/access/accframebase.cxx
+[build CXX] sw/source/core/access/accfrmobj.cxx
+[build CXX] sw/source/core/access/accfrmobjmap.cxx
+[build CXX] sw/source/core/access/accfrmobjslist.cxx
+[build CXX] sw/source/core/access/accgraphic.cxx
+[build CXX] sw/source/core/access/accheaderfooter.cxx
+[build CXX] sw/source/core/access/acchyperlink.cxx
+[build CXX] sw/source/core/access/acchypertextdata.cxx
+[build CXX] sw/source/core/access/accmap.cxx
+[build CXX] sw/source/core/access/accnotextframe.cxx
+[build CXX] sw/source/core/access/accnotexthyperlink.cxx
+[build CXX] sw/source/core/access/accpage.cxx
+[build CXX] sw/source/core/access/accpara.cxx
+[build CXX] sw/source/core/access/accportions.cxx
+[build CXX] sw/source/core/access/accpreview.cxx
+[build CXX] sw/source/core/access/accselectionhelper.cxx
+[build CXX] sw/source/core/access/acctable.cxx
+[build CXX] sw/source/core/access/acctextframe.cxx
+[build CXX] sw/source/core/access/parachangetrackinginfo.cxx
+[build CXX] sw/source/core/access/textmarkuphelper.cxx
+[build CXX] sw/source/uibase/docvw/SidebarWinAcc.cxx
+[build CXX] sw/source/core/SwNumberTree/SwNodeNum.cxx
+[build CXX] sw/source/core/SwNumberTree/SwNumberTree.cxx
+[build CXX] sw/source/core/access/AccessibilityCheck.cxx
+[build CXX] sw/source/core/access/AccessibilityIssue.cxx
+[build CXX] sw/source/core/attr/BorderCacheOwner.cxx
+[build CXX] sw/source/core/attr/calbck.cxx
+[build CXX] sw/source/core/attr/cellatr.cxx
+[build CXX] sw/source/core/attr/fmtfollowtextflow.cxx
+[build CXX] sw/source/core/attr/fmtwrapinfluenceonobjpos.cxx
+[build CXX] sw/source/core/attr/format.cxx
+[build CXX] sw/source/core/attr/formatflysplit.cxx
+[build CXX] sw/source/core/attr/formatwraptextatflystart.cxx
+[build CXX] sw/source/core/attr/hints.cxx
+[build CXX] sw/source/core/attr/swatrset.cxx
+[build CXX] sw/source/core/bastyp/SwSmartTagMgr.cxx
+[build CXX] sw/source/core/bastyp/bparr.cxx
+[build CXX] sw/source/core/bastyp/breakit.cxx
+[build CXX] sw/source/core/bastyp/calc.cxx
+[build CXX] sw/source/core/bastyp/checkit.cxx
+[build CXX] sw/source/core/bastyp/index.cxx
+[build CXX] sw/source/core/bastyp/init.cxx
+[build CXX] sw/source/core/bastyp/proofreadingiterator.cxx
+[build CXX] sw/source/core/bastyp/swcache.cxx
+[build CXX] sw/source/core/bastyp/swrect.cxx
+[build CXX] sw/source/core/bastyp/swregion.cxx
+[build CXX] sw/source/core/bastyp/swtypes.cxx
+[build CXX] sw/source/core/bastyp/tabcol.cxx
+[build CXX] sw/source/core/crsr/annotationmark.cxx
+[build CXX] sw/source/core/crsr/BlockCursor.cxx
+[build CXX] sw/source/core/crsr/bookmark.cxx
+[build CXX] sw/source/core/crsr/callnk.cxx
+[build CXX] sw/source/core/crsr/contentcontrolbutton.cxx
+[build CXX] sw/source/core/crsr/crbm.cxx
+[build CXX] sw/source/core/crsr/crossrefbookmark.cxx
+[build CXX] sw/source/core/crsr/crsrsh.cxx
+[build CXX] sw/source/core/crsr/crstrvl.cxx
+[build CXX] sw/source/core/crsr/crstrvl1.cxx
+[build CXX] sw/source/core/crsr/DateFormFieldButton.cxx
+[build CXX] sw/source/core/crsr/DropDownFormFieldButton.cxx
+[build CXX] sw/source/core/crsr/datecontentcontrolbutton.cxx
+[build CXX] sw/source/core/crsr/dropdowncontentcontrolbutton.cxx
+[build CXX] sw/source/core/crsr/findattr.cxx
+[build CXX] sw/source/core/crsr/findcoll.cxx
+[build CXX] sw/source/core/crsr/findfmt.cxx
+[build CXX] sw/source/core/crsr/findtxt.cxx
+[build CXX] sw/source/core/crsr/FormFieldButton.cxx
+[build CXX] sw/source/core/crsr/pam.cxx
+[build CXX] sw/source/core/crsr/paminit.cxx
+[build CXX] sw/source/core/crsr/swcrsr.cxx
+[build CXX] sw/source/core/crsr/trvlcol.cxx
+[build CXX] sw/source/core/crsr/trvlfnfl.cxx
+[build CXX] sw/source/core/crsr/trvlreg.cxx
+[build CXX] sw/source/core/crsr/trvltbl.cxx
+[build CXX] sw/source/core/crsr/viscrs.cxx
+[build CXX] sw/source/core/crsr/overlayrangesoutline.cxx
+[build CXX] sw/source/core/doc/SwDocIdle.cxx
+[build CXX] sw/source/core/doc/SwStyleNameMapper.cxx
+[build CXX] sw/source/core/doc/acmplwrd.cxx
+[build CXX] sw/source/core/doc/CntntIdxStore.cxx
+[build CXX] sw/source/core/doc/dbgoutsw.cxx
+[build CXX] sw/source/core/doc/doc.cxx
+[build CXX] sw/source/core/doc/docbasic.cxx
+[build CXX] sw/source/core/doc/docbm.cxx
+[build CXX] sw/source/core/doc/docchart.cxx
+[build CXX] sw/source/core/doc/doccomp.cxx
+[build CXX] sw/source/core/doc/doccorr.cxx
+[build CXX] sw/source/core/doc/docdesc.cxx
+[build CXX] sw/source/core/doc/docdraw.cxx
+[build CXX] sw/source/core/doc/docedt.cxx
+[build CXX] sw/source/core/doc/docfld.cxx
+[build CXX] sw/source/core/doc/docfly.cxx
+[build CXX] sw/source/core/doc/docfmt.cxx
+[build CXX] sw/source/core/doc/docftn.cxx
+[build CXX] sw/source/core/doc/docglbl.cxx
+[build CXX] sw/source/core/doc/docglos.cxx
+[build CXX] sw/source/core/doc/doclay.cxx
+[build CXX] sw/source/core/doc/docnew.cxx
+[build CXX] sw/source/core/doc/docnum.cxx
+[build CXX] sw/source/core/doc/docredln.cxx
+[build CXX] sw/source/core/doc/docruby.cxx
+[build CXX] sw/source/core/doc/docsort.cxx
+[build CXX] sw/source/core/doc/docstat.cxx
+[build CXX] sw/source/core/doc/doctxm.cxx
+[build CXX] sw/source/core/doc/DocumentDeviceManager.cxx
+[build CXX] sw/source/core/doc/docxforms.cxx
+[build CXX] sw/source/core/doc/DocumentSettingManager.cxx
+[build CXX] sw/source/core/doc/DocumentDrawModelManager.cxx
+[build CXX] sw/source/core/doc/DocumentChartDataProviderManager.cxx
+[build CXX] sw/source/core/doc/DocumentTimerManager.cxx
+[build CXX] sw/source/core/doc/DocumentLinksAdministrationManager.cxx
+[build CXX] sw/source/core/doc/FillBitmapLinkTracker.cxx
+[build CXX] sw/source/core/doc/DocumentListItemsManager.cxx
+[build CXX] sw/source/core/doc/DocumentListsManager.cxx
+[build CXX] sw/source/core/doc/DocumentOutlineNodesManager.cxx
+[build CXX] sw/source/core/doc/DocumentContentOperationsManager.cxx
+[build CXX] sw/source/core/doc/DocumentRedlineManager.cxx
+[build CXX] sw/source/core/doc/DocumentFieldsManager.cxx
+[build CXX] sw/source/core/doc/DocumentStatisticsManager.cxx
+[build CXX] sw/source/core/doc/DocumentStateManager.cxx
+[build CXX] sw/source/core/doc/DocumentLayoutManager.cxx
+[build CXX] sw/source/core/doc/DocumentStylePoolManager.cxx
+[build CXX] sw/source/core/doc/DocumentExternalDataManager.cxx
+[build CXX] sw/source/core/doc/extinput.cxx
+[build CXX] sw/source/core/doc/fmtcol.cxx
+[build CXX] sw/source/core/doc/ftnidx.cxx
+[build CXX] sw/source/core/doc/gctable.cxx
+[build CXX] sw/source/core/doc/htmltbl.cxx
+[build CXX] sw/source/core/doc/lineinfo.cxx
+[build CXX] sw/source/core/doc/list.cxx
+[build CXX] sw/source/core/doc/notxtfrm.cxx
+[build CXX] sw/source/core/doc/number.cxx
+[build CXX] sw/source/core/doc/poolfmt.cxx
+[build CXX] sw/source/core/doc/rdfhelper.cxx
+[build CXX] sw/source/core/doc/sortopt.cxx
+[build CXX] sw/source/core/doc/swserv.cxx
+[build CXX] sw/source/core/doc/swstylemanager.cxx
+[build CXX] sw/source/core/doc/tblafmt.cxx
+[build CXX] sw/source/core/doc/tblcpy.cxx
+[build CXX] sw/source/core/doc/tblrwcl.cxx
+[build CXX] sw/source/core/doc/textboxhelper.cxx
+[build CXX] sw/source/core/doc/visiturl.cxx
+[build CXX] sw/source/core/docnode/cancellablejob.cxx
+[build CXX] sw/source/core/docnode/finalthreadmanager.cxx
+[build CXX] sw/source/core/docnode/ndcopy.cxx
+[build CXX] sw/source/core/docnode/ndnotxt.cxx
+[build CXX] sw/source/core/docnode/ndnum.cxx
+[build CXX] sw/source/core/docnode/ndsect.cxx
+[build CXX] sw/source/core/docnode/ndtbl.cxx
+[build CXX] sw/source/core/docnode/ndtbl1.cxx
+[build CXX] sw/source/core/docnode/node.cxx
+[build CXX] sw/source/core/docnode/node2lay.cxx
+[build CXX] sw/source/core/docnode/nodes.cxx
+[build CXX] sw/source/core/docnode/observablethread.cxx
+[build CXX] sw/source/core/docnode/pausethreadstarting.cxx
+[build CXX] sw/source/core/docnode/retrievedinputstreamdata.cxx
+[build CXX] sw/source/core/docnode/retrieveinputstream.cxx
+[build CXX] sw/source/core/docnode/retrieveinputstreamconsumer.cxx
+[build CXX] sw/source/core/docnode/section.cxx
+[build CXX] sw/source/core/docnode/swbaslnk.cxx
+[build CXX] sw/source/core/docnode/swthreadjoiner.cxx
+[build CXX] sw/source/core/docnode/swthreadmanager.cxx
+[build CXX] sw/source/core/docnode/threadlistener.cxx
+[build CXX] sw/source/core/docnode/threadmanager.cxx
+[build CXX] sw/source/core/draw/dcontact.cxx
+[build CXX] sw/source/core/draw/dflyobj.cxx
+[build CXX] sw/source/core/draw/dobjfac.cxx
+[build CXX] sw/source/core/draw/dpage.cxx
+[build CXX] sw/source/core/draw/drawdoc.cxx
+[build CXX] sw/source/core/draw/dview.cxx
+[build CXX] sw/source/core/edit/acorrect.cxx
+[build CXX] sw/source/core/edit/autofmt.cxx
+[build CXX] sw/source/core/edit/edatmisc.cxx
+[build CXX] sw/source/core/edit/edattr.cxx
+[build CXX] sw/source/core/edit/eddel.cxx
+[build CXX] sw/source/core/edit/edfcol.cxx
+[build CXX] sw/source/core/edit/edfld.cxx
+[build CXX] sw/source/core/edit/edfldexp.cxx
+[build CXX] sw/source/core/edit/edfmt.cxx
+[build CXX] sw/source/core/edit/edglbldc.cxx
+[build CXX] sw/source/core/edit/edglss.cxx
+[build CXX] sw/source/core/edit/editsh.cxx
+[build CXX] sw/source/core/edit/edlingu.cxx
+[build CXX] sw/source/core/edit/ednumber.cxx
+[build CXX] sw/source/core/edit/edredln.cxx
+[build CXX] sw/source/core/edit/edsect.cxx
+[build CXX] sw/source/core/edit/edtab.cxx
+[build CXX] sw/source/core/edit/edtox.cxx
+[build CXX] sw/source/core/edit/edundo.cxx
+[build CXX] sw/source/core/edit/edws.cxx
+[build CXX] sw/source/core/fields/authfld.cxx
+[build CXX] sw/source/core/fields/cellfml.cxx
+[build CXX] sw/source/core/fields/chpfld.cxx
+[build CXX] sw/source/core/fields/dbfld.cxx
+[build CXX] sw/source/core/fields/ddefld.cxx
+[build CXX] sw/source/core/fields/ddetbl.cxx
+[build CXX] sw/source/core/fields/docufld.cxx
+[build CXX] sw/source/core/fields/expfld.cxx
+[build CXX] sw/source/core/fields/fldbas.cxx
+[build CXX] sw/source/core/fields/flddat.cxx
+[build CXX] sw/source/core/fields/flddropdown.cxx
+[build CXX] sw/source/core/fields/fldlst.cxx
+[build CXX] sw/source/core/fields/macrofld.cxx
+[build CXX] sw/source/core/fields/postithelper.cxx
+[build CXX] sw/source/core/fields/reffld.cxx
+[build CXX] sw/source/core/fields/scrptfld.cxx
+[build CXX] sw/source/core/fields/tblcalc.cxx
+[build CXX] sw/source/core/fields/textapi.cxx
+[build CXX] sw/source/core/fields/usrfld.cxx
+[build CXX] sw/source/core/frmedt/fecopy.cxx
+[build CXX] sw/source/core/frmedt/fedesc.cxx
+[build CXX] sw/source/core/frmedt/fefly1.cxx
+[build CXX] sw/source/core/frmedt/feflyole.cxx
+[build CXX] sw/source/core/frmedt/feshview.cxx
+[build CXX] sw/source/core/frmedt/fetab.cxx
+[build CXX] sw/source/core/frmedt/fews.cxx
+[build CXX] sw/source/core/frmedt/tblsel.cxx
+[build CXX] sw/source/core/graphic/grfatr.cxx
+[build CXX] sw/source/core/graphic/ndgrf.cxx
+[build CXX] sw/source/core/graphic/GraphicSizeCheck.cxx
+[build CXX] sw/source/core/layout/anchoreddrawobject.cxx
+[build CXX] sw/source/core/layout/anchoredobject.cxx
+[build CXX] sw/source/core/layout/atrfrm.cxx
+[build CXX] sw/source/core/layout/calcmove.cxx
+[build CXX] sw/source/core/layout/colfrm.cxx
+[build CXX] sw/source/core/layout/dbg_lay.cxx
+[build CXX] sw/source/core/layout/dumpfilter.cxx
+[build CXX] sw/source/core/layout/findfrm.cxx
+[build CXX] sw/source/core/layout/flowfrm.cxx
+[build CXX] sw/source/core/layout/fly.cxx
+[build CXX] sw/source/core/layout/flycnt.cxx
+[build CXX] sw/source/core/layout/flyincnt.cxx
+[build CXX] sw/source/core/layout/flylay.cxx
+[build CXX] sw/source/core/layout/flypos.cxx
+[build CXX] sw/source/core/layout/frmtool.cxx
+[build CXX] sw/source/core/layout/ftnfrm.cxx
+[build CXX] sw/source/core/layout/hffrm.cxx
+[build CXX] sw/source/core/layout/layact.cxx
+[build CXX] sw/source/core/layout/laycache.cxx
+[build CXX] sw/source/core/layout/layouter.cxx
+[build CXX] sw/source/core/layout/movedfwdfrmsbyobjpos.cxx
+[build CXX] sw/source/core/layout/newfrm.cxx
+[build CXX] sw/source/core/layout/objectformatter.cxx
+[build CXX] sw/source/core/layout/objectformatterlayfrm.cxx
+[build CXX] sw/source/core/layout/objectformattertxtfrm.cxx
+[build CXX] sw/source/core/layout/objstmpconsiderwrapinfl.cxx
+[build CXX] sw/source/core/layout/pagechg.cxx
+[build CXX] sw/source/core/layout/pagedesc.cxx
+[build CXX] sw/source/core/layout/paintfrm.cxx
+[build CXX] sw/source/core/layout/sectfrm.cxx
+[build CXX] sw/source/core/layout/softpagebreak.cxx
+[build CXX] sw/source/core/layout/sortedobjs.cxx
+[build CXX] sw/source/core/layout/ssfrm.cxx
+[build CXX] sw/source/core/layout/swselectionlist.cxx
+[build CXX] sw/source/core/layout/tabfrm.cxx
+[build CXX] sw/source/core/layout/trvlfrm.cxx
+[build CXX] sw/source/core/layout/unusedf.cxx
+[build CXX] sw/source/core/layout/virtoutp.cxx
+[build CXX] sw/source/core/layout/wsfrm.cxx
+[build CXX] sw/source/core/model/ModelTraverser.cxx
+[build CXX] sw/source/core/model/SearchResultLocator.cxx
+[build CXX] sw/source/core/model/ThemeColorChanger.cxx
+[build CXX] sw/source/core/objectpositioning/anchoredobjectposition.cxx
+[build CXX] sw/source/core/objectpositioning/ascharanchoredobjectposition.cxx
+[build CXX] sw/source/core/objectpositioning/environmentofanchoredobject.cxx
+[build CXX] sw/source/core/objectpositioning/tocntntanchoredobjectposition.cxx
+[build CXX] sw/source/core/objectpositioning/tolayoutanchoredobjectposition.cxx
+[build CXX] sw/source/core/ole/ndole.cxx
+[build CXX] sw/source/core/para/paratr.cxx
+[build CXX] sw/source/core/sw3io/swacorr.cxx
+[build CXX] sw/source/core/swg/SwXMLBlockExport.cxx
+[build CXX] sw/source/core/swg/SwXMLBlockImport.cxx
+[build CXX] sw/source/core/swg/SwXMLSectionList.cxx
+[build CXX] sw/source/core/swg/SwXMLTextBlocks.cxx
+[build CXX] sw/source/core/swg/SwXMLTextBlocks1.cxx
+[build CXX] sw/source/core/swg/swblocks.cxx
+[build CXX] sw/source/core/table/swnewtable.cxx
+[build CXX] sw/source/core/table/swtable.cxx
+[build CXX] sw/source/core/text/EnhancedPDFExportHelper.cxx
+[build CXX] sw/source/core/text/SwGrammarMarkUp.cxx
+[build CXX] sw/source/core/text/atrstck.cxx
+[build CXX] sw/source/core/text/frmcrsr.cxx
+[build CXX] sw/source/core/text/frmform.cxx
+[build CXX] sw/source/core/text/frminf.cxx
+[build CXX] sw/source/core/text/frmpaint.cxx
+[build CXX] sw/source/core/text/guess.cxx
+[build CXX] sw/source/core/text/inftxt.cxx
+[build CXX] sw/source/core/text/itradj.cxx
+[build CXX] sw/source/core/text/itratr.cxx
+[build CXX] sw/source/core/text/itrcrsr.cxx
+[build CXX] sw/source/core/text/itrform2.cxx
+[build CXX] sw/source/core/text/itrpaint.cxx
+[build CXX] sw/source/core/text/itrtxt.cxx
+[build CXX] sw/source/core/text/noteurl.cxx
+[build CXX] sw/source/core/text/porexp.cxx
+[build CXX] sw/source/core/text/porfld.cxx
+[build CXX] sw/source/core/text/porfly.cxx
+[build CXX] sw/source/core/text/porglue.cxx
+[build CXX] sw/source/core/text/porlay.cxx
+[build CXX] sw/source/core/text/porlin.cxx
+[build CXX] sw/source/core/text/pormulti.cxx
+[build CXX] sw/source/core/text/porref.cxx
+[build CXX] sw/source/core/text/porrst.cxx
+[build CXX] sw/source/core/text/portox.cxx
+[build CXX] sw/source/core/text/portxt.cxx
+[build CXX] sw/source/core/text/redlnitr.cxx
+[build CXX] sw/source/core/text/txtcache.cxx
+[build CXX] sw/source/core/text/txtdrop.cxx
+[build CXX] sw/source/core/text/txtfld.cxx
+[build CXX] sw/source/core/text/txtfly.cxx
+[build CXX] sw/source/core/text/txtfrm.cxx
+[build CXX] sw/source/core/text/txtftn.cxx
+[build CXX] sw/source/core/text/txthyph.cxx
+[build CXX] sw/source/core/text/txtinit.cxx
+[build CXX] sw/source/core/text/txtpaint.cxx
+[build CXX] sw/source/core/text/txttab.cxx
+[build CXX] sw/source/core/text/widorp.cxx
+[build CXX] sw/source/core/text/wrong.cxx
+[build CXX] sw/source/core/text/xmldump.cxx
+[build CXX] sw/source/core/tox/tox.cxx
+[build CXX] sw/source/core/tox/toxhlp.cxx
+[build CXX] sw/source/core/tox/txmsrt.cxx
+[build CXX] sw/source/core/tox/ToxLinkProcessor.cxx
+[build CXX] sw/source/core/tox/ToxTabStopTokenHandler.cxx
+[build CXX] sw/source/core/tox/ToxTextGenerator.cxx
+[build CXX] sw/source/core/tox/ToxWhitespaceStripper.cxx
+[build CXX] sw/source/core/txtnode/GrammarContact.cxx
+[build CXX] sw/source/core/txtnode/OnlineAccessibilityCheck.cxx
+[build CXX] sw/source/core/txtnode/attrcontentcontrol.cxx
+[build CXX] sw/source/core/txtnode/atrfld.cxx
+[build CXX] sw/source/core/txtnode/atrflyin.cxx
+[build CXX] sw/source/core/txtnode/atrftn.cxx
+[build CXX] sw/source/core/txtnode/atrref.cxx
+[build CXX] sw/source/core/txtnode/atrtox.cxx
+[build CXX] sw/source/core/txtnode/attrlinebreak.cxx
+[build CXX] sw/source/core/txtnode/chrfmt.cxx
+[build CXX] sw/source/core/txtnode/justify.cxx
+[build CXX] sw/source/core/txtnode/fmtatr2.cxx
+[build CXX] sw/source/core/txtnode/fntcache.cxx
+[build CXX] sw/source/core/txtnode/fntcap.cxx
+[build CXX] sw/source/core/txtnode/modeltoviewhelper.cxx
+[build CXX] sw/source/core/txtnode/ndhints.cxx
+[build CXX] sw/source/core/txtnode/ndtxt.cxx
+[build CXX] sw/source/core/txtnode/swfntcch.cxx
+[build CXX] sw/source/core/txtnode/swfont.cxx
+[build CXX] sw/source/core/txtnode/thints.cxx
+[build CXX] sw/source/core/txtnode/txatbase.cxx
+[build CXX] sw/source/core/txtnode/txatritr.cxx
+[build CXX] sw/source/core/txtnode/txtatr2.cxx
+[build CXX] sw/source/core/txtnode/txtedt.cxx
+[build CXX] sw/source/core/undo/SwRewriter.cxx
+[build CXX] sw/source/core/undo/SwUndoField.cxx
+[build CXX] sw/source/core/undo/SwUndoFmt.cxx
+[build CXX] sw/source/core/undo/SwUndoPageDesc.cxx
+[build CXX] sw/source/core/undo/SwUndoTOXChange.cxx
+[build CXX] sw/source/core/undo/docundo.cxx
+[build CXX] sw/source/core/undo/rolbck.cxx
+[build CXX] sw/source/core/undo/unattr.cxx
+[build CXX] sw/source/core/undo/unbkmk.cxx
+[build CXX] sw/source/core/undo/undel.cxx
+[build CXX] sw/source/core/undo/undobj.cxx
+[build CXX] sw/source/core/undo/undobj1.cxx
+[build CXX] sw/source/core/undo/undoflystrattr.cxx
+[build CXX] sw/source/core/undo/undraw.cxx
+[build CXX] sw/source/core/undo/unfmco.cxx
+[build CXX] sw/source/core/undo/unins.cxx
+[build CXX] sw/source/core/undo/unmove.cxx
+[build CXX] sw/source/core/undo/unnum.cxx
+[build CXX] sw/source/core/undo/unoutl.cxx
+[build CXX] sw/source/core/undo/unovwr.cxx
+[build CXX] sw/source/core/undo/unredln.cxx
+[build CXX] sw/source/core/undo/unsect.cxx
+[build CXX] sw/source/core/undo/unsort.cxx
+[build CXX] sw/source/core/undo/unspnd.cxx
+[build CXX] sw/source/core/undo/untbl.cxx
+[build CXX] sw/source/core/undo/untblk.cxx
+[build CXX] sw/source/core/undo/UndoThemeChange.cxx
+[build CXX] sw/source/core/unocore/SwXTextDefaults.cxx
+[build CXX] sw/source/core/unocore/TextCursorHelper.cxx
+[build CXX] sw/source/core/unocore/XMLRangeHelper.cxx
+[build CXX] sw/source/core/unocore/swunohelper.cxx
+[build CXX] sw/source/core/unocore/unobkm.cxx
+[build CXX] sw/source/core/unocore/unochart.cxx
+[build CXX] sw/source/core/unocore/unocoll.cxx
+[build CXX] sw/source/core/unocore/unocontentcontrol.cxx
+[build CXX] sw/source/core/unocore/unocrsr.cxx
+[build CXX] sw/source/core/unocore/unocrsrhelper.cxx
+[build CXX] sw/source/core/unocore/unodraw.cxx
+[build CXX] sw/source/core/unocore/unoevent.cxx
+[build CXX] sw/source/core/unocore/unofield.cxx
+[build CXX] sw/source/core/unocore/unoflatpara.cxx
+[build CXX] sw/source/core/unocore/unoframe.cxx
+[build CXX] sw/source/core/unocore/unoftn.cxx
+[build CXX] sw/source/core/unocore/unoidx.cxx
+[build CXX] sw/source/core/unocore/unolinebreak.cxx
+[build CXX] sw/source/core/unocore/unomap.cxx
+[build CXX] sw/source/core/unocore/unomap1.cxx
+[build CXX] sw/source/core/unocore/unoobj.cxx
+[build CXX] sw/source/core/unocore/unoobj2.cxx
+[build CXX] sw/source/core/unocore/unoparagraph.cxx
+[build CXX] sw/source/core/unocore/unoport.cxx
+[build CXX] sw/source/core/unocore/unoportenum.cxx
+[build CXX] sw/source/core/unocore/unoredline.cxx
+[build CXX] sw/source/core/unocore/unoredlines.cxx
+[build CXX] sw/source/core/unocore/unorefmk.cxx
+[build CXX] sw/source/core/unocore/unosect.cxx
+[build CXX] sw/source/core/unocore/unosett.cxx
+[build CXX] sw/source/core/unocore/unosrch.cxx
+[build CXX] sw/source/core/unocore/unostyle.cxx
+[build CXX] sw/source/core/unocore/unotbl.cxx
+[build CXX] sw/source/core/unocore/unotext.cxx
+[build CXX] sw/source/core/unocore/unotextmarkup.cxx
+[build CXX] sw/source/core/view/dialoghelp.cxx
+[build CXX] sw/source/core/view/pagepreviewlayout.cxx
+[build CXX] sw/source/core/view/printdata.cxx
+[build CXX] sw/source/core/view/vdraw.cxx
+[build CXX] sw/source/core/view/viewimp.cxx
+[build CXX] sw/source/core/view/viewpg.cxx
+[build CXX] sw/source/core/view/viewsh.cxx
+[build CXX] sw/source/core/view/vnew.cxx
+[build CXX] sw/source/core/view/vprint.cxx
+[build CXX] sw/source/filter/ascii/ascatr.cxx
+[build CXX] sw/source/filter/ascii/parasc.cxx
+[build CXX] sw/source/filter/ascii/wrtasc.cxx
+[build CXX] sw/source/filter/basflt/docfact.cxx
+[build CXX] sw/source/filter/basflt/fltini.cxx
+[build CXX] sw/source/filter/basflt/fltshell.cxx
+[build CXX] sw/source/filter/basflt/iodetect.cxx
+[build CXX] sw/source/filter/basflt/shellio.cxx
+[build CXX] sw/source/filter/html/SwAppletImpl.cxx
+[build CXX] sw/source/filter/html/css1atr.cxx
+[build CXX] sw/source/filter/html/htmlatr.cxx
+[build CXX] sw/source/filter/html/htmlbas.cxx
+[build CXX] sw/source/filter/html/htmlcss1.cxx
+[build CXX] sw/source/filter/html/htmlctxt.cxx
+[build CXX] sw/source/filter/html/htmldrawreader.cxx
+[build CXX] sw/source/filter/html/htmldrawwriter.cxx
+[build CXX] sw/source/filter/html/htmlfld.cxx
+[build CXX] sw/source/filter/html/htmlfldw.cxx
+[build CXX] sw/source/filter/html/htmlfly.cxx
+[build CXX] sw/source/filter/html/htmlflywriter.cxx
+[build CXX] sw/source/filter/html/htmlflyt.cxx
+[build CXX] sw/source/filter/html/htmlform.cxx
+[build CXX] sw/source/filter/html/htmlforw.cxx
+[build CXX] sw/source/filter/html/htmlftn.cxx
+[build CXX] sw/source/filter/html/htmlgrin.cxx
+[build CXX] sw/source/filter/html/htmlnum.cxx
+[build CXX] sw/source/filter/html/htmlnumreader.cxx
+[build CXX] sw/source/filter/html/htmlnumwriter.cxx
+[build CXX] sw/source/filter/html/htmlplug.cxx
+[build CXX] sw/source/filter/html/htmlreqifreader.cxx
+[build CXX] sw/source/filter/html/htmlsect.cxx
+[build CXX] sw/source/filter/html/htmltab.cxx
+[build CXX] sw/source/filter/html/htmltabw.cxx
+[build CXX] sw/source/filter/html/parcss1.cxx
+[build CXX] sw/source/filter/html/svxcss1.cxx
+[build CXX] sw/source/filter/html/swhtml.cxx
+[build CXX] sw/source/filter/html/wrthtml.cxx
+[build CXX] sw/source/filter/md/mdcallbcks.cxx
+[build CXX] sw/source/filter/md/mdnum.cxx
+[build CXX] sw/source/filter/md/mdtab.cxx
+[build CXX] sw/source/filter/md/swmd.cxx
+[build CXX] sw/source/filter/md/wrtmd.cxx
+[build CXX] sw/source/filter/writer/writer.cxx
+[build CXX] sw/source/filter/writer/wrt_fn.cxx
+[build CXX] sw/source/filter/writer/wrtswtbl.cxx
+[build CXX] sw/source/filter/xml/XMLRedlineImportHelper.cxx
+[build CXX] sw/source/filter/xml/swxml.cxx
+[build CXX] sw/source/filter/xml/wrtxml.cxx
+[build CXX] sw/source/filter/xml/xmlbrsh.cxx
+[build CXX] sw/source/filter/xml/xmlexp.cxx
+[build CXX] sw/source/filter/xml/xmlexpit.cxx
+[build CXX] sw/source/filter/xml/xmlfmt.cxx
+[build CXX] sw/source/filter/xml/xmlfmte.cxx
+[build CXX] sw/source/filter/xml/xmlfonte.cxx
+[build CXX] sw/source/filter/xml/xmlimp.cxx
+[build CXX] sw/source/filter/xml/xmlimpit.cxx
+[build CXX] sw/source/filter/xml/xmlitem.cxx
+[build CXX] sw/source/filter/xml/xmliteme.cxx
+[build CXX] sw/source/filter/xml/xmlitemi.cxx
+[build CXX] sw/source/filter/xml/xmlitemm.cxx
+[build CXX] sw/source/filter/xml/xmlithlp.cxx
+[build CXX] sw/source/filter/xml/xmlitmpr.cxx
+[build CXX] sw/source/filter/xml/xmlmeta.cxx
+[build CXX] sw/source/filter/xml/xmlscript.cxx
+[build CXX] sw/source/filter/xml/xmltble.cxx
+[build CXX] sw/source/filter/xml/xmltbli.cxx
+[build CXX] sw/source/filter/xml/xmltext.cxx
+[build CXX] sw/source/filter/xml/xmltexte.cxx
+[build CXX] sw/source/filter/xml/xmltexti.cxx
+[build CXX] sw/source/filter/indexing/IndexingExport.cxx
+[build CXX] sw/source/filter/indexing/IndexingExportFilter.cxx
+[build CXX] sw/source/uibase/app/appenv.cxx
+[build CXX] sw/source/uibase/app/apphdl.cxx
+[build CXX] sw/source/uibase/app/applab.cxx
+[build CXX] sw/source/uibase/app/appopt.cxx
+[build CXX] sw/source/uibase/app/docsh.cxx
+[build CXX] sw/source/uibase/app/docsh2.cxx
+[build CXX] sw/source/uibase/app/docshdrw.cxx
+[build CXX] sw/source/uibase/app/docshini.cxx
+[build CXX] sw/source/uibase/app/docst.cxx
+[build CXX] sw/source/uibase/app/docstyle.cxx
+[build CXX] sw/source/uibase/app/mainwn.cxx
+[build CXX] sw/source/uibase/app/swdll.cxx
+[build CXX] sw/source/uibase/app/swmodul1.cxx
+[build CXX] sw/source/uibase/app/swmodule.cxx
+[build CXX] sw/source/uibase/app/swwait.cxx
+[build CXX] sw/source/uibase/dbui/dbmgr.cxx
+[build CXX] sw/source/uibase/dbui/dbui.cxx
+[build CXX] sw/source/uibase/dbui/maildispatcher.cxx
+[build CXX] sw/source/uibase/dbui/mailmergehelper.cxx
+[build CXX] sw/source/uibase/dbui/mmconfigitem.cxx
+[build CXX] sw/source/uibase/chrdlg/ccoll.cxx
+[build CXX] sw/source/uibase/config/StoredChapterNumbering.cxx
+[build CXX] sw/source/uibase/config/barcfg.cxx
+[build CXX] sw/source/uibase/config/caption.cxx
+[build CXX] sw/source/uibase/config/cfgitems.cxx
+[build CXX] sw/source/uibase/config/dbconfig.cxx
+[build CXX] sw/source/uibase/config/fontcfg.cxx
+[build CXX] sw/source/uibase/config/modcfg.cxx
+[build CXX] sw/source/uibase/config/prtopt.cxx
+[build CXX] sw/source/uibase/config/SwBaselineGridConfig.cxx
+[build CXX] sw/source/uibase/config/uinums.cxx
+[build CXX] sw/source/uibase/config/usrpref.cxx
+[build CXX] sw/source/uibase/config/viewopt.cxx
+[build CXX] sw/source/uibase/dialog/SwSpellDialogChildWindow.cxx
+[build CXX] sw/source/uibase/dialog/regionsw.cxx
+[build CXX] sw/source/uibase/dialog/swabstdlg.cxx
+[build CXX] sw/source/uibase/dialog/swwrtshitem.cxx
+[build CXX] sw/source/uibase/dialog/watermarkdialog.cxx
+[build CXX] sw/source/uibase/dochdl/gloshdl.cxx
+[build CXX] sw/source/uibase/dochdl/swdtflvr.cxx
+[build CXX] sw/source/uibase/docvw/AnchorOverlayObject.cxx
+[build CXX] sw/source/uibase/docvw/AnnotationMenuButton.cxx
+[build CXX] sw/source/uibase/docvw/AnnotationWin.cxx
+[build CXX] sw/source/uibase/docvw/AnnotationWin2.cxx
+[build CXX] sw/source/uibase/docvw/DashedLine.cxx
+[build CXX] sw/source/uibase/docvw/FrameControlsManager.cxx
+[build CXX] sw/source/uibase/docvw/UnfloatTableButton.cxx
+[build CXX] sw/source/uibase/docvw/PageBreakWin.cxx
+[build CXX] sw/source/uibase/docvw/OverlayRanges.cxx
+[build CXX] sw/source/uibase/docvw/PostItMgr.cxx
+[build CXX] sw/source/uibase/docvw/ShadowOverlayObject.cxx
+[build CXX] sw/source/uibase/docvw/SidebarTxtControl.cxx
+[build CXX] sw/source/uibase/docvw/HeaderFooterWin.cxx
+[build CXX] sw/source/uibase/docvw/OutlineContentVisibilityWin.cxx
+[build CXX] sw/source/uibase/docvw/contentcontrolaliasbutton.cxx
+[build CXX] sw/source/uibase/docvw/edtdd.cxx
+[build CXX] sw/source/uibase/docvw/edtwin.cxx
+[build CXX] sw/source/uibase/docvw/edtwin2.cxx
+[build CXX] sw/source/uibase/docvw/edtwin3.cxx
+[build CXX] sw/source/uibase/docvw/frmsidebarwincontainer.cxx
+[build CXX] sw/source/uibase/docvw/romenu.cxx
+[build CXX] sw/source/uibase/docvw/srcedtw.cxx
+[build CXX] sw/source/uibase/envelp/envimg.cxx
+[build CXX] sw/source/uibase/envelp/labelcfg.cxx
+[build CXX] sw/source/uibase/envelp/labimg.cxx
+[build CXX] sw/source/uibase/envelp/syncbtn.cxx
+[build CXX] sw/source/uibase/fldui/fldmgr.cxx
+[build CXX] sw/source/uibase/fldui/fldwrap.cxx
+[build CXX] sw/source/uibase/fldui/xfldui.cxx
+[build CXX] sw/source/uibase/frmdlg/colex.cxx
+[build CXX] sw/source/uibase/frmdlg/colmgr.cxx
+[build CXX] sw/source/uibase/frmdlg/frmmgr.cxx
+[build CXX] sw/source/uibase/globdoc/globdoc.cxx
+[build CXX] sw/source/uibase/index/idxmrk.cxx
+[build CXX] sw/source/uibase/dialog/wordcountwrapper.cxx
+[build CXX] sw/source/uibase/index/toxmgr.cxx
+[build CXX] sw/source/uibase/lingu/hhcwrp.cxx
+[build CXX] sw/source/uibase/lingu/hyp.cxx
+[build CXX] sw/source/uibase/lingu/olmenu.cxx
+[build CXX] sw/source/uibase/lingu/sdrhhcwrap.cxx
+[build CXX] sw/source/uibase/misc/glosdoc.cxx
+[build CXX] sw/source/uibase/misc/glshell.cxx
+[build CXX] sw/source/uibase/misc/numberingtypelistbox.cxx
+[build CXX] sw/source/uibase/misc/redlndlg.cxx
+[build CXX] sw/source/uibase/misc/swruler.cxx
+[build CXX] sw/source/uibase/ribbar/conarc.cxx
+[build CXX] sw/source/uibase/ribbar/concustomshape.cxx
+[build CXX] sw/source/uibase/ribbar/conform.cxx
+[build CXX] sw/source/uibase/ribbar/conpoly.cxx
+[build CXX] sw/source/uibase/ribbar/conrect.cxx
+[build CXX] sw/source/uibase/ribbar/drawbase.cxx
+[build CXX] sw/source/uibase/ribbar/dselect.cxx
+[build CXX] sw/source/uibase/ribbar/inputwin.cxx
+[build CXX] sw/source/uibase/ribbar/workctrl.cxx
+[build CXX] sw/source/uibase/shells/annotsh.cxx
+[build CXX] sw/source/uibase/shells/basesh.cxx
+[build CXX] sw/source/uibase/shells/beziersh.cxx
+[build CXX] sw/source/uibase/shells/drawdlg.cxx
+[build CXX] sw/source/uibase/shells/drawsh.cxx
+[build CXX] sw/source/uibase/shells/drformsh.cxx
+[build CXX] sw/source/uibase/shells/drwbassh.cxx
+[build CXX] sw/source/uibase/shells/drwtxtex.cxx
+[build CXX] sw/source/uibase/shells/drwtxtsh.cxx
+[build CXX] sw/source/uibase/shells/frmsh.cxx
+[build CXX] sw/source/uibase/shells/grfsh.cxx
+[build CXX] sw/source/uibase/shells/grfshex.cxx
+[build CXX] sw/source/uibase/shells/langhelper.cxx
+[build CXX] sw/source/uibase/shells/pam2html.cxx
+[build CXX] sw/source/uibase/shells/listsh.cxx
+[build CXX] sw/source/uibase/shells/mediash.cxx
+[build CXX] sw/source/uibase/shells/navsh.cxx
+[build CXX] sw/source/uibase/shells/olesh.cxx
+[build CXX] sw/source/uibase/shells/slotadd.cxx
+[build CXX] sw/source/uibase/shells/tabsh.cxx
+[build CXX] sw/source/uibase/shells/textdrw.cxx
+[build CXX] sw/source/uibase/shells/textfld.cxx
+[build CXX] sw/source/uibase/shells/textglos.cxx
+[build CXX] sw/source/uibase/shells/textidx.cxx
+[build CXX] sw/source/uibase/shells/textsh.cxx
+[build CXX] sw/source/uibase/shells/textsh1.cxx
+[build CXX] sw/source/uibase/shells/textsh2.cxx
+[build CXX] sw/source/uibase/shells/txtattr.cxx
+[build CXX] sw/source/uibase/shells/txtcrsr.cxx
+[build CXX] sw/source/uibase/shells/txtnum.cxx
+[build CXX] sw/source/uibase/sidebar/StylePresetsPanel.cxx
+[build CXX] sw/source/uibase/sidebar/PageOrientationControl.cxx
+[build CXX] sw/source/uibase/sidebar/PageOrientationPopup.cxx
+[build CXX] sw/source/uibase/sidebar/PageMarginControl.cxx
+[build CXX] sw/source/uibase/sidebar/PageMarginPopup.cxx
+[build CXX] sw/source/uibase/sidebar/PageSizeControl.cxx
+[build CXX] sw/source/uibase/sidebar/PageSizePopup.cxx
+[build CXX] sw/source/uibase/sidebar/PageColumnControl.cxx
+[build CXX] sw/source/uibase/sidebar/PageColumnPopup.cxx
+[build CXX] sw/source/uibase/sidebar/PageFormatPanel.cxx
+[build CXX] sw/source/uibase/sidebar/PageHeaderPanel.cxx
+[build CXX] sw/source/uibase/sidebar/PageFooterPanel.cxx
+[build CXX] sw/source/uibase/sidebar/PageStylesPanel.cxx
+[build CXX] sw/source/uibase/sidebar/WrapPropertyPanel.cxx
+[build CXX] sw/source/uibase/sidebar/TableEditPanel.cxx
+[build CXX] sw/source/uibase/sidebar/ThemePanel.cxx
+[build CXX] sw/source/uibase/sidebar/SwPanelFactory.cxx
+[build CXX] sw/source/uibase/sidebar/WriterInspectorTextPanel.cxx
+[build CXX] sw/source/uibase/sidebar/CommentsPanel.cxx
+[build CXX] sw/source/uibase/sidebar/A11yCheckIssuesPanel.cxx
+[build CXX] sw/source/uibase/sidebar/QuickFindPanel.cxx
+[build CXX] sw/source/uibase/table/chartins.cxx
+[build CXX] sw/source/uibase/table/swtablerep.cxx
+[build CXX] sw/source/uibase/table/tablemgr.cxx
+[build CXX] sw/source/uibase/uitest/uiobject.cxx
+[build CXX] sw/source/uibase/uiview/formatclipboard.cxx
+[build CXX] sw/source/uibase/uiview/pview.cxx
+[build CXX] sw/source/uibase/uiview/scroll.cxx
+[build CXX] sw/source/uibase/uiview/srcview.cxx
+[build CXX] sw/source/uibase/uiview/swcli.cxx
+[build CXX] sw/source/uibase/uiview/uivwimp.cxx
+[build CXX] sw/source/uibase/uiview/view.cxx
+[build CXX] sw/source/uibase/uiview/view0.cxx
+[build CXX] sw/source/uibase/uiview/view1.cxx
+[build CXX] sw/source/uibase/uiview/view2.cxx
+[build CXX] sw/source/uibase/uiview/viewcoll.cxx
+[build CXX] sw/source/uibase/uiview/viewdlg.cxx
+[build CXX] sw/source/uibase/uiview/viewdlg2.cxx
+[build CXX] sw/source/uibase/uiview/viewdraw.cxx
+[build CXX] sw/source/uibase/uiview/viewling.cxx
+[build CXX] sw/source/uibase/uiview/viewmdi.cxx
+[build CXX] sw/source/uibase/uiview/viewport.cxx
+[build CXX] sw/source/uibase/uiview/viewprt.cxx
+[build CXX] sw/source/uibase/uiview/viewsrch.cxx
+[build CXX] sw/source/uibase/uiview/viewstat.cxx
+[build CXX] sw/source/uibase/uiview/viewtab.cxx
+[build CXX] sw/source/uibase/uno/SwXDocumentSettings.cxx
+[build CXX] sw/source/uibase/uno/SwXFilterOptions.cxx
+[build CXX] sw/source/uibase/uno/dlelstnr.cxx
+[build CXX] sw/source/uibase/uno/unoatxt.cxx
+[build CXX] sw/source/uibase/uno/unodefaults.cxx
+[build CXX] sw/source/uibase/uno/unodispatch.cxx
+[build CXX] sw/source/uibase/uno/unodoc.cxx
+[build CXX] sw/source/uibase/uno/unomailmerge.cxx
+[build CXX] sw/source/uibase/uno/unomod.cxx
+[build CXX] sw/source/uibase/uno/unomodule.cxx
+[build CXX] sw/source/uibase/uno/unotxdoc.cxx
+[build CXX] sw/source/uibase/uno/loktxdoc.cxx
+[build CXX] sw/source/uibase/uno/unotxvw.cxx
+[build CXX] sw/source/uibase/utlui/AccessibilityStatusBarControl.cxx
+[build CXX] sw/source/uibase/utlui/attrdesc.cxx
+[build CXX] sw/source/uibase/utlui/bookctrl.cxx
+[build CXX] sw/source/uibase/utlui/content.cxx
+[build CXX] sw/source/uibase/utlui/glbltree.cxx
+[build CXX] sw/source/uibase/utlui/gloslst.cxx
+[build CXX] sw/source/uibase/utlui/initui.cxx
+[build CXX] sw/source/uibase/utlui/navicfg.cxx
+[build CXX] sw/source/uibase/utlui/navipi.cxx
+[build CXX] sw/source/uibase/utlui/numfmtlb.cxx
+[build CXX] sw/source/uibase/utlui/prcntfld.cxx
+[build CXX] sw/source/uibase/utlui/shdwcrsr.cxx
+[build CXX] sw/source/uibase/utlui/tmplctrl.cxx
+[build CXX] sw/source/uibase/utlui/uiitems.cxx
+[build CXX] sw/source/uibase/utlui/uitool.cxx
+[build CXX] sw/source/uibase/utlui/unotools.cxx
+[build CXX] sw/source/uibase/utlui/viewlayoutctrl.cxx
+[build CXX] sw/source/uibase/utlui/wordcountctrl.cxx
+[build CXX] sw/source/uibase/utlui/zoomctrl.cxx
+[build CXX] sw/source/uibase/web/wdocsh.cxx
+[build CXX] sw/source/uibase/web/wformsh.cxx
+[build CXX] sw/source/uibase/web/wfrmsh.cxx
+[build CXX] sw/source/uibase/web/wgrfsh.cxx
+[build CXX] sw/source/uibase/web/wlistsh.cxx
+[build CXX] sw/source/uibase/web/wolesh.cxx
+[build CXX] sw/source/uibase/web/wtabsh.cxx
+[build CXX] sw/source/uibase/web/wtextsh.cxx
+[build CXX] sw/source/uibase/web/wview.cxx
+[build CXX] sw/source/uibase/wrtsh/delete.cxx
+[build CXX] sw/source/uibase/wrtsh/move.cxx
+[build CXX] sw/source/uibase/wrtsh/navmgr.cxx
+[build CXX] sw/source/uibase/wrtsh/select.cxx
+[build CXX] sw/source/uibase/wrtsh/wrtsh1.cxx
+[build CXX] sw/source/uibase/wrtsh/wrtsh2.cxx
+[build CXX] sw/source/uibase/wrtsh/wrtsh3.cxx
+[build CXX] sw/source/uibase/wrtsh/wrtsh4.cxx
+[build CXX] sw/source/uibase/wrtsh/wrtundo.cxx
+[build CXX] sw/source/uibase/dbui/dbtree.cxx
+[build CXX] sw/source/uibase/dbui/mailmergetoolbarcontrols.cxx
+[build CXX] sw/source/ui/chrdlg/break.cxx
+[build CXX] sw/source/ui/chrdlg/chardlg.cxx
+[build CXX] sw/source/ui/chrdlg/drpcps.cxx
+[build CXX] sw/source/ui/chrdlg/numpara.cxx
+[build CXX] sw/source/ui/chrdlg/pardlg.cxx
+[build CXX] sw/source/ui/chrdlg/swuiccoll.cxx
+[build CXX] sw/source/ui/chrdlg/tblnumfm.cxx
+[build CXX] sw/source/ui/config/mailconfigpage.cxx
+[build CXX] sw/source/ui/config/optcomp.cxx
+[build CXX] sw/source/ui/config/optload.cxx
+[build CXX] sw/source/ui/config/optpage.cxx
+[build CXX] sw/source/ui/config/SwGridTabPage.cxx
+[build CXX] sw/source/ui/dialog/abstract.cxx
+[build CXX] sw/source/ui/dialog/addrdlg.cxx
+[build CXX] sw/source/ui/dialog/ascfldlg.cxx
+[build CXX] sw/source/ui/dialog/docstdlg.cxx
+[build CXX] sw/source/ui/dialog/macassgn.cxx
+[build CXX] sw/source/ui/dialog/swdlgfact.cxx
+[build CXX] sw/source/ui/dialog/swmessdialog.cxx
+[build CXX] sw/source/ui/dialog/swuiexp.cxx
+[build CXX] sw/source/ui/dialog/uiregionsw.cxx
+[build CXX] sw/source/ui/dialog/wordcountdialog.cxx
+[build CXX] sw/source/ui/dochdl/selglos.cxx
+[build CXX] sw/source/ui/envelp/envfmt.cxx
+[build CXX] sw/source/ui/envelp/envlop1.cxx
+[build CXX] sw/source/ui/envelp/envprt.cxx
+[build CXX] sw/source/ui/envelp/label1.cxx
+[build CXX] sw/source/ui/envelp/labelexp.cxx
+[build CXX] sw/source/ui/envelp/labfmt.cxx
+[build CXX] sw/source/ui/envelp/labprt.cxx
+[build CXX] sw/source/ui/envelp/mailmrge.cxx
+[build CXX] sw/source/ui/fldui/DateFormFieldDialog.cxx
+[build CXX] sw/source/ui/fldui/DropDownFieldDialog.cxx
+[build CXX] sw/source/ui/fldui/DropDownFormFieldDialog.cxx
+[build CXX] sw/source/ui/fldui/changedb.cxx
+[build CXX] sw/source/ui/fldui/flddb.cxx
+[build CXX] sw/source/ui/fldui/flddinf.cxx
+[build CXX] sw/source/ui/fldui/flddok.cxx
+[build CXX] sw/source/ui/fldui/fldedt.cxx
+[build CXX] sw/source/ui/fldui/fldfunc.cxx
+[build CXX] sw/source/ui/fldui/fldpage.cxx
+[build CXX] sw/source/ui/fldui/fldref.cxx
+[build CXX] sw/source/ui/fldui/fldtdlg.cxx
+[build CXX] sw/source/ui/fldui/fldvar.cxx
+[build CXX] sw/source/ui/fldui/inpdlg.cxx
+[build CXX] sw/source/ui/fldui/javaedit.cxx
+[build CXX] sw/source/ui/fmtui/tmpdlg.cxx
+[build CXX] sw/source/ui/frmdlg/column.cxx
+[build CXX] sw/source/ui/frmdlg/cption.cxx
+[build CXX] sw/source/ui/frmdlg/frmdlg.cxx
+[build CXX] sw/source/ui/frmdlg/frmpage.cxx
+[build CXX] sw/source/ui/frmdlg/pattern.cxx
+[build CXX] sw/source/ui/frmdlg/uiborder.cxx
+[build CXX] sw/source/ui/frmdlg/wrap.cxx
+[build CXX] sw/source/ui/index/cntex.cxx
+[build CXX] sw/source/ui/index/cnttab.cxx
+[build CXX] sw/source/ui/index/multmrk.cxx
+[build CXX] sw/source/ui/index/swuiidxmrk.cxx
+[build CXX] sw/source/ui/misc/bookmark.cxx
+[build CXX] sw/source/ui/misc/contentcontroldlg.cxx
+[build CXX] sw/source/ui/misc/contentcontrollistitemdlg.cxx
+[build CXX] sw/source/ui/misc/pagenumberdlg.cxx
+[build CXX] sw/source/ui/misc/docfnote.cxx
+[build CXX] sw/source/ui/misc/glosbib.cxx
+[build CXX] sw/source/ui/misc/glossary.cxx
+[build CXX] sw/source/ui/misc/insfnote.cxx
+[build CXX] sw/source/ui/misc/linenum.cxx
+[build CXX] sw/source/ui/misc/num.cxx
+[build CXX] sw/source/ui/misc/outline.cxx
+[build CXX] sw/source/ui/misc/pgfnote.cxx
+[build CXX] sw/source/ui/misc/pggrid.cxx
+[build CXX] sw/source/ui/misc/srtdlg.cxx
+[build CXX] sw/source/ui/misc/swmodalredlineacceptdlg.cxx
+[build CXX] sw/source/ui/misc/titlepage.cxx
+[build CXX] sw/source/ui/table/colwd.cxx
+[build CXX] sw/source/ui/table/convert.cxx
+[build CXX] sw/source/ui/table/instable.cxx
+[build CXX] sw/source/ui/table/mergetbl.cxx
+[build CXX] sw/source/ui/table/rowht.cxx
+[build CXX] sw/source/ui/table/splittbl.cxx
+[build CXX] sw/source/ui/table/tabledlg.cxx
+[build CXX] sw/source/ui/utlui/swrenamexnameddlg.cxx
+[build CXX] sw/source/ui/utlui/copyfielddlg.cxx
+[build CXX] sw/source/ui/dbui/addresslistdialog.cxx
+[build CXX] sw/source/ui/dbui/createaddresslistdialog.cxx
+[build CXX] sw/source/ui/dbui/customizeaddresslistdialog.cxx
+[build CXX] sw/source/ui/dbui/dbinsdlg.cxx
+[build CXX] sw/source/ui/dbui/dbtablepreviewdialog.cxx
+[build CXX] sw/source/ui/dbui/mailmergewizard.cxx
+[build CXX] sw/source/ui/dbui/mmaddressblockpage.cxx
+[build CXX] sw/source/ui/dbui/mmdocselectpage.cxx
+[build CXX] sw/source/ui/dbui/mmgreetingspage.cxx
+[build CXX] sw/source/ui/dbui/mmlayoutpage.cxx
+[build CXX] sw/source/ui/dbui/mmoutputtypepage.cxx
+[build CXX] sw/source/ui/dbui/mmresultdialogs.cxx
+[build CXX] sw/source/ui/dbui/selectdbtabledialog.cxx
+[build CXX] sw/source/writerfilter/rtftok/rtfcharsets.cxx
+[build CXX] sw/source/writerfilter/rtftok/rtfdispatchdestination.cxx
+[build CXX] sw/source/writerfilter/rtftok/rtfdispatchflag.cxx
+[build CXX] sw/source/writerfilter/rtftok/rtfdispatchsymbol.cxx
+[build CXX] sw/source/writerfilter/rtftok/rtfdispatchvalue.cxx
+[build CXX] sw/source/writerfilter/rtftok/rtfdocumentfactory.cxx
+[build CXX] sw/source/writerfilter/rtftok/rtfdocumentimpl.cxx
+[build CXX] sw/source/writerfilter/rtftok/rtflookahead.cxx
+[build CXX] sw/source/writerfilter/rtftok/rtfreferenceproperties.cxx
+[build CXX] sw/source/writerfilter/rtftok/rtfreferencetable.cxx
+[build CXX] sw/source/writerfilter/rtftok/rtfsdrimport.cxx
+[build CXX] sw/source/writerfilter/rtftok/rtfskipdestination.cxx
+[build CXX] sw/source/writerfilter/rtftok/rtfsprm.cxx
+[build CXX] sw/source/writerfilter/rtftok/rtftokenizer.cxx
+[build CXX] sw/source/writerfilter/rtftok/rtfvalue.cxx
+[build CXX] sw/source/writerfilter/dmapper/BorderHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/CellColorHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/CellMarginHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/ConversionHelper.cxx
+[build CXX] sw/source/writerfilter/dmapper/DocumentProtection.cxx
+[build CXX] sw/source/writerfilter/dmapper/DomainMapper.cxx
+[build CXX] sw/source/writerfilter/dmapper/DomainMapperTableHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/DomainMapperTableManager.cxx
+[build CXX] sw/source/writerfilter/dmapper/DomainMapper_Impl.cxx
+[build CXX] sw/source/writerfilter/dmapper/domainmapperfactory.cxx
+[build CXX] sw/source/writerfilter/dmapper/FFDataHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/FontTable.cxx
+[build CXX] sw/source/writerfilter/dmapper/FormControlHelper.cxx
+[build CXX] sw/source/writerfilter/dmapper/GraphicHelpers.cxx
+[build CXX] sw/source/writerfilter/dmapper/GraphicImport.cxx
+[build CXX] sw/source/writerfilter/dmapper/LatentStyleHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/LoggedResources.cxx
+[build CXX] sw/source/writerfilter/dmapper/MeasureHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/TrackChangesHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/ModelEventListener.cxx
+[build CXX] sw/source/writerfilter/dmapper/NumberingManager.cxx
+[build CXX] sw/source/writerfilter/dmapper/OLEHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/PageBordersHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/PropertyIds.cxx
+[build CXX] sw/source/writerfilter/dmapper/PropertyMap.cxx
+[build CXX] sw/source/writerfilter/dmapper/PropertyMapHelper.cxx
+[build CXX] sw/source/writerfilter/dmapper/SdtHelper.cxx
+[build CXX] sw/source/writerfilter/dmapper/SectionColumnHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/SettingsTable.cxx
+[build CXX] sw/source/writerfilter/dmapper/SmartTagHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/StyleSheetTable.cxx
+[build CXX] sw/source/writerfilter/dmapper/TDefTableHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/TableManager.cxx
+[build CXX] sw/source/writerfilter/dmapper/TablePositionHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/TablePropertiesHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/TagLogger.cxx
+[build CXX] sw/source/writerfilter/dmapper/TextEffectsHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/TblStylePrHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/ThemeHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/WrapPolygonHandler.cxx
+[build CXX] sw/source/writerfilter/dmapper/WriteProtection.cxx
+[build CXX] sw/source/writerfilter/dmapper/util.cxx
+[build CXX] sw/source/writerfilter/filter/RtfFilter.cxx
+[build CXX] sw/source/writerfilter/filter/WriterFilter.cxx
+[build CXX] sw/source/writerfilter/ooxml/Handler.cxx
+[build CXX] sw/source/writerfilter/ooxml/OOXMLBinaryObjectReference.cxx
+[build CXX] sw/source/writerfilter/ooxml/OOXMLDocumentImpl.cxx
+[build CXX] sw/source/writerfilter/ooxml/OOXMLFactory.cxx
+[build CXX] sw/source/writerfilter/ooxml/OOXMLFastContextHandler.cxx
+[build CXX] sw/source/writerfilter/ooxml/OOXMLFastContextHandlerTheme.cxx
+[build CXX] sw/source/writerfilter/ooxml/OOXMLFastDocumentHandler.cxx
+[build CXX] sw/source/writerfilter/ooxml/OOXMLParserState.cxx
+[build CXX] sw/source/writerfilter/ooxml/OOXMLPropertySet.cxx
+[build CXX] sw/source/writerfilter/ooxml/OOXMLStreamImpl.cxx
+[build CXX] sw/source/writerfilter/ooxml/ShadowContext.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_dml-baseStylesheet.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_dml-baseTypes.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_dml-chartDrawing.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_dml-documentProperties.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_dml-graphicalObject.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_dml-shape3DCamera.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_dml-shape3DLighting.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_dml-shape3DScene.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_dml-shape3DStyles.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_dml-shapeEffects.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_dml-shapeGeometry.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_dml-shapeLineProperties.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_dml-shapeProperties.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_dml-styleDefaults.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_dml-stylesheet.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_dml-textCharacter.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_dml-wordprocessingDrawing.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_shared-math.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_shared-relationshipReference.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_sml-customXmlMappings.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_vml-main.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_vml-officeDrawing.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_vml-wordprocessingDrawing.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_wp14.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_w14.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_w15.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_a14.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_wml.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/OOXMLFactory_generated.cxx
+[build CXX] workdir/CustomTarget/sw/source/writerfilter/ooxml/qnametostr.cxx
+[build CXX] sw/source/ui/vba/vbarange.cxx
+[build CXX] sw/source/ui/vba/vbacell.cxx
+[build CXX] sw/source/ui/vba/vbacells.cxx
+[build CXX] sw/source/ui/vba/vbacolumn.cxx
+[build CXX] sw/source/ui/vba/vbacolumns.cxx
+[build CXX] sw/source/ui/vba/vbacontentcontrol.cxx
+[build CXX] sw/source/ui/vba/vbacontentcontrols.cxx
+[build CXX] sw/source/ui/vba/vbacontentcontrollistentry.cxx
+[build CXX] sw/source/ui/vba/vbacontentcontrollistentries.cxx
+[build CXX] sw/source/ui/vba/vbaformfield.cxx
+[build CXX] sw/source/ui/vba/vbaformfields.cxx
+[build CXX] sw/source/ui/vba/vbaformfieldcheckbox.cxx
+[build CXX] sw/source/ui/vba/vbaformfielddropdown.cxx
+[build CXX] sw/source/ui/vba/vbaformfielddropdownlistentries.cxx
+[build CXX] sw/source/ui/vba/vbaformfielddropdownlistentry.cxx
+[build CXX] sw/source/ui/vba/vbaformfieldtextinput.cxx
+[build CXX] sw/source/ui/vba/vbaframe.cxx
+[build CXX] sw/source/ui/vba/vbaframes.cxx
+[build CXX] sw/source/ui/vba/vbalistformat.cxx
+[build CXX] sw/source/ui/vba/vbalistgallery.cxx
+[build CXX] sw/source/ui/vba/vbalistgalleries.cxx
+[build CXX] sw/source/ui/vba/vbalisthelper.cxx
+[build CXX] sw/source/ui/vba/vbalistlevel.cxx
+[build CXX] sw/source/ui/vba/vbalistlevels.cxx
+[build CXX] sw/source/ui/vba/vbalisttemplate.cxx
+[build CXX] sw/source/ui/vba/vbalisttemplates.cxx
+[build CXX] sw/source/ui/vba/vbamailmerge.cxx
+[build CXX] sw/source/ui/vba/vbarevision.cxx
+[build CXX] sw/source/ui/vba/vbarevisions.cxx
+[build CXX] sw/source/ui/vba/vbarow.cxx
+[build CXX] sw/source/ui/vba/vbarows.cxx
+[build CXX] sw/source/ui/vba/vbadocument.cxx
+[build CXX] sw/source/ui/vba/vbasections.cxx
+[build CXX] sw/source/ui/vba/vbadialog.cxx
+[build CXX] sw/source/ui/vba/vbawrapformat.cxx
+[build CXX] sw/source/ui/vba/vbafont.cxx
+[build CXX] sw/source/ui/vba/vbarangehelper.cxx
+[build CXX] sw/source/ui/vba/vbaaddin.cxx
+[build CXX] sw/source/ui/vba/vbaautotextentry.cxx
+[build CXX] sw/source/ui/vba/vbadocumentproperties.cxx
+[build CXX] sw/source/ui/vba/vbaeventshelper.cxx
+[build CXX] sw/source/ui/vba/vbastyle.cxx
+[build CXX] sw/source/ui/vba/vbapane.cxx
+[build CXX] sw/source/ui/vba/vbaglobals.cxx
+[build CXX] sw/source/ui/vba/vbatemplate.cxx
+[build CXX] sw/source/ui/vba/vbaaddins.cxx
+[build CXX] sw/source/ui/vba/vbaview.cxx
+[build CXX] sw/source/ui/vba/vbaheaderfooter.cxx
+[build CXX] sw/source/ui/vba/vbaheadersfooters.cxx
+[build CXX] sw/source/ui/vba/vbaheaderfooterhelper.cxx
+[build CXX] sw/source/ui/vba/vbabookmarks.cxx
+[build CXX] sw/source/ui/vba/vbaoptions.cxx
+[build CXX] sw/source/ui/vba/vbadialogs.cxx
+[build CXX] sw/source/ui/vba/vbapalette.cxx
+[build CXX] sw/source/ui/vba/vbaparagraph.cxx
+[build CXX] sw/source/ui/vba/vbafind.cxx
+[build CXX] sw/source/ui/vba/vbasection.cxx
+[build CXX] sw/source/ui/vba/vbabookmark.cxx
+[build CXX] sw/source/ui/vba/vbaapplication.cxx
+[build CXX] sw/source/ui/vba/vbawindow.cxx
+[build CXX] sw/source/ui/vba/vbareplacement.cxx
+[build CXX] sw/source/ui/vba/vbatable.cxx
+[build CXX] sw/source/ui/vba/vbatablehelper.cxx
+[build CXX] sw/source/ui/vba/vbatabstop.cxx
+[build CXX] sw/source/ui/vba/vbatabstops.cxx
+[build CXX] sw/source/ui/vba/vbaselection.cxx
+[build CXX] sw/source/ui/vba/vbasystem.cxx
+[build CXX] sw/source/ui/vba/vbainformationhelper.cxx
+[build CXX] sw/source/ui/vba/vbapagesetup.cxx
+[build CXX] sw/source/ui/vba/vbafield.cxx
+[build CXX] sw/source/ui/vba/vbatables.cxx
+[build CXX] sw/source/ui/vba/vbatableofcontents.cxx
+[build CXX] sw/source/ui/vba/vbatablesofcontents.cxx
+[build CXX] sw/source/ui/vba/vbavariable.cxx
+[build CXX] sw/source/ui/vba/vbawordbasic.cxx
+[build CXX] sw/source/ui/vba/vbadocuments.cxx
+[build CXX] sw/source/ui/vba/vbaparagraphformat.cxx
+[build CXX] sw/source/ui/vba/vbaborders.cxx
+[build CXX] sw/source/ui/vba/vbavariables.cxx
+[build CXX] sw/source/ui/vba/vbastyles.cxx
+[build CXX] sw/source/ui/vba/vbapanes.cxx
+[build CXX] sw/source/ui/vba/wordvbahelper.cxx
+[build CXX] unoxml/source/rdf/CBlankNode.cxx
+[build CXX] unoxml/source/rdf/CURI.cxx
+[build CXX] unoxml/source/rdf/CLiteral.cxx
+[build CXX] unoxml/source/rdf/librdf_repository.cxx
+[build CXX] uui/source/alreadyopen.cxx
+[build CXX] uui/source/authfallbackdlg.cxx
+[build CXX] uui/source/filechanged.cxx
+[build CXX] uui/source/fltdlg.cxx
+[build CXX] uui/source/iahndl.cxx
+[build CXX] uui/source/iahndl-authentication.cxx
+[build CXX] uui/source/iahndl-errorhandler.cxx
+[build CXX] uui/source/iahndl-filter.cxx
+[build CXX] uui/source/iahndl-ioexceptions.cxx
+[build CXX] uui/source/iahndl-locking.cxx
+[build CXX] uui/source/iahndl-ssl.cxx
+[build CXX] uui/source/interactionhandler.cxx
+[build CXX] uui/source/lockfailed.cxx
+[build CXX] uui/source/lockcorrupt.cxx
+[build CXX] uui/source/logindlg.cxx
+[build CXX] uui/source/masterpasscrtdlg.cxx
+[build CXX] uui/source/masterpassworddlg.cxx
+[build CXX] uui/source/nameclashdlg.cxx
+[build CXX] uui/source/openlocked.cxx
+[build CXX] uui/source/passwordcontainer.cxx
+[build CXX] uui/source/passworddlg.cxx
+[build CXX] uui/source/reloadeditable.cxx
+[build CXX] uui/source/requeststringresolver.cxx
+[build CXX] uui/source/secmacrowarnings.cxx
+[build CXX] uui/source/sslwarndlg.cxx
+[build CXX] uui/source/trylater.cxx
+[build CXX] uui/source/unknownauthdlg.cxx
+[build CXX] vbahelper/source/msforms/vbabutton.cxx
+[build CXX] vbahelper/source/msforms/vbacheckbox.cxx
+[build CXX] vbahelper/source/msforms/vbacombobox.cxx
+[build CXX] vbahelper/source/msforms/vbacontrol.cxx
+[build CXX] vbahelper/source/msforms/vbacontrols.cxx
+[build CXX] vbahelper/source/msforms/vbaframe.cxx
+[build CXX] vbahelper/source/msforms/vbaimage.cxx
+[build CXX] vbahelper/source/msforms/vbalabel.cxx
+[build CXX] vbahelper/source/msforms/vbalistbox.cxx
+[build CXX] vbahelper/source/msforms/vbalistcontrolhelper.cxx
+[build CXX] vbahelper/source/msforms/vbamultipage.cxx
+[build CXX] vbahelper/source/msforms/vbanewfont.cxx
+[build CXX] vbahelper/source/msforms/vbapages.cxx
+[build CXX] vbahelper/source/msforms/vbaprogressbar.cxx
+[build CXX] vbahelper/source/msforms/vbaradiobutton.cxx
+[build CXX] vbahelper/source/msforms/vbascrollbar.cxx
+[build CXX] vbahelper/source/msforms/vbaspinbutton.cxx
+[build CXX] vbahelper/source/msforms/vbasystemaxcontrol.cxx
+[build CXX] vbahelper/source/msforms/vbatextbox.cxx
+[build CXX] vbahelper/source/msforms/vbatogglebutton.cxx
+[build CXX] vbahelper/source/msforms/vbauserform.cxx
+[build CMP] xmlsecurity/util/xmlsecurity
+[build BIN] sdext
+[build MOD] sfx2
+[build MOD] svgio
+[build DEP] LNK:Library/libwriterperfectlo.a.d
+[build LNK] Library/libwriterperfectlo.a
+[build CXX] chart2/source/controller/accessibility/AccessibleBase.cxx
+[build CXX] chart2/source/controller/accessibility/AccessibleChartElement.cxx
+[build CXX] chart2/source/controller/accessibility/AccessibleChartShape.cxx
+[build CXX] chart2/source/controller/accessibility/AccessibleChartView.cxx
+[build CXX] chart2/source/controller/accessibility/AccessibleTextHelper.cxx
+[build CXX] chart2/source/controller/accessibility/AccessibleViewForwarder.cxx
+[build CXX] chart2/source/controller/accessibility/ChartElementFactory.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/AreaWrapper.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/AxisWrapper.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/Chart2ModelContact.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/ChartDataWrapper.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/ChartDocumentWrapper.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/DataSeriesPointWrapper.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/DiagramWrapper.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/GridWrapper.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/LegendWrapper.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/MinMaxLineWrapper.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/TitleWrapper.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/UpDownBarWrapper.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/WallFloorWrapper.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/WrappedAddInProperty.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/WrappedAutomaticPositionProperties.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/WrappedAxisAndGridExistenceProperties.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/WrappedCharacterHeightProperty.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/WrappedDataCaptionProperties.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/WrappedGapwidthProperty.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/WrappedNumberFormatProperty.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/WrappedScaleProperty.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/WrappedScaleTextProperties.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/WrappedSceneProperty.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/WrappedSeriesAreaOrLineProperty.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/WrappedSplineProperties.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/WrappedStatisticProperties.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/WrappedStockProperties.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/WrappedSymbolProperties.cxx
+[build CXX] chart2/source/controller/chartapiwrapper/WrappedTextRotationProperty.cxx
+[build CXX] chart2/source/controller/dialogs/ChangingResource.cxx
+[build CXX] chart2/source/controller/dialogs/ChartResourceGroupDlgs.cxx
+[build CXX] chart2/source/controller/dialogs/ChartResourceGroups.cxx
+[build CXX] chart2/source/controller/dialogs/ChartTypeDialogController.cxx
+[build CXX] chart2/source/controller/dialogs/DataBrowser.cxx
+[build CXX] chart2/source/controller/dialogs/dlg_ChartType.cxx
+[build CXX] chart2/source/controller/dialogs/dlg_ChartType_UNO.cxx
+[build CXX] chart2/source/controller/dialogs/dlg_CreationWizard.cxx
+[build CXX] chart2/source/controller/dialogs/dlg_CreationWizard_UNO.cxx
+[build CXX] chart2/source/controller/dialogs/dlg_DataEditor.cxx
+[build CXX] chart2/source/controller/dialogs/dlg_DataSource.cxx
+[build CXX] chart2/source/controller/dialogs/dlg_InsertAxis_Grid.cxx
+[build CXX] chart2/source/controller/dialogs/dlg_InsertDataLabel.cxx
+[build CXX] chart2/source/controller/dialogs/dlg_InsertDataTable.cxx
+[build CXX] chart2/source/controller/dialogs/dlg_InsertErrorBars.cxx
+[build CXX] chart2/source/controller/dialogs/dlg_InsertLegend.cxx
+[build CXX] chart2/source/controller/dialogs/dlg_InsertTitle.cxx
+[build CXX] chart2/source/controller/dialogs/dlg_NumberFormat.cxx
+[build CXX] chart2/source/controller/dialogs/dlg_ObjectProperties.cxx
+[build CXX] chart2/source/controller/dialogs/dlg_ShapeFont.cxx
+[build CXX] chart2/source/controller/dialogs/dlg_ShapeParagraph.cxx
+[build CXX] chart2/source/controller/dialogs/dlg_View3D.cxx
+[build CXX] chart2/source/controller/dialogs/ObjectNameProvider.cxx
+[build CXX] chart2/source/controller/dialogs/res_BarGeometry.cxx
+[build CXX] chart2/source/controller/dialogs/res_DataLabel.cxx
+[build CXX] chart2/source/controller/dialogs/res_DataTableProperties.cxx
+[build CXX] chart2/source/controller/dialogs/res_ErrorBar.cxx
+[build CXX] chart2/source/controller/dialogs/res_LegendPosition.cxx
+[build CXX] chart2/source/controller/dialogs/res_Titles.cxx
+[build CXX] chart2/source/controller/dialogs/res_Trendline.cxx
+[build CXX] chart2/source/controller/dialogs/TextDirectionListBox.cxx
+[build CXX] chart2/source/controller/dialogs/TitleDialogData.cxx
+[build CXX] chart2/source/controller/dialogs/tp_3D_SceneAppearance.cxx
+[build CXX] chart2/source/controller/dialogs/tp_3D_SceneGeometry.cxx
+[build CXX] chart2/source/controller/dialogs/tp_3D_SceneIllumination.cxx
+[build CXX] chart2/source/controller/dialogs/tp_AxisLabel.cxx
+[build CXX] chart2/source/controller/dialogs/tp_AxisPositions.cxx
+[build CXX] chart2/source/controller/dialogs/tp_ChartColorPalette.cxx
+[build CXX] chart2/source/controller/dialogs/tp_ChartType.cxx
+[build CXX] chart2/source/controller/dialogs/tp_DataLabel.cxx
+[build CXX] chart2/source/controller/dialogs/tp_DataPointOption.cxx
+[build CXX] chart2/source/controller/dialogs/tp_DataSource.cxx
+[build CXX] chart2/source/controller/dialogs/tp_DataTable.cxx
+[build CXX] chart2/source/controller/dialogs/tp_ErrorBars.cxx
+[build CXX] chart2/source/controller/dialogs/tp_LegendPosition.cxx
+[build CXX] chart2/source/controller/dialogs/tp_PointGeometry.cxx
+[build CXX] chart2/source/controller/dialogs/tp_PolarOptions.cxx
+[build CXX] chart2/source/controller/dialogs/tp_RangeChooser.cxx
+[build CXX] chart2/source/controller/dialogs/tp_Scale.cxx
+[build CXX] chart2/source/controller/dialogs/tp_SeriesToAxis.cxx
+[build CXX] chart2/source/controller/dialogs/tp_TitleRotation.cxx
+[build CXX] chart2/source/controller/dialogs/tp_Trendline.cxx
+[build CXX] chart2/source/controller/dialogs/tp_Wizard_TitlesAndObjects.cxx
+[build CXX] chart2/source/controller/drawinglayer/DrawViewWrapper.cxx
+[build CXX] chart2/source/controller/drawinglayer/ViewElementListProvider.cxx
+[build CXX] chart2/source/controller/itemsetwrapper/AxisItemConverter.cxx
+[build CXX] chart2/source/controller/itemsetwrapper/CharacterPropertyItemConverter.cxx
+[build CXX] chart2/source/controller/itemsetwrapper/DataPointItemConverter.cxx
+[build CXX] chart2/source/controller/itemsetwrapper/DataTableItemConverter.cxx
+[build CXX] chart2/source/controller/itemsetwrapper/ErrorBarItemConverter.cxx
+[build CXX] chart2/source/controller/itemsetwrapper/GraphicPropertyItemConverter.cxx
+[build CXX] chart2/source/controller/itemsetwrapper/ItemConverter.cxx
+[build CXX] chart2/source/controller/itemsetwrapper/LegendItemConverter.cxx
+[build CXX] chart2/source/controller/itemsetwrapper/MultipleChartConverters.cxx
+[build CXX] chart2/source/controller/itemsetwrapper/MultipleItemConverter.cxx
+[build CXX] chart2/source/controller/itemsetwrapper/RegressionCurveItemConverter.cxx
+[build CXX] chart2/source/controller/itemsetwrapper/RegressionEquationItemConverter.cxx
+[build CXX] chart2/source/controller/itemsetwrapper/SeriesOptionsItemConverter.cxx
+[build CXX] chart2/source/controller/itemsetwrapper/StatisticsItemConverter.cxx
+[build CXX] chart2/source/controller/itemsetwrapper/TextLabelItemConverter.cxx
+[build CXX] chart2/source/controller/itemsetwrapper/TitleItemConverter.cxx
+[build CXX] chart2/source/controller/main/ChartController.cxx
+[build CXX] chart2/source/controller/main/ChartController_EditData.cxx
+[build CXX] chart2/source/controller/main/ChartController_Insert.cxx
+[build CXX] chart2/source/controller/main/ChartController_Position.cxx
+[build CXX] chart2/source/controller/main/ChartController_Properties.cxx
+[build CXX] chart2/source/controller/main/ChartController_TextEdit.cxx
+[build CXX] chart2/source/controller/main/ChartController_Tools.cxx
+[build CXX] chart2/source/controller/main/ChartController_Window.cxx
+[build CXX] chart2/source/controller/main/ChartDropTargetHelper.cxx
+[build CXX] chart2/source/controller/main/ChartFrameloader.cxx
+[build CXX] chart2/source/controller/main/ChartModelClone.cxx
+[build CXX] chart2/source/controller/main/ChartTransferable.cxx
+[build CXX] chart2/source/controller/main/ChartWindow.cxx
+[build CXX] chart2/source/controller/main/CommandDispatchContainer.cxx
+[build CXX] chart2/source/controller/main/CommandDispatch.cxx
+[build CXX] chart2/source/controller/main/ControllerCommandDispatch.cxx
+[build CXX] chart2/source/controller/main/DragMethod_Base.cxx
+[build CXX] chart2/source/controller/main/DragMethod_PieSegment.cxx
+[build CXX] chart2/source/controller/main/DragMethod_RotateDiagram.cxx
+[build CXX] chart2/source/controller/main/DrawCommandDispatch.cxx
+[build CXX] chart2/source/controller/main/ElementSelector.cxx
+[build CXX] chart2/source/controller/main/FeatureCommandDispatchBase.cxx
+[build CXX] chart2/source/controller/main/ObjectHierarchy.cxx
+[build CXX] chart2/source/controller/main/PositionAndSizeHelper.cxx
+[build CXX] chart2/source/controller/main/SelectionHelper.cxx
+[build CXX] chart2/source/controller/main/ShapeController.cxx
+[build CXX] chart2/source/controller/main/StatusBarCommandDispatch.cxx
+[build CXX] chart2/source/controller/main/ToolbarController.cxx
+[build CXX] chart2/source/controller/main/UndoActions.cxx
+[build CXX] chart2/source/controller/main/UndoCommandDispatch.cxx
+[build CXX] chart2/source/controller/main/UndoGuard.cxx
+[build CXX] chart2/source/controller/sidebar/Chart2PanelFactory.cxx
+[build CXX] chart2/source/controller/sidebar/ChartAreaPanel.cxx
+[build CXX] chart2/source/controller/sidebar/ChartColorsPanel.cxx
+[build CXX] chart2/source/controller/sidebar/ChartColorPaletteControl.cxx
+[build CXX] chart2/source/controller/sidebar/ChartAxisPanel.cxx
+[build CXX] chart2/source/controller/sidebar/ChartColorWrapper.cxx
+[build CXX] chart2/source/controller/sidebar/ChartElementsPanel.cxx
+[build CXX] chart2/source/controller/sidebar/ChartErrorBarPanel.cxx
+[build CXX] chart2/source/controller/sidebar/ChartLinePanel.cxx
+[build CXX] chart2/source/controller/sidebar/ChartSeriesPanel.cxx
+[build CXX] chart2/source/controller/sidebar/ChartSidebarModifyListener.cxx
+[build CXX] chart2/source/controller/sidebar/ChartSidebarSelectionListener.cxx
+[build CXX] chart2/source/controller/sidebar/ChartTypePanel.cxx
+[build CXX] chart2/source/controller/uitest/uiobject.cxx
+[build CXX] chart2/source/controller/dialogs/DataBrowserModel.cxx
+[build CXX] chart2/source/controller/dialogs/DialogModel.cxx
+[build CXX] chart2/source/controller/dialogs/RangeSelectionHelper.cxx
+[build CXX] chart2/source/controller/dialogs/RangeSelectionListener.cxx
+[build CXX] chart2/source/controller/dialogs/TimerTriggeredControllerLock.cxx
+[build CXX] chart2/source/view/axes/DateHelper.cxx
+[build CXX] chart2/source/view/axes/DateScaling.cxx
+[build CXX] chart2/source/view/axes/MinimumAndMaximumSupplier.cxx
+[build CXX] chart2/source/view/axes/ScaleAutomatism.cxx
+[build CXX] chart2/source/view/axes/Tickmarks.cxx
+[build CXX] chart2/source/view/axes/Tickmarks_Dates.cxx
+[build CXX] chart2/source/view/axes/Tickmarks_Equidistant.cxx
+[build CXX] chart2/source/view/axes/VAxisBase.cxx
+[build CXX] chart2/source/view/axes/VAxisOrGridBase.cxx
+[build CXX] chart2/source/view/axes/VAxisProperties.cxx
+[build CXX] chart2/source/view/axes/VCartesianAxis.cxx
+[build CXX] chart2/source/view/axes/VCartesianCoordinateSystem.cxx
+[build CXX] chart2/source/view/axes/VCartesianGrid.cxx
+[build CXX] chart2/source/view/axes/VCoordinateSystem.cxx
+[build CXX] chart2/source/view/axes/VPolarAngleAxis.cxx
+[build CXX] chart2/source/view/axes/VPolarAxis.cxx
+[build CXX] chart2/source/view/axes/VPolarCoordinateSystem.cxx
+[build CXX] chart2/source/view/axes/VPolarGrid.cxx
+[build CXX] chart2/source/view/axes/VPolarRadiusAxis.cxx
+[build CXX] chart2/source/view/charttypes/AreaChart.cxx
+[build CXX] chart2/source/view/charttypes/BarChart.cxx
+[build CXX] chart2/source/view/charttypes/HistogramChart.cxx
+[build CXX] chart2/source/view/charttypes/BarPositionHelper.cxx
+[build CXX] chart2/source/view/charttypes/BubbleChart.cxx
+[build CXX] chart2/source/view/charttypes/CandleStickChart.cxx
+[build CXX] chart2/source/view/charttypes/CategoryPositionHelper.cxx
+[build CXX] chart2/source/view/charttypes/NetChart.cxx
+[build CXX] chart2/source/view/charttypes/PieChart.cxx
+[build CXX] chart2/source/view/charttypes/UnsupportedChart.cxx
+[build CXX] chart2/source/view/charttypes/Splines.cxx
+[build CXX] chart2/source/view/charttypes/VSeriesPlotter.cxx
+[build CXX] chart2/source/view/diagram/VDiagram.cxx
+[build CXX] chart2/source/view/main/ChartItemPool.cxx
+[build CXX] chart2/source/view/main/ChartView.cxx
+[build CXX] chart2/source/view/main/Clipping.cxx
+[build CXX] chart2/source/view/main/DataPointSymbolSupplier.cxx
+[build CXX] chart2/source/view/main/DataTableView.cxx
+[build CXX] chart2/source/view/main/DrawModelWrapper.cxx
+[build CXX] chart2/source/view/main/LabelPositionHelper.cxx
+[build CXX] chart2/source/view/main/Linear3DTransformation.cxx
+[build CXX] chart2/source/view/main/PlotterBase.cxx
+[build CXX] chart2/source/view/main/PlottingPositionHelper.cxx
+[build CXX] chart2/source/view/main/PolarLabelPositionHelper.cxx
+[build CXX] chart2/source/view/main/PropertyMapper.cxx
+[build CXX] chart2/source/view/main/SeriesPlotterContainer.cxx
+[build CXX] chart2/source/view/main/ShapeFactory.cxx
+[build CXX] chart2/source/view/main/Stripe.cxx
+[build CXX] chart2/source/view/main/VDataSeries.cxx
+[build CXX] chart2/source/view/main/VLegend.cxx
+[build CXX] chart2/source/view/main/VLegendSymbolFactory.cxx
+[build CXX] chart2/source/view/main/VLineProperties.cxx
+[build CXX] chart2/source/view/main/VPolarTransformation.cxx
+[build CXX] chart2/source/view/main/VTitle.cxx
+[build CXX] chart2/source/view/main/VButton.cxx
+[build CXX] chart2/source/model/filter/XMLFilter.cxx
+[build CXX] chart2/source/model/main/Axis.cxx
+[build CXX] chart2/source/model/main/BaseCoordinateSystem.cxx
+[build CXX] chart2/source/model/main/CartesianCoordinateSystem.cxx
+[build CXX] chart2/source/model/main/ChartModel.cxx
+[build CXX] chart2/source/model/main/ChartModel_Persistence.cxx
+[build CXX] chart2/source/model/main/DataPoint.cxx
+[build CXX] chart2/source/model/main/DataPointProperties.cxx
+[build CXX] chart2/source/model/main/DataSeries.cxx
+[build CXX] chart2/source/model/main/DataSeriesProperties.cxx
+[build CXX] chart2/source/model/main/DataTable.cxx
+[build CXX] chart2/source/model/main/Diagram.cxx
+[build CXX] chart2/source/model/main/FormattedString.cxx
+[build CXX] chart2/source/model/main/GridProperties.cxx
+[build CXX] chart2/source/model/main/Legend.cxx
+[build CXX] chart2/source/model/main/PageBackground.cxx
+[build CXX] chart2/source/model/main/PolarCoordinateSystem.cxx
+[build CXX] chart2/source/model/main/StockBar.cxx
+[build CXX] chart2/source/model/main/Title.cxx
+[build CXX] chart2/source/model/main/UndoManager.cxx
+[build CXX] chart2/source/model/main/Wall.cxx
+[build CXX] chart2/source/model/template/AreaChartType.cxx
+[build CXX] chart2/source/model/template/AreaChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/BarChartType.cxx
+[build CXX] chart2/source/model/template/BarChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/HistogramChartType.cxx
+[build CXX] chart2/source/model/template/HistogramChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/HistogramDataInterpreter.cxx
+[build CXX] chart2/source/model/template/HistogramCalculator.cxx
+[build CXX] chart2/source/model/template/BoxWhiskerChartType.cxx
+[build CXX] chart2/source/model/template/BoxWhiskerChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/BubbleChartType.cxx
+[build CXX] chart2/source/model/template/BubbleChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/BubbleDataInterpreter.cxx
+[build CXX] chart2/source/model/template/CandleStickChartType.cxx
+[build CXX] chart2/source/model/template/ChartType.cxx
+[build CXX] chart2/source/model/template/ChartTypeManager.cxx
+[build CXX] chart2/source/model/template/ChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/ClusteredColumnChartType.cxx
+[build CXX] chart2/source/model/template/ClusteredColumnChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/ColumnChartType.cxx
+[build CXX] chart2/source/model/template/ColumnLineChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/ColumnLineDataInterpreter.cxx
+[build CXX] chart2/source/model/template/DataInterpreter.cxx
+[build CXX] chart2/source/model/template/FilledNetChartType.cxx
+[build CXX] chart2/source/model/template/FunnelChartType.cxx
+[build CXX] chart2/source/model/template/FunnelChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/LineChartType.cxx
+[build CXX] chart2/source/model/template/LineChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/NetChartType.cxx
+[build CXX] chart2/source/model/template/NetChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/ParetoLineChartType.cxx
+[build CXX] chart2/source/model/template/ParetoLineChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/PieChartType.cxx
+[build CXX] chart2/source/model/template/PieChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/RegionMapChartType.cxx
+[build CXX] chart2/source/model/template/RegionMapChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/ScatterChartType.cxx
+[build CXX] chart2/source/model/template/ScatterChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/SunburstChartType.cxx
+[build CXX] chart2/source/model/template/SunburstChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/StockChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/StockDataInterpreter.cxx
+[build CXX] chart2/source/model/template/TreemapChartType.cxx
+[build CXX] chart2/source/model/template/TreemapChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/WaterfallChartType.cxx
+[build CXX] chart2/source/model/template/WaterfallChartTypeTemplate.cxx
+[build CXX] chart2/source/model/template/XYDataInterpreter.cxx
+[build CXX] chart2/source/tools/AxisHelper.cxx
+[build CXX] chart2/source/tools/BaseColorScheme.cxx
+[build CXX] chart2/source/tools/BaseGFXHelper.cxx
+[build CXX] chart2/source/tools/CachedDataSequence.cxx
+[build CXX] chart2/source/tools/CharacterProperties.cxx
+[build CXX] chart2/source/tools/ChartColorPalettes.cxx
+[build CXX] chart2/source/tools/ChartColorPaletteHelper.cxx
+[build CXX] chart2/source/tools/ChartColorScheme.cxx
+[build CXX] chart2/source/tools/ChartTypeHelper.cxx
+[build CXX] chart2/source/tools/ChartViewHelper.cxx
+[build CXX] chart2/source/tools/CommonConverters.cxx
+[build CXX] chart2/source/tools/ConfigColorScheme.cxx
+[build CXX] chart2/source/tools/ControllerLockGuard.cxx
+[build CXX] chart2/source/tools/DataSeriesHelper.cxx
+[build CXX] chart2/source/tools/DataSource.cxx
+[build CXX] chart2/source/tools/DataSourceHelper.cxx
+[build CXX] chart2/source/tools/DiagramHelper.cxx
+[build CXX] chart2/source/tools/ErrorBar.cxx
+[build CXX] chart2/source/tools/ExplicitCategoriesProvider.cxx
+[build CXX] chart2/source/tools/ExponentialRegressionCurveCalculator.cxx
+[build CXX] chart2/source/tools/FillProperties.cxx
+[build CXX] chart2/source/tools/FormattedStringHelper.cxx
+[build CXX] chart2/source/tools/HistogramDataSequence.cxx
+[build CXX] chart2/source/tools/InternalData.cxx
+[build CXX] chart2/source/tools/InternalDataProvider.cxx
+[build CXX] chart2/source/tools/LabeledDataSequence.cxx
+[build CXX] chart2/source/tools/LegendHelper.cxx
+[build CXX] chart2/source/tools/LifeTime.cxx
+[build CXX] chart2/source/tools/LinearRegressionCurveCalculator.cxx
+[build CXX] chart2/source/tools/LinePropertiesHelper.cxx
+[build CXX] chart2/source/tools/LogarithmicRegressionCurveCalculator.cxx
+[build CXX] chart2/source/tools/MeanValueRegressionCurveCalculator.cxx
+[build CXX] chart2/source/tools/MediaDescriptorHelper.cxx
+[build CXX] chart2/source/tools/ModifyListenerCallBack.cxx
+[build CXX] chart2/source/tools/ModifyListenerHelper.cxx
+[build CXX] chart2/source/tools/MovingAverageRegressionCurveCalculator.cxx
+[build CXX] chart2/source/tools/NameContainer.cxx
+[build CXX] chart2/source/tools/NumberFormatterWrapper.cxx
+[build CXX] chart2/source/tools/ObjectIdentifier.cxx
+[build CXX] chart2/source/tools/OPropertySet.cxx
+[build CXX] chart2/source/tools/PolynomialRegressionCurveCalculator.cxx
+[build CXX] chart2/source/tools/PopupRequest.cxx
+[build CXX] chart2/source/tools/PotentialRegressionCurveCalculator.cxx
+[build CXX] chart2/source/tools/PropertyHelper.cxx
+[build CXX] chart2/source/tools/RangeHighlighter.cxx
+[build CXX] chart2/source/tools/ReferenceSizeProvider.cxx
+[build CXX] chart2/source/tools/RegressionCurveCalculator.cxx
+[build CXX] chart2/source/tools/RegressionCurveHelper.cxx
+[build CXX] chart2/source/tools/RegressionCurveModel.cxx
+[build CXX] chart2/source/tools/RegressionEquation.cxx
+[build CXX] chart2/source/tools/RelativePositionHelper.cxx
+[build CXX] chart2/source/tools/RelativeSizeHelper.cxx
+[build CXX] chart2/source/tools/ResId.cxx
+[build CXX] chart2/source/tools/Scaling.cxx
+[build CXX] chart2/source/tools/SceneProperties.cxx
+[build CXX] chart2/source/tools/StatisticsHelper.cxx
+[build CXX] chart2/source/tools/ThreeDHelper.cxx
+[build CXX] chart2/source/tools/TitleHelper.cxx
+[build CXX] chart2/source/tools/UncachedDataSequence.cxx
+[build CXX] chart2/source/tools/UserDefinedProperties.cxx
+[build CXX] chart2/source/tools/WeakListenerAdapter.cxx
+[build CXX] chart2/source/tools/WrappedDefaultProperty.cxx
+[build CXX] chart2/source/tools/WrappedDirectStateProperty.cxx
+[build CXX] chart2/source/tools/WrappedIgnoreProperty.cxx
+[build CXX] chart2/source/tools/WrappedProperty.cxx
+[build CXX] chart2/source/tools/WrappedPropertySet.cxx
+[build CXX] chart2/source/tools/XMLRangeHelper.cxx
+[build CMP] dbaccess/util/dba
+[build DEP] LNK:Library/libdbaxmllo.a.d
+[build LNK] Library/libdbaxmllo.a
+[build DEP] LNK:Library/libdbulo.a.d
+[build LNK] Library/libdbulo.a
+[build DEP] LNK:Library/libsdbtlo.a.d
+[build LNK] Library/libsdbtlo.a
+[build BIN] avmedia
+[build DEP] LNK:Library/libbasctllo.a.d
+[build LNK] Library/libbasctllo.a
+[build CXX] cui/source/dialogs/tipofthedaydlg.cxx
+[build CXX] cui/source/dialogs/hyphen.cxx
+[build CXX] cui/source/customize/acccfg.cxx
+[build CXX] cui/source/customize/cfg.cxx
+[build CXX] cui/source/customize/cfgutil.cxx
+[build CXX] cui/source/customize/CommandCategoryListBox.cxx
+[build CXX] cui/source/customize/eventdlg.cxx
+[build CXX] cui/source/customize/macropg.cxx
+[build CXX] cui/source/customize/SvxConfigPageHelper.cxx
+[build CXX] cui/source/customize/SvxMenuConfigPage.cxx
+[build CXX] cui/source/customize/SvxToolbarConfigPage.cxx
+[build CXX] cui/source/customize/SvxNotebookbarConfigPage.cxx
+[build CXX] cui/source/customize/CustomNotebookbarGenerator.cxx
+[build CXX] cui/source/dialogs/about.cxx
+[build CXX] cui/source/dialogs/cuifmsearch.cxx
+[build CXX] cui/source/dialogs/cuigaldlg.cxx
+[build CXX] cui/source/dialogs/cuigrfflt.cxx
+[build CXX] cui/source/dialogs/cuiimapwnd.cxx
+[build CXX] cui/source/dialogs/cuitbxform.cxx
+[build CXX] cui/source/dialogs/DiagramDialog.cxx
+[build CXX] cui/source/dialogs/FontFeaturesDialog.cxx
+[build CXX] cui/source/dialogs/hangulhanjadlg.cxx
+[build CXX] cui/source/dialogs/hlmarkwn.cxx
+[build CXX] cui/source/dialogs/hyperlinktabpagebase.cxx
+[build CXX] cui/source/dialogs/hyperlinkdlg.cxx
+[build CXX] cui/source/dialogs/hyperlinkinternettabpage.cxx
+[build CXX] cui/source/dialogs/hyperlinkmailtabpage.cxx
+[build CXX] cui/source/dialogs/hyperlinkdoctabpage.cxx
+[build CXX] cui/source/dialogs/hyperlinknewdoctabpage.cxx
+[build CXX] cui/source/dialogs/insdlg.cxx
+[build CXX] cui/source/dialogs/insrc.cxx
+[build CXX] cui/source/dialogs/linkdlg.cxx
+[build CXX] cui/source/dialogs/multipat.cxx
+[build CXX] cui/source/dialogs/newtabledlg.cxx
+[build CXX] cui/source/dialogs/passwdomdlg.cxx
+[build CXX] cui/source/dialogs/screenshotannotationdlg.cxx
+[build CXX] cui/source/dialogs/pastedlg.cxx
+[build CXX] cui/source/dialogs/postdlg.cxx
+[build CXX] cui/source/dialogs/QrCodeGenDialog.cxx
+[build CXX] cui/source/dialogs/GraphicTestsDialog.cxx
+[build CXX] cui/source/dialogs/ImageViewerDialog.cxx
+[build CXX] cui/source/dialogs/scriptdlg.cxx
+[build CXX] cui/source/dialogs/MacroManagerDialog.cxx
+[build CXX] cui/source/dialogs/SignatureLineDialogBase.cxx
+[build CXX] cui/source/dialogs/SignatureLineDialog.cxx
+[build CXX] cui/source/dialogs/SignSignatureLineDialog.cxx
+[build CXX] cui/source/dialogs/sdrcelldlg.cxx
+[build CXX] cui/source/dialogs/showcols.cxx
+[build CXX] cui/source/dialogs/SpellDialog.cxx
+[build CXX] cui/source/dialogs/splitcelldlg.cxx
+[build CXX] cui/source/dialogs/srchxtra.cxx
+[build CXX] cui/source/dialogs/thesdlg.cxx
+[build CXX] cui/source/dialogs/uipickerdlg.cxx
+[build CXX] cui/source/dialogs/whatsnewtabpage.cxx
+[build CXX] cui/source/dialogs/uitabpage.cxx
+[build CXX] cui/source/dialogs/toolbartabpage.cxx
+[build CXX] cui/source/dialogs/welcomedlg.cxx
+[build CXX] cui/source/dialogs/zoom.cxx
+[build CXX] cui/source/factory/cuiexp.cxx
+[build CXX] cui/source/factory/cuiresmgr.cxx
+[build CXX] cui/source/factory/dlgfact.cxx
+[build CXX] cui/source/factory/init.cxx
+[build CXX] cui/source/options/certpath.cxx
+[build CXX] cui/source/options/cfgchart.cxx
+[build CXX] cui/source/options/connpoolconfig.cxx
+[build CXX] cui/source/options/connpooloptions.cxx
+[build CXX] cui/source/options/connpoolsettings.cxx
+[build CXX] cui/source/options/cuisrchdlg.cxx
+[build CXX] cui/source/options/dbregister.cxx
+[build CXX] cui/source/options/dbregisterednamesconfig.cxx
+[build CXX] cui/source/options/dbregistersettings.cxx
+[build CXX] cui/source/options/doclinkdialog.cxx
+[build CXX] cui/source/options/fontsubs.cxx
+[build CXX] cui/source/options/optaboutconfig.cxx
+[build CXX] cui/source/options/optaccessibility.cxx
+[build CXX] cui/source/options/optasian.cxx
+[build CXX] cui/source/options/optbasic.cxx
+[build CXX] cui/source/options/optchart.cxx
+[build CXX] cui/source/options/optctl.cxx
+[build CXX] cui/source/options/optdict.cxx
+[build CXX] cui/source/options/optfltr.cxx
+[build CXX] cui/source/options/optgdlg.cxx
+[build CXX] cui/source/options/optgenrl.cxx
+[build CXX] cui/source/options/opthtml.cxx
+[build CXX] cui/source/options/optlanguagetool.cxx
+[build CXX] cui/source/options/optinet2.cxx
+[build CXX] cui/source/options/optjava.cxx
+[build CXX] cui/source/options/optjsearch.cxx
+[build CXX] cui/source/options/optlingu.cxx
+[build CXX] cui/source/options/optpath.cxx
+[build CXX] cui/source/options/optsave.cxx
+[build CXX] cui/source/options/optupdt.cxx
+[build CXX] cui/source/options/appearance.cxx
+[build CXX] cui/source/options/sdbcdriverenum.cxx
+[build CXX] cui/source/options/securityoptions.cxx
+[build CXX] cui/source/options/treeopt.cxx
+[build CXX] cui/source/options/treeopthelper.cxx
+[build CXX] cui/source/options/tsaurls.cxx
+[build CXX] cui/source/options/webconninfo.cxx
+[build CXX] cui/source/tabpages/align.cxx
+[build CXX] cui/source/tabpages/autocdlg.cxx
+[build CXX] cui/source/tabpages/backgrnd.cxx
+[build CXX] cui/source/tabpages/bbdlg.cxx
+[build CXX] cui/source/tabpages/border.cxx
+[build CXX] cui/source/tabpages/chardlg.cxx
+[build CXX] cui/source/tabpages/connect.cxx
+[build CXX] cui/source/tabpages/grfpage.cxx
+[build CXX] cui/source/tabpages/labdlg.cxx
+[build CXX] cui/source/tabpages/macroass.cxx
+[build CXX] cui/source/tabpages/measure.cxx
+[build CXX] cui/source/tabpages/numfmt.cxx
+[build CXX] cui/source/tabpages/numpages.cxx
+[build CXX] cui/source/tabpages/page.cxx
+[build CXX] cui/source/tabpages/paragrph.cxx
+[build CXX] cui/source/tabpages/SvxPresetListBox.cxx
+[build CXX] cui/source/tabpages/swpossizetabpage.cxx
+[build CXX] cui/source/tabpages/tabarea.cxx
+[build CXX] cui/source/tabpages/tabline.cxx
+[build CXX] cui/source/tabpages/tabstpge.cxx
+[build CXX] cui/source/tabpages/textanim.cxx
+[build CXX] cui/source/tabpages/textattr.cxx
+[build CXX] cui/source/tabpages/TextColumnsPage.cxx
+[build CXX] cui/source/tabpages/tparea.cxx
+[build CXX] cui/source/tabpages/tpbitmap.cxx
+[build CXX] cui/source/tabpages/tpcolor.cxx
+[build CXX] cui/source/tabpages/tpgradnt.cxx
+[build CXX] cui/source/tabpages/tphatch.cxx
+[build CXX] cui/source/tabpages/tpline.cxx
+[build CXX] cui/source/tabpages/tplnedef.cxx
+[build CXX] cui/source/tabpages/tplneend.cxx
+[build CXX] cui/source/tabpages/tppattern.cxx
+[build CXX] cui/source/tabpages/tpshadow.cxx
+[build CXX] cui/source/tabpages/tptrans.cxx
+[build CXX] cui/source/tabpages/transfrm.cxx
+[build CXX] cui/source/util/FontFeatures.cxx
+[build CXX] cui/source/util/GetDocumentModel.cxx
+[build CXX] cui/source/dialogs/widgettestdlg.cxx
+[build CMP] desktop/source/deployment/gui/deploymentgui
+[build DEP] LNK:Library/libsofficeapp.a.d
+[build LNK] Library/libsofficeapp.a
+[build MOD] drawinglayer
+[build MOD] editeng
+[build MOD] emfio
+[build DEP] LNK:Library/libpcrlo.a.d
+[build LNK] Library/libpcrlo.a
+[build MOD] redland
+[build CMP] filter/source/msfilter/msfilter
+[build DEP] LNK:Library/libpdffilterlo.a.d
+[build LNK] Library/libpdffilterlo.a
+[build CMP] filter/source/svg/svgfilter
+[build CMP] forms/util/frm
+[build MOD] formula
+[build DEP] LNK:Library/libooxlo.a.d
+[build LNK] Library/libooxlo.a
+[build DEP] LNK:Library/librptlo.a.d
+[build LNK] Library/librptlo.a
+[build CXX] reportdesign/source/ui/dlg/AddField.cxx
+[build CXX] reportdesign/source/ui/dlg/CondFormat.cxx
+[build CXX] reportdesign/source/ui/dlg/Condition.cxx
+[build CXX] reportdesign/source/ui/dlg/DateTime.cxx
+[build CXX] reportdesign/source/ui/dlg/dlgpage.cxx
+[build CXX] reportdesign/source/ui/dlg/Formula.cxx
+[build CXX] reportdesign/source/ui/dlg/GroupExchange.cxx
+[build CXX] reportdesign/source/ui/dlg/GroupsSorting.cxx
+[build CXX] reportdesign/source/ui/dlg/Navigator.cxx
+[build CXX] reportdesign/source/ui/dlg/PageNumber.cxx
+[build CXX] reportdesign/source/ui/inspection/DataProviderHandler.cxx
+[build CXX] reportdesign/source/ui/inspection/DefaultInspection.cxx
+[build CXX] reportdesign/source/ui/inspection/GeometryHandler.cxx
+[build CXX] reportdesign/source/ui/inspection/metadata.cxx
+[build CXX] reportdesign/source/ui/inspection/ReportComponentHandler.cxx
+[build CXX] reportdesign/source/ui/misc/ColorListener.cxx
+[build CXX] reportdesign/source/ui/misc/FunctionHelper.cxx
+[build CXX] reportdesign/source/ui/misc/RptUndo.cxx
+[build CXX] reportdesign/source/ui/misc/statusbarcontroller.cxx
+[build CXX] reportdesign/source/ui/misc/UITools.cxx
+[build CXX] reportdesign/source/ui/report/DesignView.cxx
+[build CXX] reportdesign/source/ui/report/dlgedclip.cxx
+[build CXX] reportdesign/source/ui/report/dlgedfac.cxx
+[build CXX] reportdesign/source/ui/report/dlgedfunc.cxx
+[build CXX] reportdesign/source/ui/report/EndMarker.cxx
+[build CXX] reportdesign/source/ui/report/FixedTextColor.cxx
+[build CXX] reportdesign/source/ui/report/FormattedFieldBeautifier.cxx
+[build CXX] reportdesign/source/ui/report/propbrw.cxx
+[build CXX] reportdesign/source/ui/report/ReportController.cxx
+[build CXX] reportdesign/source/ui/report/ReportControllerObserver.cxx
+[build CXX] reportdesign/source/ui/report/ReportSection.cxx
+[build CXX] reportdesign/source/ui/report/ReportWindow.cxx
+[build CXX] reportdesign/source/ui/report/ScrollHelper.cxx
+[build CXX] reportdesign/source/ui/report/SectionView.cxx
+[build CXX] reportdesign/source/ui/report/SectionWindow.cxx
+[build CXX] reportdesign/source/ui/report/StartMarker.cxx
+[build CXX] reportdesign/source/ui/report/ViewsWindow.cxx
+[build DEP] LNK:Library/libsclo.a.d
+[build LNK] Library/libsclo.a
+[build DEP] LNK:Library/libscfiltlo.a.d
+[build LNK] Library/libscfiltlo.a
+[build DEP] LNK:Library/libscuilo.a.d
+[build LNK] Library/libscuilo.a
+[build DEP] LNK:Library/libvbaobjlo.a.d
+[build LNK] Library/libvbaobjlo.a
+[build CMP] scripting/source/dlgprov/dlgprov
+[build CMP] scripting/source/vbaevents/vbaevents
+[build DEP] LNK:Library/libsdlo.a.d
+[build LNK] Library/libsdlo.a
+[build DEP] LNK:Library/libsduilo.a.d
+[build LNK] Library/libsduilo.a
+[build CMP] slideshow/util/slideshow
+[build DEP] LNK:Library/libsmlo.a.d
+[build LNK] Library/libsmlo.a
+[build CMP] svx/util/svx
+[build CXX] sw/source/filter/docx/swdocxreader.cxx
+[build CXX] sw/source/filter/rtf/swparrtf.cxx
+[build CXX] sw/source/filter/ww8/docxattributeoutput.cxx
+[build CXX] sw/source/filter/ww8/docxexport.cxx
+[build CXX] sw/source/filter/ww8/docxexportfilter.cxx
+[build CXX] sw/source/filter/ww8/docxsdrexport.cxx
+[build CXX] sw/source/filter/ww8/docxtableexport.cxx
+[build CXX] sw/source/filter/ww8/docxtablestyleexport.cxx
+[build CXX] sw/source/filter/ww8/rtfattributeoutput.cxx
+[build CXX] sw/source/filter/ww8/rtfexport.cxx
+[build CXX] sw/source/filter/ww8/rtfexportfilter.cxx
+[build CXX] sw/source/filter/ww8/rtfsdrexport.cxx
+[build CXX] sw/source/filter/ww8/rtfstringbuffer.cxx
+[build CXX] sw/source/filter/ww8/WW8FFData.cxx
+[build CXX] sw/source/filter/ww8/WW8FibData.cxx
+[build CXX] sw/source/filter/ww8/WW8Sttbf.cxx
+[build CXX] sw/source/filter/ww8/WW8TableInfo.cxx
+[build CXX] sw/source/filter/ww8/fields.cxx
+[build CXX] sw/source/filter/ww8/styles.cxx
+[build CXX] sw/source/filter/ww8/writerhelper.cxx
+[build CXX] sw/source/filter/ww8/writerwordglue.cxx
+[build CXX] sw/source/filter/ww8/wrtw8esh.cxx
+[build CXX] sw/source/filter/ww8/wrtw8nds.cxx
+[build CXX] sw/source/filter/ww8/wrtw8num.cxx
+[build CXX] sw/source/filter/ww8/wrtw8sty.cxx
+[build CXX] sw/source/filter/ww8/wrtww8.cxx
+[build CXX] sw/source/filter/ww8/wrtww8gr.cxx
+[build CXX] sw/source/filter/ww8/ww8atr.cxx
+[build CXX] sw/source/filter/ww8/ww8glsy.cxx
+[build CXX] sw/source/filter/ww8/ww8graf.cxx
+[build CXX] sw/source/filter/ww8/ww8graf2.cxx
+[build CXX] sw/source/filter/ww8/ww8par.cxx
+[build CXX] sw/source/filter/ww8/ww8par2.cxx
+[build CXX] sw/source/filter/ww8/ww8par3.cxx
+[build CXX] sw/source/filter/ww8/ww8par4.cxx
+[build CXX] sw/source/filter/ww8/ww8par5.cxx
+[build CXX] sw/source/filter/ww8/ww8par6.cxx
+[build CXX] sw/source/filter/ww8/ww8scan.cxx
+[build CXX] sw/source/filter/ww8/ww8toolbar.cxx
+[build DEP] LNK:Library/libswlo.a.d
+[build LNK] Library/libswlo.a
+[build DEP] LNK:Library/libswuilo.a.d
+[build LNK] Library/libswuilo.a
+[build DEP] LNK:Library/libsw_writerfilterlo.a.d
+[build LNK] Library/libsw_writerfilterlo.a
+[build DEP] LNK:Library/libvbaswobjlo.a.d
+[build LNK] Library/libvbaswobjlo.a
+[build DEP] LNK:Library/libunordflo.a.d
+[build LNK] Library/libunordflo.a
+[build DEP] LNK:Library/libuuilo.a.d
+[build LNK] Library/libuuilo.a
+[build DEP] LNK:Library/libmsformslo.a.d
+[build LNK] Library/libmsformslo.a
+[build CXX] writerperfect/source/draw/CDRImportFilter.cxx
+[build CXX] writerperfect/source/draw/CMXImportFilter.cxx
+[build CXX] writerperfect/source/draw/FreehandImportFilter.cxx
+[build CXX] writerperfect/source/draw/MSPUBImportFilter.cxx
+[build CXX] writerperfect/source/draw/MWAWDrawImportFilter.cxx
+[build CXX] writerperfect/source/draw/PageMakerImportFilter.cxx
+[build CXX] writerperfect/source/draw/QXPImportFilter.cxx
+[build CXX] writerperfect/source/draw/StarOfficeDrawImportFilter.cxx
+[build CXX] writerperfect/source/draw/VisioImportFilter.cxx
+[build CXX] writerperfect/source/draw/WPGImportFilter.cxx
+[build CXX] writerperfect/source/draw/ZMFImportFilter.cxx
+[build CXX] writerperfect/source/impress/KeynoteImportFilter.cxx
+[build CXX] writerperfect/source/impress/MWAWPresentationImportFilter.cxx
+[build CXX] writerperfect/source/impress/StarOfficePresentationImportFilter.cxx
+[build CXX] writerperfect/source/calc/NumbersImportFilter.cxx
+[build CXX] writerperfect/source/calc/MSWorksCalcImportFilter.cxx
+[build CXX] writerperfect/source/calc/MWAWCalcImportFilter.cxx
+[build CXX] writerperfect/source/calc/StarOfficeCalcImportFilter.cxx
+[build CXX] writerperfect/source/writer/EPUBExportDialog.cxx
+[build CXX] writerperfect/source/writer/EPUBExportFilter.cxx
+[build CXX] writerperfect/source/writer/EPUBExportUIComponent.cxx
+[build CXX] writerperfect/source/writer/EPUBPackage.cxx
+[build CXX] writerperfect/source/writer/AbiWordImportFilter.cxx
+[build CXX] writerperfect/source/writer/EBookImportFilter.cxx
+[build CXX] writerperfect/source/writer/MSWorksImportFilter.cxx
+[build CXX] writerperfect/source/writer/MWAWImportFilter.cxx
+[build CXX] writerperfect/source/writer/PagesImportFilter.cxx
+[build CXX] writerperfect/source/writer/WordPerfectImportFilter.cxx
+[build CXX] writerperfect/source/writer/StarOfficeWriterImportFilter.cxx
+[build CXX] writerperfect/source/writer/exp/XMLBase64ImportContext.cxx
+[build CXX] writerperfect/source/writer/exp/XMLFootnoteImportContext.cxx
+[build CXX] writerperfect/source/writer/exp/XMLSectionContext.cxx
+[build CXX] writerperfect/source/writer/exp/XMLTextFrameContext.cxx
+[build CXX] writerperfect/source/writer/exp/XMLTextListContext.cxx
+[build CXX] writerperfect/source/writer/exp/XMLTextListItemContext.cxx
+[build CXX] writerperfect/source/writer/exp/txtparai.cxx
+[build CXX] writerperfect/source/writer/exp/txtstyli.cxx
+[build CXX] writerperfect/source/writer/exp/xmlfmt.cxx
+[build CXX] writerperfect/source/writer/exp/xmlictxt.cxx
+[build CXX] writerperfect/source/writer/exp/xmlimp.cxx
+[build CXX] writerperfect/source/writer/exp/xmlmetai.cxx
+[build CXX] writerperfect/source/writer/exp/xmltbli.cxx
+[build CXX] writerperfect/source/writer/exp/xmltext.cxx
+[build MOD] sdext
+[build BIN] xmlsecurity
+[build DEP] LNK:Library/libchart2lo.a.d
+[build LNK] Library/libchart2lo.a
+[build CMP] dbaccess/source/filter/xml/dbaxml
+[build CMP] dbaccess/util/dbu
+[build CMP] dbaccess/util/sdbt
+[build MOD] avmedia
+[build CMP] basctl/util/basctl
+[build DEP] LNK:Library/libcuilo.a.d
+[build LNK] Library/libcuilo.a
+[build CMP] desktop/lokclipboard
+[build CMP] extensions/source/propctrlr/pcr
+[build MOD] external
+[build CMP] filter/source/pdf/pdffilter
+[build CMP] oox/util/oox
+[build CMP] reportdesign/util/rpt
+[build DEP] LNK:Library/librptuilo.a.d
+[build LNK] Library/librptuilo.a
+[build CMP] sc/util/sc
+[build CMP] sc/util/scfilt
+[build CMP] sc/util/scui
+[build CMP] sc/util/vbaobj
+[build CMP] sd/util/sd
+[build CMP] sd/source/console/presenter
+[build CMP] starmath/util/sm
+[build DEP] LNK:Library/libmswordlo.a.d
+[build LNK] Library/libmswordlo.a
+[build CMP] sw/util/sw
+[build CMP] sw/util/swui
+[build CMP] sw/util/sw_writerfilter
+[build CMP] sw/util/vbaswobj
+[build CMP] unoxml/source/rdf/unordf
+[build CMP] uui/util/uui
+[build CMP] vbahelper/util/msforms
+[build DEP] LNK:Library/libwpftdrawlo.a.d
+[build LNK] Library/libwpftdrawlo.a
+[build DEP] LNK:Library/libwpftimpresslo.a.d
+[build LNK] Library/libwpftimpresslo.a
+[build DEP] LNK:Library/libwpftcalclo.a.d
+[build LNK] Library/libwpftcalclo.a
+[build DEP] LNK:Library/libwpftwriterlo.a.d
+[build LNK] Library/libwpftwriterlo.a
+[build BIN] scripting
+[build BIN] slideshow
+[build BIN] svx
+[build MOD] xmlsecurity
+[build CMP] chart2/source/chart2
+[build CMP] cui/util/cui
+[build BIN] forms
+[build CMP] reportdesign/util/rptui
+[build CMP] sw/util/msword
+[build CMP] writerperfect/source/draw/wpftdraw
+[build CMP] writerperfect/source/impress/wpftimpress
+[build CMP] writerperfect/source/calc/wpftcalc
+[build CMP] writerperfect/source/writer/wpftwriter
+[build BIN] sc
+[build MOD] scripting
+[build BIN] sd
+[build MOD] slideshow
+[build BIN] starmath
+[build MOD] svx
+[build BIN] unoxml
+[build BIN] uui
+[build BIN] vbahelper
+[build BIN] dbaccess
+[build BIN] basctl
+[build BIN] desktop
+[build BIN] extensions
+[build BIN] filter
+[build MOD] forms
+[build BIN] oox
+[build RDB] services
+[build BIN] reportdesign
+[build MOD] sc
+[build MOD] sd
+[build MOD] starmath
+[build BIN] sw
+[build MOD] unoxml
+[build MOD] uui
+[build MOD] vbahelper
+[build BIN] writerperfect
+[build BIN] chart2
+[build MOD] dbaccess
+[build MOD] basctl
+[build BIN] cui
+[build MOD] desktop
+[build MOD] extensions
+[build MOD] filter
+[build MOD] oox
+[build MOD] reportdesign
+[build MOD] sw
+[build MOD] writerperfect
+[build MOD] chart2
+[build MOD] cui
+[build BIN] postprocess
+[build MOD] postprocess
+[build ALL] All modules but instset: chart2 canvas cppcanvas dbaccess winaccessibility UnoControls animations apple_remote avmedia basctl basegfx basic bean binaryurp bridges cli_ure codemaker comphelper configmgr connectivity cppu cppuhelper cpputools cui desktop docmodel drawinglayer editeng embeddedobj embedserv emfio eventattacher extensions external afdko argon2 beanshell boost box2d cairo coinmp curl dragonbox epoxy expat fast_float fontconfig freetype frozen glm graphite harfbuzz hsqldb hunspell hyphen icu java_websocket lcms2 libabw libcdr libcmis libebook libepubgen libetonyek libexttextcat libfreehand libjpeg-turbo liblangtag libmspub libmwaw libnumbertext libodfgen liborcus libpagemaker libpng libqxp librevenge libstaroffice libtiff libvisio libwebp libwpd libwpg libwps libxml2 libxslt libzmf md4c mdds meson more_fonts mythes nss openssl pdfium redland rhino xmlsec zstd zxcvbn-c zxing extras filter forms formula framework hwpfilter i18nlangtag i18npool i18nutil idl io javaunohelper jurt jvmaccess jvmfwk libreofficekit lingucomponent linguistic lotuswordpro net_ure o3tl offapi officecfg oovbaapi oox package pch postprocess readlicense_oo registry remotebridges reportbuilder reportdesign ridljar rust_uno sal salhelper sax sc scaddins sccomp scripting sd sdext sfx2 shell slideshow smoketest solenv soltools sot starmath stoc store svgio svl svtools svx sw swext sysui test testtools toolkit tools ucb ucbhelper udkapi unodevtools unoidl unoil unotest unotools unoxml ure uui vbahelper vcl wizards writerperfect xmloff xmlreader xmlscript xmlsecurity
+[build MAK] CustomTarget/android/source/done
+creating liboSettings.gradle.kts
+[build PY ] native-code.cxx
+Linking /mnt/lo/core/android/obj/local/arm64-v8a/liblo-native-code.so
+Downloading https://services.gradle.org/distributions/gradle-9.3.1-all.zip
+......................10%......................20%.......................30%......................40%.......................50%......................60%......................70%.......................80%......................90%.......................100%
+
+Welcome to Gradle 9.3.1!
+
+Here are the highlights of this release:
+ - Test reporting improvements
+ - Error and warning improvements
+ - Build authoring improvements
+
+For more details see https://docs.gradle.org/9.3.1/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+> Configure project :source
+WARNING: The option setting 'android.usesSdkInManifest.disallowed=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+WARNING: The option setting 'android.sdk.defaultTargetSdkToCompileSdkIfUnset=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+WARNING: The option setting 'android.enableAppCompileTimeRClass=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+WARNING: The option setting 'android.builtInKotlin=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+WARNING: The option setting 'android.newDsl=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+WARNING: The option setting 'android.r8.optimizedResourceShrinking=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+WARNING: The option setting 'android.defaults.buildfeatures.resvalues=true' is deprecated.
+The current default is 'false'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+WARNING: The option setting 'android.nonFinalResIds=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+w: file:///mnt/lo/core/android/source/build.gradle.kts:47:1: 'fun Project.android(configure: Action<BaseAppModuleExtension>): Unit' is deprecated. Replaced by com.android.build.api.dsl.ApplicationExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+w: file:///mnt/lo/core/android/source/build.gradle.kts:73:20: 'fun srcDirs(vararg srcDirs: Any): Any' is deprecated. Use `directories` mutable set instead.
+w: file:///mnt/lo/core/android/source/build.gradle.kts:74:17: 'fun srcDirs(vararg srcDirs: Any): Any' is deprecated. Use `directories` mutable set instead.
+w: file:///mnt/lo/core/android/source/build.gradle.kts:75:18: 'fun srcDirs(vararg srcDirs: Any): Any' is deprecated. Use `directories` mutable set instead.
+w: file:///mnt/lo/core/android/source/build.gradle.kts:76:21: 'fun srcDirs(vararg srcDirs: Any): Any' is deprecated. Use `directories` mutable set instead.
+w: file:///mnt/lo/core/android/source/build.gradle.kts:77:20: 'fun srcDirs(vararg srcDirs: Any): Any' is deprecated. Use `directories` mutable set instead.
+w: file:///mnt/lo/core/android/source/build.gradle.kts:190:21: 'val Project.android: BaseAppModuleExtension' is deprecated. Replaced by com.android.build.api.dsl.ApplicationExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+WARNING: The property android.dependency.excludeLibraryComponentsFromConstraints improves project import performance for very large projects. It should be enabled to improve performance.
+To suppress this warning, add android.generateSyncIssueWhenLibraryConstraintsAreEnabled=false to gradle.properties
+WARNING: The property android.dependency.excludeLibraryComponentsFromConstraints improves project import performance for very large projects. It should be enabled to improve performance.
+To suppress this warning, add android.generateSyncIssueWhenLibraryConstraintsAreEnabled=false to gradle.properties
+WARNING: The property android.dependency.excludeLibraryComponentsFromConstraints improves project import performance for very large projects. It should be enabled to improve performance.
+To suppress this warning, add android.generateSyncIssueWhenLibraryConstraintsAreEnabled=false to gradle.properties
+WARNING: The property android.dependency.excludeLibraryComponentsFromConstraints improves project import performance for very large projects. It should be enabled to improve performance.
+To suppress this warning, add android.generateSyncIssueWhenLibraryConstraintsAreEnabled=false to gradle.properties
+WARNING: The property android.dependency.excludeLibraryComponentsFromConstraints improves project import performance for very large projects. It should be enabled to improve performance.
+To suppress this warning, add android.generateSyncIssueWhenLibraryConstraintsAreEnabled=false to gradle.properties
+WARNING: The property android.dependency.excludeLibraryComponentsFromConstraints improves project import performance for very large projects. It should be enabled to improve performance.
+To suppress this warning, add android.generateSyncIssueWhenLibraryConstraintsAreEnabled=false to gradle.properties
+WARNING: The property android.dependency.excludeLibraryComponentsFromConstraints improves project import performance for very large projects. It should be enabled to improve performance.
+To suppress this warning, add android.generateSyncIssueWhenLibraryConstraintsAreEnabled=false to gradle.properties
+WARNING: The property android.dependency.excludeLibraryComponentsFromConstraints improves project import performance for very large projects. It should be enabled to improve performance.
+To suppress this warning, add android.generateSyncIssueWhenLibraryConstraintsAreEnabled=false to gradle.properties
+WARNING: The property android.dependency.excludeLibraryComponentsFromConstraints improves project import performance for very large projects. It should be enabled to improve performance.
+To suppress this warning, add android.generateSyncIssueWhenLibraryConstraintsAreEnabled=false to gradle.properties
+WARNING: The property android.dependency.excludeLibraryComponentsFromConstraints improves project import performance for very large projects. It should be enabled to improve performance.
+To suppress this warning, add android.generateSyncIssueWhenLibraryConstraintsAreEnabled=false to gradle.properties
+WARNING: The property android.dependency.excludeLibraryComponentsFromConstraints improves project import performance for very large projects. It should be enabled to improve performance.
+To suppress this warning, add android.generateSyncIssueWhenLibraryConstraintsAreEnabled=false to gradle.properties
+WARNING: The property android.dependency.excludeLibraryComponentsFromConstraints improves project import performance for very large projects. It should be enabled to improve performance.
+To suppress this warning, add android.generateSyncIssueWhenLibraryConstraintsAreEnabled=false to gradle.properties
+
+> Task :source:copyAppResources
+> Task :source:copyAssets
+> Task :source:copyUnpackAssets
+> Task :source:createRCfiles
+> Task :source:createStrippedConfig
+
+> Task :source:createStrippedConfigMain
+removed org.openoffice.Office/Addons - saving 20058
+removed org.openoffice.Office.DataAccess/Drivers - saving 1965
+removed org.openoffice.Office/TableWizard - saving 2736
+removed org.openoffice.Office.UI/BaseWindowState - saving 737
+removed org.openoffice.Office.UI/BasicIDECommands - saving 952
+removed org.openoffice.Office.UI/BasicIDEWindowState - saving 744
+removed org.openoffice.Office.UI/BibliographyCommands - saving 956
+removed org.openoffice.Office.UI/BibliographyWindowState - saving 757
+removed org.openoffice.Office.UI/Category - saving 578
+removed org.openoffice.Office.UI/ChartCommands - saving 949
+removed org.openoffice.Office.UI/ChartWindowState - saving 727
+removed org.openoffice.Office.UI/Controller - saving 1900
+removed org.openoffice.Office.UI/DbBrowserWindowState - saving 772
+removed org.openoffice.Office.UI/DbQueryWindowState - saving 758
+removed org.openoffice.Office.UI/DbRelationWindowState - saving 770
+removed org.openoffice.Office.UI/DbTableDataWindowState - saving 774
+removed org.openoffice.Office.UI/DbTableWindowState - saving 758
+removed org.openoffice.Office.UI/DbuCommands - saving 928
+removed org.openoffice.Office.UI/DrawImpressCommands - saving 955
+removed org.openoffice.Office.UI/GenericCategories - saving 634
+removed org.openoffice.Office.UI/GenericCommands - saving 951
+removed org.openoffice.Office.UI/GlobalSettings - saving 1182
+removed org.openoffice.Office.UI/Sidebar - saving 10007
+removed org.openoffice.Office.UI/StartModuleCommands - saving 955
+removed org.openoffice.Office.UI/StartModuleWindowState - saving 731
+removed org.openoffice.Office.UI/WindowContentFactories - saving 1506
+removed org.openoffice.Office/TableWizard - saving 175255
+removed org.openoffice.Office.UI/BaseWindowState - saving 2719
+removed org.openoffice.Office.UI/BasicIDECommands - saving 3766
+removed org.openoffice.Office.UI/BasicIDEWindowState - saving 4114
+removed org.openoffice.Office.UI/BibliographyCommands - saving 1636
+removed org.openoffice.Office.UI/ChartCommands - saving 21975
+removed org.openoffice.Office.UI/ChartWindowState - saving 4071
+removed org.openoffice.Office.UI/Controller - saving 51151
+removed org.openoffice.Office.UI/DbBrowserWindowState - saving 850
+removed org.openoffice.Office.UI/DbQueryWindowState - saving 1620
+removed org.openoffice.Office.UI/DbRelationWindowState - saving 689
+removed org.openoffice.Office.UI/DbTableDataWindowState - saving 683
+removed org.openoffice.Office.UI/DbTableWindowState - saving 686
+removed org.openoffice.Office.UI/DbuCommands - saving 17282
+removed org.openoffice.Office.UI/DrawImpressCommands - saving 72700
+removed org.openoffice.Office.UI/GenericCategories - saving 3669
+removed org.openoffice.Office.UI/GenericCommands - saving 240652
+removed org.openoffice.Office.UI/Sidebar - saving 67471
+removed org.openoffice.Office.UI/StartModuleWindowState - saving 542
+removed org.openoffice.Office.DataAccess/Drivers - saving 2203
+removed org.openoffice.Office.DataAccess/Drivers - saving 2510
+removed org.openoffice.Office.DataAccess/Drivers - saving 6317
+removed org.openoffice.Office.DataAccess/Drivers - saving 2269
+removed org.openoffice.Office.DataAccess/Drivers - saving 7633
+removed org.openoffice.Office.DataAccess/Drivers - saving 4328
+saved 751531 of 2013656 bytes: 37%
+
+> Task :source:createStrippedConfigRegistry
+removed org.openoffice.Office.DataAccess/Drivers - saving 136
+removed org.openoffice.Office.DataAccess/Drivers - saving 136
+removed org.openoffice.Office.DataAccess/Drivers - saving 136
+removed org.openoffice.Office.DataAccess/Drivers - saving 136
+removed org.openoffice.Office.DataAccess/Drivers - saving 136
+removed org.openoffice.Office.DataAccess/Drivers - saving 136
+removed org.openoffice.Office.DataAccess/Drivers - saving 136
+removed org.openoffice.Office.DataAccess/Drivers - saving 136
+removed org.openoffice.Office/TableWizard - saving 129
+removed org.openoffice.Office.UI/BaseWindowState - saving 136
+removed org.openoffice.Office.UI/BasicIDECommands - saving 137
+removed org.openoffice.Office.UI/BasicIDEWindowState - saving 140
+removed org.openoffice.Office.UI/BibliographyCommands - saving 141
+removed org.openoffice.Office.UI/ChartCommands - saving 134
+removed org.openoffice.Office.UI/ChartWindowState - saving 137
+removed org.openoffice.Office.UI/DbBrowserWindowState - saving 141
+removed org.openoffice.Office.UI/DbQueryWindowState - saving 139
+removed org.openoffice.Office.UI/DbRelationWindowState - saving 142
+removed org.openoffice.Office.UI/DbTableDataWindowState - saving 143
+removed org.openoffice.Office.UI/DbTableWindowState - saving 139
+removed org.openoffice.Office.UI/DbuCommands - saving 132
+removed org.openoffice.Office.UI/DrawImpressCommands - saving 140
+removed org.openoffice.Office.UI/GenericCategories - saving 138
+removed org.openoffice.Office.UI/GenericCommands - saving 136
+removed org.openoffice.Office.UI/Sidebar - saving 128
+removed org.openoffice.Office.UI/StartModuleWindowState - saving 143
+saved 3563 of 6887 bytes: 52%
+
+> Task :source:preBuild
+> Task :source:preStrippedUIDebugBuild
+> Task :source:mergeStrippedUIDebugNativeDebugMetadata NO-SOURCE
+> Task :source:generateStrippedUIDebugBuildConfig
+> Task :source:javaPreCompileStrippedUIDebug
+> Task :source:generateStrippedUIDebugResValues
+> Task :source:checkStrippedUIDebugAarMetadata
+> Task :source:mapStrippedUIDebugSourceSetPaths
+> Task :source:processStrippedUIDebugNavigationResources
+> Task :source:compileStrippedUIDebugNavigationResources
+> Task :source:generateStrippedUIDebugResources
+> Task :source:createStrippedUIDebugCompatibleScreenManifests
+> Task :source:extractDeepLinksStrippedUIDebug
+> Task :source:processStrippedUIDebugMainManifest
+> Task :source:processStrippedUIDebugManifest
+> Task :source:generateStrippedUIDebugAssets UP-TO-DATE
+> Task :source:mergeStrippedUIDebugResources
+> Task :source:mergeStrippedUIDebugAssets
+> Task :source:compressStrippedUIDebugAssets
+> Task :source:checkStrippedUIDebugDuplicateClasses
+> Task :source:processStrippedUIDebugJavaRes NO-SOURCE
+> Task :source:mergeLibDexStrippedUIDebug
+> Task :source:processStrippedUIDebugManifestForPackage
+> Task :source:mergeStrippedUIDebugJavaResource
+> Task :source:mergeStrippedUIDebugJniLibFolders
+> Task :source:processStrippedUIDebugResources
+> Task :source:mergeStrippedUIDebugNativeLibs
+> Task :source:validateSigningStrippedUIDebug
+> Task :source:desugarStrippedUIDebugFileDependencies
+
+> Task :source:compileStrippedUIDebugJavaWithJavac
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:226: warning: [deprecation] TabHost in android.widget has been deprecated
+        TabHost host = findViewById(R.id.toolbarTabHost);
+        ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:227: warning: [deprecation] setup() in TabHost has been deprecated
+        host.setup();
+            ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:229: warning: [deprecation] TabHost in android.widget has been deprecated
+        TabHost.TabSpec spec = host.newTabSpec(getString(R.string.tabhost_character));
+        ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:229: warning: [deprecation] TabHost.TabSpec in TabHost has been deprecated
+        TabHost.TabSpec spec = host.newTabSpec(getString(R.string.tabhost_character));
+               ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:229: warning: [deprecation] newTabSpec(String) in TabHost has been deprecated
+        TabHost.TabSpec spec = host.newTabSpec(getString(R.string.tabhost_character));
+                                   ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:230: warning: [deprecation] setContent(int) in TabHost.TabSpec has been deprecated
+        spec.setContent(R.id.tab_character);
+            ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:231: warning: [deprecation] setIndicator(CharSequence) in TabHost.TabSpec has been deprecated
+        spec.setIndicator(getString(R.string.tabhost_character));
+            ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:232: warning: [deprecation] addTab(TabHost.TabSpec) in TabHost has been deprecated
+        host.addTab(spec);
+            ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:234: warning: [deprecation] newTabSpec(String) in TabHost has been deprecated
+        spec = host.newTabSpec(getString(R.string.tabhost_paragraph));
+                   ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:235: warning: [deprecation] setContent(int) in TabHost.TabSpec has been deprecated
+        spec.setContent(R.id.tab_paragraph);
+            ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:236: warning: [deprecation] setIndicator(CharSequence) in TabHost.TabSpec has been deprecated
+        spec.setIndicator(getString(R.string.tabhost_paragraph));
+            ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:237: warning: [deprecation] addTab(TabHost.TabSpec) in TabHost has been deprecated
+        host.addTab(spec);
+            ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:239: warning: [deprecation] newTabSpec(String) in TabHost has been deprecated
+        spec = host.newTabSpec(getString(R.string.tabhost_insert));
+                   ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:240: warning: [deprecation] setContent(int) in TabHost.TabSpec has been deprecated
+        spec.setContent(R.id.tab_insert);
+            ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:241: warning: [deprecation] setIndicator(CharSequence) in TabHost.TabSpec has been deprecated
+        spec.setIndicator(getString(R.string.tabhost_insert));
+            ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:242: warning: [deprecation] addTab(TabHost.TabSpec) in TabHost has been deprecated
+        host.addTab(spec);
+            ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:244: warning: [deprecation] newTabSpec(String) in TabHost has been deprecated
+        spec = host.newTabSpec(getString(R.string.tabhost_style));
+                   ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:245: warning: [deprecation] setContent(int) in TabHost.TabSpec has been deprecated
+        spec.setContent(R.id.tab_style);
+            ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:246: warning: [deprecation] setIndicator(CharSequence) in TabHost.TabSpec has been deprecated
+        spec.setIndicator(getString(R.string.tabhost_style));
+            ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:247: warning: [deprecation] addTab(TabHost.TabSpec) in TabHost has been deprecated
+        host.addTab(spec);
+            ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:372: warning: [deprecation] startActivityForResult(Intent,int) in ComponentActivity has been deprecated
+        startActivityForResult(intent, REQUEST_CODE_SAVEAS);
+        ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:404: warning: [deprecation] startActivityForResult(Intent,int) in ComponentActivity has been deprecated
+        startActivityForResult(intent, REQUEST_CODE_EXPORT_TO_PDF);
+        ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeMainActivity.java:592: warning: [deprecation] SHOW_FORCED in InputMethodManager has been deprecated
+            inputMethodManager.showSoftInput(layerView, InputMethodManager.SHOW_FORCED);
+                                                                          ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/ColorPickerAdapter.java:54: warning: [deprecation] getAdapterPosition() in ViewHolder has been deprecated
+                setPosition(holder.getAdapterPosition());
+                                  ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/ColorPickerAdapter.java:55: warning: [deprecation] getAdapterPosition() in ViewHolder has been deprecated
+                colorPaletteListener.applyColor(colorList[holder.getAdapterPosition()]);
+                                                                ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/ColorPaletteAdapter.java:57: warning: [deprecation] getAdapterPosition() in ViewHolder has been deprecated
+                setPosition(holder.getAdapterPosition());
+                                  ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/FormattingController.java:356: warning: [deprecation] startActivityForResult(Intent,int) in ComponentActivity has been deprecated
+        mContext.startActivityForResult(Intent.createChooser(intent,
+                ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/FormattingController.java:379: warning: [deprecation] startActivityForResult(Intent,int) in ComponentActivity has been deprecated
+            mContext.startActivityForResult(takePictureIntent, TAKE_PHOTO);
+                    ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LOKitTileProvider.java:652: warning: [deprecation] ACTION_MULTIPLE in KeyEvent has been deprecated
+            case KeyEvent.ACTION_MULTIPLE:
+                         ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LOKitTileProvider.java:653: warning: [deprecation] getCharacters() in KeyEvent has been deprecated
+                String keyString = keyEvent.getCharacters();
+                                           ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/overlay/CalcHeadersView.java:39: warning: [deprecation] GestureDetectorCompat in androidx.core.view has been deprecated
+    private GestureDetectorCompat mDetector;
+            ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/overlay/CalcHeadersView.java:63: warning: [deprecation] GestureDetectorCompat in androidx.core.view has been deprecated
+                    mDetector = new GestureDetectorCompat(getContext(), new HeaderGestureListener());
+                                    ^
+/mnt/lo/core/android/source/src/java/org/mozilla/gecko/gfx/ComposedTileLayer.java:268: warning: [deprecation] onLowMemory() in ComponentCallbacks has been deprecated
+    public void onLowMemory() {
+                ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/PresentationActivity.java:32: warning: [deprecation] SYSTEM_UI_FLAG_FULLSCREEN in View has been deprecated
+        int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
+                            ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/PresentationActivity.java:33: warning: [deprecation] setSystemUiVisibility(int) in View has been deprecated
+        decorView.setSystemUiVisibility(uiOptions);
+                 ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/PresentationActivity.java:82: warning: [deprecation] onBackPressed() in ComponentActivity has been deprecated
+                onBackPressed();
+                ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/PresentationActivity.java:88: warning: [deprecation] GestureDetectorCompat in androidx.core.view has been deprecated
+        final GestureDetectorCompat gestureDetector =
+              ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/PresentationActivity.java:89: warning: [deprecation] GestureDetectorCompat in androidx.core.view has been deprecated
+                new GestureDetectorCompat(this, new PresentationGestureViewListener());
+                    ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/ui/LibreOfficeUIActivity.java:150: warning: [deprecation] getSystemUiVisibility() in View has been deprecated
+            int systemUiVisibility = decorView.getSystemUiVisibility() | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+                                              ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/ui/LibreOfficeUIActivity.java:150: warning: [deprecation] SYSTEM_UI_FLAG_LIGHT_STATUS_BAR in View has been deprecated
+            int systemUiVisibility = decorView.getSystemUiVisibility() | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+                                                                             ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/ui/LibreOfficeUIActivity.java:151: warning: [deprecation] setSystemUiVisibility(int) in View has been deprecated
+            decorView.setSystemUiVisibility(systemUiVisibility);
+                     ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/ui/LibreOfficeUIActivity.java:233: warning: [deprecation] animate(View) in ViewCompat has been deprecated
+        ViewCompat.animate(editFAB).rotation(45.0F).withLayer().setDuration(300).setInterpolator(new OvershootInterpolator(10.0F)).start();
+                  ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/ui/LibreOfficeUIActivity.java:269: warning: [deprecation] animate(View) in ViewCompat has been deprecated
+        ViewCompat.animate(editFAB).rotation(0.0F).withLayer().setDuration(300).setInterpolator(new OvershootInterpolator(10.0F)).start();
+                  ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/ui/LibreOfficeUIActivity.java:296: warning: [deprecation] startActivityForResult(Intent,int) in ComponentActivity has been deprecated
+            startActivityForResult(intent, REQUEST_CODE_OPEN_FILECHOOSER);
+            ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/LibreOfficeApplication.java:21: warning: [deprecation] Handler() in Handler has been deprecated
+        mainHandler = new Handler();
+                      ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/SettingsActivity.java:31: warning: [deprecation] getSystemUiVisibility() in View has been deprecated
+            int systemUiVisibility = decorView.getSystemUiVisibility() | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+                                              ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/SettingsActivity.java:31: warning: [deprecation] SYSTEM_UI_FLAG_LIGHT_STATUS_BAR in View has been deprecated
+            int systemUiVisibility = decorView.getSystemUiVisibility() | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+                                                                             ^
+/mnt/lo/core/android/source/src/java/org/libreoffice/SettingsActivity.java:32: warning: [deprecation] setSystemUiVisibility(int) in View has been deprecated
+            decorView.setSystemUiVisibility(systemUiVisibility);
+                     ^
+48 warnings
+
+> Task :source:dexBuilderStrippedUIDebug
+> Task :source:writeStrippedUIDebugAppMetadata
+> Task :source:writeStrippedUIDebugSigningConfigVersions
+> Task :source:mergeProjectDexStrippedUIDebug
+> Task :source:preStrippedUIDebugAndroidTestBuild SKIPPED
+> Task :source:generateStrippedUIDebugAndroidTestResValues
+> Task :source:bundleStrippedUIDebugClassesToCompileJar
+> Task :source:extractProguardFiles
+> Task :source:stripStrippedUIDebugDebugSymbols
+> Task :source:mergeExtDexStrippedUIDebug
+> Task :source:generateStrippedUIDebugAndroidTestLintModel
+> Task :source:generateStrippedUIDebugLintReportModel
+> Task :source:preStrippedUIDebugUnitTestBuild
+> Task :source:generateStrippedUIDebugUnitTestLintModel
+> Task :source:lintAnalyzeStrippedUIDebugAndroidTest
+> Task :source:lintAnalyzeStrippedUIDebugUnitTest
+> Task :source:packageStrippedUIDebug
+> Task :source:createStrippedUIDebugApkListingFileRedirect
+> Task :source:assembleStrippedUIDebug
+> Task :source:lintAnalyzeStrippedUIDebug
+
+> Task :source:lintReportStrippedUIDebug
+Lint found 6 hints (and 198 errors and 1 hint filtered by baseline lint-baseline.xml)
+
+2 errors/warnings were listed in the baseline file (/mnt/lo/core/android/source/lint-baseline.xml) but not found in the project; perhaps they have been fixed?
+
+> Task :source:lintStrippedUIDebug
+
+[Incubating] Problems report is available at: file:///mnt/lo/core/android/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 2m 28s
+51 actionable tasks: 51 executed
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.3.1/userguide/configuration_cache_enabling.html
+[build CUS] android/loandroid3
+[build BIN] android
+[build MOD] android
+[build MOD] libreoffice
+[build BIN] top level modules: libreoffice
+[build ALL] top level modules: build-non-l10n-only build-l10n-only
