@@ -1,0 +1,9 @@
+The files under src/main/java/org/libreoffice/kit come from the LibreOffice
+project (https://www.libreoffice.org) and are licensed under the Mozilla
+Public License, v. 2.0. You can obtain a copy of the MPL at
+https://mozilla.org/MPL/2.0/.
+
+The native engine and assets you add to src/main/jniLibs and src/main/assets
+are also LibreOffice (MPL 2.0, with some components under other free
+licences). If you publish the app, include LibreOffice's licence notices,
+for example on an "About / Open-source licences" screen, and keep this file.

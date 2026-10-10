@@ -1,0 +1,2 @@
+-keep class org.libreoffice.kit.** { *; }
+-keepclassmembers class org.libreoffice.kit.** { native <methods>; }

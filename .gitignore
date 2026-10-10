@@ -1,0 +1,12 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+captures/
+.DS_Store
+# LibreOffice engine binaries are large; keep them out of git.
+libreoffice-kit/src/main/jniLibs/*/
+libreoffice-kit/src/main/assets/*
+composeApp/resources/windows/libreoffice/
