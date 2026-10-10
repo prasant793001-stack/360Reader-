@@ -13,7 +13,7 @@
 #
 # Optional settings (environment variables):
 #   LO_WORK      where to build            (default: ~/lo-android — keep it on the Linux disk, not /mnt/c)
-#   LO_BRANCH    LibreOffice branch/tag    (default: latest release branch it finds, else master)
+#   LO_BRANCH    LibreOffice branch        (default: the one in tools/engine.conf)
 #   NDK_VERSION  Android NDK version       (default: 27.2.12479018; LibreOffice accepts 27–29)
 #   JOBS         parallel build jobs       (default: number of CPU cores)
 
@@ -24,8 +24,12 @@ KIT_DIR="$PROJECT_DIR/libreoffice-kit/src/main"
 WORK="${LO_WORK:-$HOME/lo-android}"
 SDK="$WORK/android-sdk"
 CORE="$WORK/core"
+# Same LibreOffice branch and NDK as the cloud build, unless overridden.
+[ -f "$PROJECT_DIR/tools/engine.conf" ] && . "$PROJECT_DIR/tools/engine.conf"
 NDK_VERSION="${NDK_VERSION:-27.2.12479018}"
-JOBS="${JOBS:-$(nproc)}"
+# One compile job per ~2 GB of RAM keeps the link steps from running out of memory.
+MEM_GB=$(awk '/MemTotal/ {print int($2/1024/1024)}' /proc/meminfo)
+JOBS="${JOBS:-$(( MEM_GB / 2 < $(nproc) ? (MEM_GB / 2 > 0 ? MEM_GB / 2 : 1) : $(nproc) ))}"
 CMDLINE_TOOLS_ZIP="commandlinetools-linux-11076708_latest.zip"
 
 say() { printf '\n\033[1;35m==> %s\033[0m\n' "$*"; }
@@ -35,6 +39,9 @@ case "$PROJECT_DIR" in
   /mnt/*) echo "Note: the project is on the Windows drive. That's fine; only the engine build runs in $WORK." ;;
 esac
 mkdir -p "$WORK"
+FREE_GB=$(df --output=avail -BG "$WORK" | tail -1 | tr -dc 0-9)
+echo "Free disk: ${FREE_GB} GB, RAM: ${MEM_GB} GB, parallel jobs: $JOBS"
+[ "$FREE_GB" -ge 45 ] || die "Need about 45 GB free in $WORK (have ${FREE_GB} GB)."
 
 # ---------------------------------------------------------------------------
 say "1/5  Installing build tools (you may be asked for your password)"
@@ -87,6 +94,7 @@ cat > autogen.input <<EOF
 --with-android-sdk=$SDK
 --with-android-ndk=$SDK/ndk/$NDK_VERSION
 --with-parallelism=$JOBS
+--enable-ccache
 EOF
 if [ ! -f config_host.mk ]; then
   ./autogen.sh
@@ -118,6 +126,26 @@ cp -r "$STAGE/assets/." "$KIT_DIR/assets/"
 # Keep the Java bindings exactly in step with the native library just built.
 cp "$CORE"/android/Bootstrap/src/org/libreoffice/kit/*.java "$KIT_DIR/java/org/libreoffice/kit/"
 
+# One file for GitHub: the cloud app build downloads it from the "office-engine" release.
+PKG="$WORK/package"
+rm -rf "$PKG" && mkdir -p "$PKG/java/org/libreoffice/kit" "$PKG/jniLibs"
+cp -r "$STAGE/lib/arm64-v8a" "$PKG/jniLibs/"
+cp -r "$STAGE/assets" "$PKG/assets"
+cp "$CORE"/android/Bootstrap/src/org/libreoffice/kit/*.java "$PKG/java/org/libreoffice/kit/"
+git -C "$CORE" log -1 --format='LibreOffice %H %cd' > "$PKG/ENGINE_VERSION.txt"
+TARBALL="$WORK/lo-engine-arm64.tar.gz"
+tar -C "$PKG" -czf "$TARBALL" .
+
+# On Windows (WSL), also drop it into your Downloads folder.
+if command -v cmd.exe > /dev/null 2>&1; then
+  WIN_PROFILE="$(cmd.exe /c 'echo %USERPROFILE%' 2>/dev/null | tr -d '\r')"
+  if [ -n "$WIN_PROFILE" ]; then
+    DOWNLOADS="$(wslpath "$WIN_PROFILE")/Downloads"
+    cp "$TARBALL" "$DOWNLOADS/" && TARBALL="$DOWNLOADS/lo-engine-arm64.tar.gz (in your Windows Downloads folder)"
+  fi
+fi
+
 SIZE="$(du -sh "$KIT_DIR/jniLibs/arm64-v8a" | cut -f1)"
-say "Done. Engine installed ($SIZE of native code)."
-echo "Now rebuild 360Reader in Android Studio. Office files will open on the phone."
+say "Done. Engine built ($SIZE of native code)."
+echo "Upload this file to the GitHub release named office-engine:"
+echo "  $TARBALL"
