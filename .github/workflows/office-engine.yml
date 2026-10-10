@@ -1,0 +1,209 @@
+# Builds the LibreOffice engine for Android (arm64) in the cloud and publishes
+# it as the "office-engine" release asset. The app build (build.yml) downloads
+# it automatically, so every APK can open Word, Excel and PowerPoint files.
+#
+# A full first build can exceed GitHub's 6-hour job limit. Compiled objects are
+# cached (ccache) even when a run stops, and the workflow restarts itself, so
+# each attempt continues where the previous one left off.
+name: Office engine (Android)
+
+on:
+  push:
+    branches: [main]
+    paths: ['tools/engine.conf']
+  workflow_dispatch:
+    inputs:
+      attempt:
+        description: Attempt number (set automatically)
+        default: '1'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: office-engine
+  cancel-in-progress: false
+
+env:
+  WORK: /mnt/lo
+  CCACHE_DIR: /mnt/ccache
+  CCACHE_MAXSIZE: 9G
+  CCACHE_COMPRESS: '1'
+
+jobs:
+  engine:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Read settings
+        run: |
+          set -a; . tools/engine.conf; set +a
+          echo "LO_BRANCH=$LO_BRANCH" >> "$GITHUB_ENV"
+          echo "NDK_VERSION=$NDK_VERSION" >> "$GITHUB_ENV"
+          echo "ATTEMPT=${{ github.event.inputs.attempt || '1' }}" >> "$GITHUB_ENV"
+
+      - name: Make disk space
+        run: |
+          df -h / /mnt
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/.ghcup /usr/share/swift \
+                      /usr/local/share/boost /opt/hostedtoolcache/CodeQL /usr/local/share/powershell \
+                      /usr/local/lib/node_modules /usr/local/share/chromium /opt/microsoft || true
+          sudo docker image prune --all --force > /dev/null 2>&1 || true
+          # Build on whichever disk has more room (/mnt/lo and /mnt/ccache are bind-mounted there).
+          MNT_FREE=$(df --output=avail -BG /mnt | tail -1 | tr -dc 0-9)
+          ROOT_FREE=$(df --output=avail -BG / | tail -1 | tr -dc 0-9)
+          if [ "$ROOT_FREE" -gt "$MNT_FREE" ]; then
+            mkdir -p "$HOME/lo" "$HOME/ccache"
+            sudo mkdir -p /mnt/lo /mnt/ccache
+            sudo mount --bind "$HOME/lo" /mnt/lo
+            sudo mount --bind "$HOME/ccache" /mnt/ccache
+          else
+            sudo mkdir -p "$WORK" "$CCACHE_DIR"
+            sudo chown -R "$USER" "$WORK" "$CCACHE_DIR"
+          fi
+          echo "Free: /mnt ${MNT_FREE}G, / ${ROOT_FREE}G"
+
+      - name: Install build tools
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y --no-install-recommends \
+            git build-essential zip unzip wget curl ccache \
+            autoconf automake libtool pkg-config gperf flex bison nasm \
+            python3 python3-dev python3-setuptools gettext xsltproc libxml2-utils \
+            ant libkrb5-dev libnss3-dev libfontconfig1-dev libfreetype-dev zlib1g-dev \
+            libx11-dev libxext-dev libxrender-dev libxrandr-dev libxt-dev libxtst-dev \
+            libxinerama-dev libcups2-dev libcairo2-dev uuid-runtime
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Android SDK and NDK
+        run: |
+          SDK="$ANDROID_HOME"
+          yes | "$SDK/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
+          "$SDK/cmdline-tools/latest/bin/sdkmanager" --install \
+            "ndk;$NDK_VERSION" "platforms;android-36" "build-tools;36.0.0" > /dev/null
+          echo "ANDROID_SDK=$SDK" >> "$GITHUB_ENV"
+
+      - name: Restore compiler cache
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            /mnt/ccache
+            /mnt/lo/tarballs
+          key: lo-${{ env.LO_BRANCH }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: lo-${{ env.LO_BRANCH }}-
+
+      - name: Get LibreOffice source
+        run: |
+          git clone --depth 1 --branch "$LO_BRANCH" https://github.com/LibreOffice/core.git "$WORK/core"
+          git -C "$WORK/core" log -1 --format='Building LibreOffice %h (%cd)'
+
+      - name: Configure
+        working-directory: /mnt/lo/core
+        run: |
+          mkdir -p "$WORK/tarballs"
+          cat > autogen.input <<EOF
+          --with-distro=LibreOfficeAndroidAarch64
+          --with-android-sdk=$ANDROID_SDK
+          --with-android-ndk=$ANDROID_SDK/ndk/$NDK_VERSION
+          --with-external-tar=$WORK/tarballs
+          --with-parallelism=$(nproc)
+          --enable-ccache
+          EOF
+          ./autogen.sh 2>&1 | tee "$WORK/build.log"
+
+      - name: Build (stops itself before the time limit)
+        id: build
+        working-directory: /mnt/lo/core
+        run: |
+          ccache -z || true
+          # Progress every 5 minutes, so the run page shows it's alive.
+          ( while sleep 300; do echo "--- $(date +%H:%M) ---"; tail -n 3 "$WORK/build.log"; done ) &
+          TICKER=$!
+          set +e
+          # ~5 h 15 min, leaving time to save the cache.
+          timeout 18900 make >> "$WORK/build.log" 2>&1
+          STATUS=$?
+          set -e
+          kill $TICKER || true
+          ccache -s || true
+          echo "status=$STATUS" >> "$GITHUB_OUTPUT"
+          if [ "$STATUS" = "124" ]; then echo "Time limit reached; continuing in a new run."; fi
+          if [ "$STATUS" != "0" ] && [ "$STATUS" != "124" ]; then tail -n 80 "$WORK/build.log"; fi
+
+      - name: Save compiler cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            /mnt/ccache
+            /mnt/lo/tarballs
+          key: lo-${{ env.LO_BRANCH }}-${{ github.run_id }}-${{ github.run_attempt }}
+
+      - name: Package engine
+        id: package
+        if: steps.build.outputs.status == '0'
+        run: |
+          APK=$(find "$WORK/core" -path '*outputs/apk*' -name '*.apk' -printf '%T@ %p\n' | sort -n | tail -n1 | cut -d' ' -f2-)
+          [ -n "$APK" ] || { echo "No APK produced"; exit 1; }
+          echo "Engine package: $APK"
+          STAGE="$WORK/stage"; rm -rf "$STAGE"; mkdir -p "$STAGE/unzipped" "$STAGE/kit/jniLibs" "$STAGE/kit/java/org/libreoffice/kit"
+          unzip -q "$APK" 'lib/arm64-v8a/*' 'assets/*' -d "$STAGE/unzipped"
+          test -f "$STAGE/unzipped/lib/arm64-v8a/liblo-native-code.so"
+          cp -r "$STAGE/unzipped/lib/arm64-v8a" "$STAGE/kit/jniLibs/"
+          cp -r "$STAGE/unzipped/assets" "$STAGE/kit/assets"
+          cp "$WORK/core"/android/Bootstrap/src/org/libreoffice/kit/*.java "$STAGE/kit/java/org/libreoffice/kit/"
+          git -C "$WORK/core" log -1 --format='LibreOffice %H %cd' > "$STAGE/kit/ENGINE_VERSION.txt"
+          tar -C "$STAGE/kit" -czf "$WORK/lo-engine-arm64.tar.gz" .
+          ls -lh "$WORK/lo-engine-arm64.tar.gz"
+          du -sh "$STAGE/kit/jniLibs" "$STAGE/kit/assets"
+
+      - name: Publish engine
+        if: steps.package.outcome == 'success'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: office-engine
+          name: Office engine (Android, internal)
+          prerelease: true
+          make_latest: false
+          body: |
+            LibreOffice engine for the 360Reader Android app (arm64). Built automatically
+            from branch ${{ env.LO_BRANCH }}; downloaded by the app build. Not an app release.
+          files: /mnt/lo/lo-engine-arm64.tar.gz
+
+      - name: Rebuild the app with the engine
+        if: steps.package.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run build.yml --ref main -R "$GITHUB_REPOSITORY"
+
+      - name: Continue in a new run (time limit reached)
+        if: steps.build.outputs.status == '124' && env.ATTEMPT < 6
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run office-engine.yml --ref main -R "$GITHUB_REPOSITORY" -f attempt=$((ATTEMPT + 1))
+
+      - name: Publish build log
+        if: always()
+        run: |
+          cp "$WORK/build.log" "$RUNNER_TEMP/build.log" 2>/dev/null || echo "no log" > "$RUNNER_TEMP/build.log"
+          tail -n 3000 "$RUNNER_TEMP/build.log" > "$RUNNER_TEMP/tail.log"
+          git config user.name "360Reader CI"; git config user.email "ci@users.noreply.github.com"
+          git checkout --orphan ci-log-engine
+          git rm -rf --cached . > /dev/null
+          cp "$RUNNER_TEMP/tail.log" build.log
+          echo "attempt=$ATTEMPT status=${{ steps.build.outputs.status }} run=${{ github.run_id }}" > status.txt
+          git add -f build.log status.txt
+          git commit -qm "Engine build log, run ${{ github.run_id }}"
+          git push -qf origin HEAD:ci-log-engine
+
+      - name: Fail if the build broke
+        if: steps.build.outputs.status != '0' && steps.build.outputs.status != '124'
+        run: exit 1

@@ -28,7 +28,7 @@ jobs:
   android:
     name: Android APK
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v5
 
@@ -58,6 +58,24 @@ jobs:
             echo "Using your release signing key."
           else
             echo "No signing key secret yet: building with a temporary debug key."
+          fi
+
+      - name: Add the office engine (if built)
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release download office-engine -p 'lo-engine-arm64.tar.gz' -D "$RUNNER_TEMP" -R "$GITHUB_REPOSITORY" 2>/dev/null; then
+            KIT=libreoffice-kit/src/main
+            mkdir -p "$RUNNER_TEMP/engine"
+            tar -xzf "$RUNNER_TEMP/lo-engine-arm64.tar.gz" -C "$RUNNER_TEMP/engine"
+            rm -rf "$KIT/jniLibs/arm64-v8a" && mkdir -p "$KIT/jniLibs" "$KIT/assets"
+            cp -r "$RUNNER_TEMP/engine/jniLibs/arm64-v8a" "$KIT/jniLibs/"
+            cp -r "$RUNNER_TEMP/engine/assets/." "$KIT/assets/"
+            cp "$RUNNER_TEMP/engine/java/org/libreoffice/kit/"*.java "$KIT/java/org/libreoffice/kit/"
+            echo "Office engine added: $(cat "$RUNNER_TEMP/engine/ENGINE_VERSION.txt")"
+          else
+            echo "No office engine published yet; building without it."
           fi
 
       - name: Build APK
