@@ -125,7 +125,7 @@ compose.desktop {
             packageVersion = appVersion
             description = "Fast, faithful viewer for documents, slides, sheets, PDFs and images"
             vendor = "360Reader"
-            copyright = "© 2026 360Reader"
+            copyright = "Copyright 2026 360Reader"
             modules("java.desktop", "java.logging", "java.naming", "jdk.unsupported")
 
             // Anything under resources/windows ends up next to the app. Drop a
