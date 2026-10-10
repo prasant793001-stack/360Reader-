@@ -72,6 +72,20 @@ jobs:
           if [ "$status" -ne 0 ]; then .github/report-errors.sh build.log; fi
           exit "$status"
 
+      - name: Publish build log (on failure)
+        if: failure()
+        shell: bash
+        run: |
+          git config user.name "360Reader CI"
+          git config user.email "ci@users.noreply.github.com"
+          cp build.log "$RUNNER_TEMP/build.log" || echo "no log" > "$RUNNER_TEMP/build.log"
+          git checkout --orphan "ci-log-${{ github.job }}"
+          git rm -rf --cached . > /dev/null
+          cp "$RUNNER_TEMP/build.log" build.log
+          git add -f build.log
+          git commit -m "Build log for run ${{ github.run_id }}"
+          git push -f origin "HEAD:ci-log-${{ github.job }}"
+
       - name: Name the APK
         shell: bash
         run: |
@@ -112,6 +126,20 @@ jobs:
           status=${PIPESTATUS[0]}
           if [ "$status" -ne 0 ]; then bash .github/report-errors.sh build.log; fi
           exit "$status"
+
+      - name: Publish build log (on failure)
+        if: failure()
+        shell: bash
+        run: |
+          git config user.name "360Reader CI"
+          git config user.email "ci@users.noreply.github.com"
+          cp build.log "$RUNNER_TEMP/build.log" || echo "no log" > "$RUNNER_TEMP/build.log"
+          git checkout --orphan "ci-log-${{ github.job }}"
+          git rm -rf --cached . > /dev/null
+          cp "$RUNNER_TEMP/build.log" build.log
+          git add -f build.log
+          git commit -m "Build log for run ${{ github.run_id }}"
+          git push -f origin "HEAD:ci-log-${{ github.job }}"
 
       - name: Name the installer
         shell: bash
