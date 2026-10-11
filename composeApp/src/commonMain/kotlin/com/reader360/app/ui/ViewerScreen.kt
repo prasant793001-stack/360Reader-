@@ -111,9 +111,14 @@ fun ViewerScreen(ref: DocumentRef, platform: Platform, onClose: () -> Unit) {
                 actions = {
                     when (content) {
                         is ViewerContent.Pages -> {
-                            TextButton(onClick = { zoom.zoomStep(zoomIn = false) }) { Text("−", style = MaterialTheme.typography.titleLarge) }
-                            TextButton(onClick = { zoom.reset() }) { Text("${zoom.percent}%") }
-                            TextButton(onClick = { zoom.zoomStep(zoomIn = true) }) { Text("+", style = MaterialTheme.typography.titleLarge) }
+                            // Phones zoom with pinch and double-tap; buttons would crowd out the title.
+                            if (platform.isDesktop) {
+                                TextButton(onClick = { zoom.zoomStep(zoomIn = false) }) { Text("−", style = MaterialTheme.typography.titleLarge) }
+                                TextButton(onClick = { zoom.reset() }) { Text("${zoom.percent}%") }
+                                TextButton(onClick = { zoom.zoomStep(zoomIn = true) }) { Text("+", style = MaterialTheme.typography.titleLarge) }
+                            } else if (zoom.scale > 1.01f) {
+                                TextButton(onClick = { zoom.reset() }) { Text("${zoom.percent}%") }
+                            }
                             if (content.category == FileCategory.POWERPOINT) {
                                 IconButton(onClick = { presentingFrom = currentPage(zoom.listState) }) {
                                     Icon(Icons.Filled.PlayArrow, contentDescription = "Present")
