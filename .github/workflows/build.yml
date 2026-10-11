@@ -119,7 +119,7 @@ jobs:
   windows:
     name: Windows installer
     runs-on: windows-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v5
 
@@ -137,6 +137,33 @@ jobs:
           VERSION="${TAG#v}"
           [ -n "$VERSION" ] || VERSION="1.0.${{ github.run_number }}"
           echo "APP_VERSION=$VERSION" >> "$GITHUB_ENV"
+
+      - name: Bundle LibreOffice into the installer
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+          $base = "https://download.documentfoundation.org/libreoffice/stable/"
+          $listing = (Invoke-WebRequest $base -UseBasicParsing).Content
+          $ver = [regex]::Matches($listing, 'href="(\d+\.\d+\.\d+)/"') |
+                 ForEach-Object { $_.Groups[1].Value } |
+                 Sort-Object { [version]$_ } | Select-Object -Last 1
+          Write-Host "Bundling LibreOffice $ver"
+          $msi = "LibreOffice_${ver}_Win_x86-64.msi"
+          Invoke-WebRequest "$base$ver/win/x86_64/$msi" -OutFile "$env:RUNNER_TEMP\$msi" -UseBasicParsing
+          # An "administrative install" just unpacks the files; nothing is installed on the machine.
+          $admin = "$env:RUNNER_TEMP\lo-admin"
+          Start-Process msiexec.exe -Wait -ArgumentList "/a `"$env:RUNNER_TEMP\$msi`" /qn TARGETDIR=`"$admin`""
+          $soffice = Get-ChildItem $admin -Recurse -Filter soffice.exe | Select-Object -First 1
+          if (-not $soffice) { throw "soffice.exe not found after unpacking" }
+          $root = $soffice.Directory.Parent.FullName
+          $target = "composeApp\resources\windows\libreoffice"
+          Copy-Item $root $target -Recurse
+          # Ship the Visual C++ runtime next to LibreOffice so it runs on PCs without it.
+          Get-ChildItem $admin -Recurse -Include msvcp140*.dll,vcruntime140*.dll,concrt140.dll,vccorlib140.dll |
+            ForEach-Object { Copy-Item $_.FullName "$target\program\" -Force }
+          Remove-Item -Recurse -Force "$target\help" -ErrorAction SilentlyContinue
+          $mb = [math]::Round((Get-ChildItem $target -Recurse | Measure-Object Length -Sum).Sum / 1MB)
+          Write-Host "LibreOffice bundled: $mb MB"
 
       - name: Build MSI
         shell: bash
@@ -188,5 +215,5 @@ jobs:
           name: 360Reader ${{ github.event.release.tag_name || github.ref_name }}
           body: |
             **Android:** download the `.apk` on your phone, open it and tap **Install**.
-            **Windows 11:** download the `.msi` and run it. Install the free LibreOffice too, so Word, Excel and PowerPoint files open.
+            **Windows 11:** download the `.msi` and run it. Everything is included; no other downloads needed.
           files: out/*
