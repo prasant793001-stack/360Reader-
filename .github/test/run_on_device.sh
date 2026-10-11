@@ -6,8 +6,10 @@ adb shell getprop ro.product.cpu.abilist > results/abilist.txt
 adb install -r composeApp/build/outputs/apk/debug/composeApp-debug.apk > results/install.txt 2>&1
 APP=com.reader360.app
 for f in sample.pptx sample.xlsx; do
-  adb push "$f" "/data/local/tmp/$f"
-  adb shell run-as $APP sh -c "mkdir -p files && cp /data/local/tmp/$f files/$f"
+  # Stream the file into the app's private folder (SELinux blocks the app from reading /data/local/tmp).
+  adb shell run-as $APP mkdir -p files
+  adb exec-in run-as $APP sh -c "cat > files/$f" < "$f"
+  adb shell run-as $APP ls -la files >> results/files.txt
 done
 open_file() {
   local name="$1" mime="$2" wait="$3"
