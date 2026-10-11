@@ -48,7 +48,7 @@ say "1/5  Installing build tools (you may be asked for your password)"
 sudo apt-get update -y
 sudo apt-get install -y \
   git build-essential zip unzip wget curl ccache \
-  autoconf automake libtool pkg-config gperf flex bison nasm \
+  autoconf automake libtool pkg-config gperf flex bison nasm meson ninja-build \
   python3 python3-dev python3-setuptools gettext xsltproc libxml2-utils \
   openjdk-21-jdk ant libkrb5-dev libnss3-dev libfontconfig1-dev
 
