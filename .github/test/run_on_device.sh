@@ -23,6 +23,18 @@ open_file() {
   adb shell run-as $APP ls -la cache/rendered > "results/$name.rendered.txt" 2>&1
 }
 open_file sample.pptx application/vnd.openxmlformats-officedocument.presentationml.presentation 240
+# Open the ⋮ menu to check Save a copy / Share are there.
+tap_desc() {
+  adb shell uiautomator dump /sdcard/ui.xml > /dev/null
+  adb shell cat /sdcard/ui.xml > results/ui.xml
+  b=$(grep -o "content-desc=\"$1\"[^>]*bounds=\"[^\"]*\"" results/ui.xml | grep -o 'bounds="[^"]*"' | head -1 | grep -o '[0-9]\+')
+  set -- $b
+  [ -n "$1" ] && adb shell input tap $(( ($1 + $3) / 2 )) $(( ($2 + $4) / 2 ))
+}
+tap_desc "More options"
+sleep 3
+adb exec-out screencap -p > results/menu.png
+adb shell input keyevent KEYCODE_BACK
 open_file sample.xlsx application/vnd.openxmlformats-officedocument.spreadsheetml.sheet 120
 # Short summary of anything that looks like a crash.
 grep -hiE "FATAL|Fatal signal|AndroidRuntime|LibreOfficeKit|libc  |DEBUG   |abort" results/*.logcat.txt | head -n 200 > results/summary.txt
