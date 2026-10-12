@@ -7,6 +7,8 @@ import android.graphics.ImageDecoder
 import android.net.Uri
 import android.os.Build
 import android.provider.OpenableColumns
+import android.webkit.MimeTypeMap
+import androidx.core.content.FileProvider
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.compose.runtime.Composable
@@ -29,6 +31,7 @@ import java.security.MessageDigest
 class AndroidPlatform(
     private val activity: ComponentActivity,
     private val launchPicker: () -> Unit,
+    private val launchSaver: (name: String, mimeType: String) -> Unit,
 ) : Platform {
 
     override val isDesktop: Boolean = false
@@ -37,6 +40,12 @@ class AndroidPlatform(
     override val maxPagePixels: Int = 10_000_000
 
     private var pendingPick: CompletableDeferred<Uri?>? = null
+    private var pendingSave: CompletableDeferred<Uri?>? = null
+
+    /** 360Reader's own copies of files that were only lent to it (WhatsApp, Gmail, …). */
+    private val libraryDir = File(activity.filesDir, "library")
+
+    override val canShare: Boolean = true
 
     override fun now(): Long = System.currentTimeMillis()
 
@@ -57,6 +66,90 @@ class AndroidPlatform(
         pendingPick?.complete(uri)
         pendingPick = null
     }
+
+    override suspend fun keepCopy(ref: DocumentRef): DocumentRef = withContext(Dispatchers.IO) {
+        val uri = Uri.parse(ref.id)
+        if (uri.scheme != "content") return@withContext ref
+        // Files picked inside 360Reader keep a lasting permission; no copy needed.
+        val persisted = activity.contentResolver.persistedUriPermissions.any { it.uri == uri && it.isReadPermission }
+        if (persisted) return@withContext ref
+
+        libraryDir.mkdirs()
+        val temp = File(libraryDir, ".incoming-${System.nanoTime()}")
+        val digest = MessageDigest.getInstance("SHA-1")
+        val input = activity.contentResolver.openInputStream(uri) ?: return@withContext ref
+        input.use { src ->
+            temp.outputStream().use { dst ->
+                val buffer = ByteArray(256 * 1024)
+                while (true) {
+                    val read = src.read(buffer)
+                    if (read < 0) break
+                    digest.update(buffer, 0, read)
+                    dst.write(buffer, 0, read)
+                }
+            }
+        }
+        // Folder named after the content, so the same file sent twice is kept once.
+        val hash = digest.digest().joinToString("") { "%02x".format(it) }.take(16)
+        val target = File(File(libraryDir, hash).apply { mkdirs() }, safeFileName(ref.name))
+        if (target.exists()) temp.delete() else if (!temp.renameTo(target)) {
+            temp.copyTo(target, overwrite = true)
+            temp.delete()
+        }
+        DocumentRef(id = target.absolutePath, name = ref.name)
+    }
+
+    override suspend fun pruneKeptCopies(stillUsed: Set<String>) = withContext(Dispatchers.IO) {
+        libraryDir.listFiles()?.forEach { entry ->
+            val used = entry.isDirectory && entry.listFiles()?.any { it.absolutePath in stillUsed } == true
+            if (!used) entry.deleteRecursively()
+        }
+        Unit
+    }
+
+    override suspend fun saveCopy(file: LocalFile): String? {
+        val result = CompletableDeferred<Uri?>()
+        pendingSave?.complete(null)
+        pendingSave = result
+        withContext(Dispatchers.Main) { launchSaver(file.name, mimeTypeOf(file.name)) }
+        val target = result.await() ?: return null
+        withContext(Dispatchers.IO) {
+            val out = activity.contentResolver.openOutputStream(target, "w")
+                ?: throw FileNotFoundException("Couldn't write to the chosen folder")
+            out.use { dst -> File(file.path).inputStream().use { it.copyTo(dst, 256 * 1024) } }
+        }
+        return "Saved “${file.name}”"
+    }
+
+    fun onSaveTargetChosen(uri: Uri?) {
+        pendingSave?.complete(uri)
+        pendingSave = null
+    }
+
+    override suspend fun share(file: LocalFile) {
+        // Share under the file's real name (cached copies have prefixes).
+        val shareFile = withContext(Dispatchers.IO) {
+            val dir = File(activity.cacheDir, "share").apply { deleteRecursively(); mkdirs() }
+            File(dir, safeFileName(file.name)).also { File(file.path).copyTo(it, overwrite = true) }
+        }
+        val uri = FileProvider.getUriForFile(activity, activity.packageName + ".files", shareFile)
+        val send = Intent(Intent.ACTION_SEND).apply {
+            type = mimeTypeOf(file.name)
+            putExtra(Intent.EXTRA_STREAM, uri)
+            addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+        }
+        withContext(Dispatchers.Main) {
+            activity.startActivity(Intent.createChooser(send, file.name))
+        }
+    }
+
+    private fun mimeTypeOf(name: String): String {
+        val ext = name.substringAfterLast('.', "").lowercase()
+        return MimeTypeMap.getSingleton().getMimeTypeFromExtension(ext) ?: "application/octet-stream"
+    }
+
+    private fun safeFileName(name: String): String =
+        name.replace(Regex("[\\\\/:*?\"<>|\\p{Cntrl}]"), "_").trim().ifBlank { "document" }
 
     fun refFor(uri: Uri): DocumentRef = DocumentRef(id = uri.toString(), name = displayName(uri))
 
@@ -84,7 +177,7 @@ class AndroidPlatform(
 
         // Content URIs: copy into the cache so every engine gets a real file path.
         val dir = File(activity.cacheDir, "open").apply { mkdirs() }
-        val safeName = ref.name.replace(Regex("[\\\\/:*?\"<>|\\p{Cntrl}]"), "_").ifBlank { "document" }
+        val safeName = safeFileName(ref.name)
         val target = File(dir, "${Integer.toHexString(ref.id.hashCode())}-$safeName")
         val input = activity.contentResolver.openInputStream(uri) ?: throw FileNotFoundException("File not found")
         input.use { src -> target.outputStream().use { dst -> src.copyTo(dst, 256 * 1024) } }

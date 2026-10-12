@@ -68,6 +68,33 @@ class DesktopPlatform(private val windowState: WindowState) : Platform {
         LocalFile(file.absolutePath, file.name, file.length(), fingerprint)
     }
 
+    // Files on a PC stay where they are, so Recent can always reopen them.
+    override suspend fun keepCopy(ref: DocumentRef): DocumentRef = ref
+
+    override suspend fun pruneKeptCopies(stillUsed: Set<String>) {}
+
+    override val canShare: Boolean = false
+
+    override suspend fun share(file: LocalFile) {}
+
+    override suspend fun saveCopy(file: LocalFile): String? {
+        val target = withContext(Dispatchers.Main) {
+            val dialog = FileDialog(window, "Save a copy", FileDialog.SAVE)
+            dialog.file = file.name
+            dialog.directory = File(System.getProperty("user.home"), "Downloads").takeIf { it.isDirectory }?.absolutePath
+            dialog.isVisible = true
+            val dir = dialog.directory
+            val name = dialog.file
+            if (dir == null || name == null) null else File(dir, name)
+        } ?: return null
+        withContext(Dispatchers.IO) {
+            if (target.absoluteFile != File(file.path).absoluteFile) {
+                File(file.path).copyTo(target, overwrite = true)
+            }
+        }
+        return "Saved to ${target.parent}"
+    }
+
     override suspend fun readBytes(path: String, limit: Long): ByteArray = withContext(Dispatchers.IO) {
         RandomAccessFile(path, "r").use { raf ->
             val size = minOf(raf.length(), limit).toInt()

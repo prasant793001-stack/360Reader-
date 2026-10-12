@@ -72,6 +72,24 @@ interface Platform {
 
     suspend fun materialize(ref: DocumentRef): LocalFile
 
+    /**
+     * Keeps 360Reader's own copy of a file that was only lent to us (e.g. opened
+     * from WhatsApp), so it can be reopened from Recent later. Returns the ref
+     * to remember; files we can already reopen are returned unchanged.
+     */
+    suspend fun keepCopy(ref: DocumentRef): DocumentRef
+
+    /** Deletes kept copies that are no longer in the Recent list. */
+    suspend fun pruneKeptCopies(stillUsed: Set<String>)
+
+    /** Lets the user save a copy of [file] somewhere. Returns a message to show, or null if cancelled. */
+    suspend fun saveCopy(file: LocalFile): String?
+
+    val canShare: Boolean
+
+    /** Opens the system share sheet for [file]. */
+    suspend fun share(file: LocalFile)
+
     suspend fun readBytes(path: String, limit: Long): ByteArray
 
     suspend fun fileExists(path: String): Boolean

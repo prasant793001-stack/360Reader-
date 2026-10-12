@@ -14,6 +14,15 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
+import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material.icons.filled.Share
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
+import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.SnackbarHostState
+import androidx.compose.runtime.rememberCoroutineScope
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.launch
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.CircularProgressIndicator
@@ -79,12 +88,30 @@ fun ViewerScreen(ref: DocumentRef, platform: Platform, onClose: () -> Unit) {
         if (search.active) search.active = false else onClose()
     }
 
+    val snackbar = remember { SnackbarHostState() }
+    val scope = rememberCoroutineScope()
+    var menuOpen by remember(ref) { mutableStateOf(false) }
+
+    fun runFileAction(action: suspend () -> String?) {
+        scope.launch {
+            val message = try {
+                action()
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Throwable) {
+                "Couldn't do that: ${e.message ?: "unknown error"}"
+            }
+            if (message != null) snackbar.showSnackbar(message)
+        }
+    }
+
     val ready = state as? LoadState.Ready
     val content = ready?.content
     val category = content?.category ?: FileTypes.categoryForName(ref.name)
 
     Scaffold(
         containerColor = MaterialTheme.colorScheme.background,
+        snackbarHost = { SnackbarHost(snackbar) },
         topBar = {
             TopAppBar(
                 colors = TopAppBarDefaults.topAppBarColors(containerColor = MaterialTheme.colorScheme.surface),
@@ -143,6 +170,34 @@ fun ViewerScreen(ref: DocumentRef, platform: Platform, onClose: () -> Unit) {
                             }
                         }
                         else -> {}
+                    }
+                    val file = ready?.file
+                    if (file != null && !search.active) {
+                        Box {
+                            IconButton(onClick = { menuOpen = true }) {
+                                Icon(Icons.Filled.MoreVert, contentDescription = "More options")
+                            }
+                            DropdownMenu(expanded = menuOpen, onDismissRequest = { menuOpen = false }) {
+                                DropdownMenuItem(
+                                    text = { Text("Save a copy…") },
+                                    leadingIcon = { Icon(Icons.Filled.KeyboardArrowDown, contentDescription = null) },
+                                    onClick = {
+                                        menuOpen = false
+                                        runFileAction { platform.saveCopy(file) }
+                                    },
+                                )
+                                if (platform.canShare) {
+                                    DropdownMenuItem(
+                                        text = { Text("Share…") },
+                                        leadingIcon = { Icon(Icons.Filled.Share, contentDescription = null) },
+                                        onClick = {
+                                            menuOpen = false
+                                            runFileAction { platform.share(file); null }
+                                        },
+                                    )
+                                }
+                            }
+                        }
                     }
                 },
             )

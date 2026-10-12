@@ -34,9 +34,20 @@ fun App(platform: Platform, openRequests: Flow<DocumentRef>) {
     var now by remember { mutableLongStateOf(platform.now()) }
     val engineStatus = remember(platform) { platform.office.status() }
 
+    fun forgetUnusedCopies() {
+        scope.launch {
+            runCatching { platform.pruneKeptCopies(recents.items.map { it.ref.id }.toSet()) }
+        }
+    }
+
     fun open(ref: DocumentRef) {
         current = ref
-        scope.launch { recents.add(ref) }
+        scope.launch {
+            // Files lent by other apps (WhatsApp, Gmail, …) are copied, so Recent can reopen them later.
+            val remembered = runCatching { platform.keepCopy(ref) }.getOrDefault(ref)
+            recents.add(remembered)
+            forgetUnusedCopies()
+        }
     }
 
     LaunchedEffect(platform) { recents.load() }
@@ -59,8 +70,8 @@ fun App(platform: Platform, openRequests: Flow<DocumentRef>) {
                         now = now,
                         onOpenFile = { scope.launch { platform.pickFile()?.let { open(it) } } },
                         onOpenRecent = { open(it) },
-                        onRemoveRecent = { scope.launch { recents.remove(it) } },
-                        onClearRecents = { scope.launch { recents.clear() } },
+                        onRemoveRecent = { scope.launch { recents.remove(it); forgetUnusedCopies() } },
+                        onClearRecents = { scope.launch { recents.clear(); forgetUnusedCopies() } },
                         onEngineAction = { platform.openUrl(it) },
                     )
                 } else {
