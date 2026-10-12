@@ -1,0 +1,200 @@
+10-12 13:27:35.500 V/WindowManagerShell(  846): Transition animation finished (aborted=false), notifying core (#6)android.os.BinderProxy@d94134@0
+10-12 13:27:39.395 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:39.395 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:39.395 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:39.399 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:39.403 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:39.492 W/libc    ( 3262): Access denied finding property "persist.adb.tls_server.enable"
+10-12 13:27:39.500 W/libc    ( 3262): Access denied finding property "service.adb.tls.port"
+10-12 13:27:40.020 W/libc    ( 3262): Access denied finding property "persist.adb.tls_server.enable"
+10-12 13:27:40.021 W/libc    ( 3262): Access denied finding property "service.adb.tls.port"
+10-12 13:27:41.223 I/LibreOfficeKit( 4086): Initializing LibreOfficeKit, dataDir=/data/user/0/com.reader360.app
+10-12 13:27:41.212 W/LibreOfficeKit( 4086): type=1400 audit(0.0:21): avc:  denied  { getattr } for  path="/dev/pmsg0" dev="tmpfs" ino=401 scontext=u:r:untrusted_app:s0:c192,c256,c512,c768 tcontext=u:object_r:pmsg_device:s0 tclass=chr_file permissive=0 app=com.reader360.app
+10-12 13:27:41.245 I/LibreOfficeKit( 4086): Setting FONTCONFIG_FILE to /data/user/0/com.reader360.app/etc/fonts/fonts.conf
+10-12 13:27:41.250 I/LibreOfficeKit( 4086): LibreOfficeKit: libreofficekit_initialize finished
+10-12 13:27:42.183 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:42.184 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:42.362 W/libc    ( 3262): Access denied finding property "persist.adb.tls_server.enable"
+10-12 13:27:42.370 W/libc    ( 3262): Access denied finding property "service.adb.tls.port"
+10-12 13:27:43.428 I/LibreOfficeKit( 4086): LibreOfficeKit successfully initialized
+10-12 13:27:44.562 W/libc    ( 1455): Access denied finding property "ro.hardware.chipname"
+10-12 13:27:44.975 W/libc    ( 3262): Access denied finding property "persist.adb.tls_server.enable"
+10-12 13:27:44.982 W/libc    ( 3262): Access denied finding property "service.adb.tls.port"
+10-12 13:27:46.177 W/libc    ( 3262): Access denied finding property "persist.adb.tls_server.enable"
+10-12 13:27:46.182 W/libc    ( 3262): Access denied finding property "service.adb.tls.port"
+10-12 13:27:47.257 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:47.257 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:47.511 W/libc    ( 1047): Access denied finding property "ro.vendor.aware_available"
+10-12 13:27:47.573 W/libc    ( 1047): Access denied finding property "ro.vendor.aware_available"
+10-12 13:27:47.627 W/libc    ( 1047): Access denied finding property "ro.vendor.aware_available"
+10-12 13:27:48.333 W/libc    ( 3262): Access denied finding property "persist.adb.tls_server.enable"
+10-12 13:27:48.341 W/libc    ( 3262): Access denied finding property "service.adb.tls.port"
+10-12 13:27:49.227 W/libc    ( 3262): Access denied finding property "persist.adb.tls_server.enable"
+10-12 13:27:49.243 W/libc    ( 3262): Access denied finding property "service.adb.tls.port"
+10-12 13:27:49.318 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:49.318 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:50.111 W/libc    ( 3262): Access denied finding property "persist.adb.tls_server.enable"
+10-12 13:27:50.117 W/libc    ( 3262): Access denied finding property "service.adb.tls.port"
+10-12 13:27:50.831 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:50.831 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:51.363 W/libc    ( 3262): Access denied finding property "persist.adb.tls_server.enable"
+10-12 13:27:51.363 W/libc    ( 3262): Access denied finding property "service.adb.tls.port"
+10-12 13:27:53.725 W/libc    ( 3262): Access denied finding property "persist.adb.tls_server.enable"
+10-12 13:27:53.730 W/libc    ( 3262): Access denied finding property "service.adb.tls.port"
+10-12 13:27:57.575 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.575 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.576 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.576 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.838 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.838 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.838 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.838 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.838 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.839 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.839 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.839 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.839 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.918 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.918 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.918 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.918 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.918 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.918 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.918 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.918 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:57.918 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:58.043 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:58.043 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:58.043 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:58.043 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:58.043 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:58.063 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:58.063 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:58.063 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:58.063 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:58.063 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:58.194 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:58.194 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:58.194 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:58.194 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:59.004 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:59.005 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:59.005 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:27:59.005 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.261 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.261 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.261 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.262 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.263 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.829 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.829 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.829 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.829 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.844 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.845 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.845 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.845 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.845 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.970 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.970 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.971 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:02.971 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:03.422 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:03.422 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:03.422 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:03.422 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:03.422 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:03.711 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:03.711 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:03.857 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:03.858 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:03.858 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:03.880 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:03.883 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:04.792 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:04.792 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:04.792 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:04.792 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:04.792 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:04.804 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:04.805 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:04.805 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:04.805 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:04.854 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:04.854 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:04.854 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:04.854 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:04.854 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:05.128 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:05.129 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:05.129 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:05.129 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:05.129 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:07.023 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:07.023 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:07.023 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:07.023 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:07.023 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:07.298 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:08.476 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:08.715 W/libc    ( 1047): Access denied finding property "ro.vendor.aware_available"
+10-12 13:28:08.715 W/libc    ( 1047): Access denied finding property "ro.vendor.aware_available"
+10-12 13:28:08.727 W/libc    ( 1047): Access denied finding property "ro.vendor.aware_available"
+10-12 13:28:08.727 W/libc    ( 1047): Access denied finding property "ro.vendor.aware_available"
+10-12 13:28:08.856 W/libc    ( 1047): Access denied finding property "ro.vendor.aware_available"
+10-12 13:28:08.990 W/libc    ( 1047): Access denied finding property "ro.vendor.aware_available"
+10-12 13:28:09.022 W/libc    ( 1047): Access denied finding property "ro.vendor.aware_available"
+10-12 13:28:09.032 W/libc    ( 1047): Access denied finding property "ro.vendor.aware_available"
+10-12 13:28:09.084 W/libc    ( 1047): Access denied finding property "ro.vendor.aware_available"
+10-12 13:28:09.270 W/libc    ( 1047): Access denied finding property "ro.vendor.aware_available"
+10-12 13:28:09.858 W/libc    ( 1047): Access denied finding property "ro.vendor.aware_available"
+10-12 13:28:09.905 W/libc    ( 1047): Access denied finding property "ro.vendor.aware_available"
+10-12 13:28:09.912 W/libc    ( 1047): Access denied finding property "ro.vendor.aware_available"
+10-12 13:28:09.991 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:10.371 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:10.565 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:10.767 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:10.911 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:11.079 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:11.243 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:11.365 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:11.594 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:12.361 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:12.460 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:12.461 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:12.462 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:12.462 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:12.465 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:12.465 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:12.554 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:12.905 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.292 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.292 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.459 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.460 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.464 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.464 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.487 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.487 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.493 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.494 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.539 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.540 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.549 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.598 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.598 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.608 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.608 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.611 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.612 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.627 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.627 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.630 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.631 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:13.816 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:14.155 W/libc    ( 3262): Access denied finding property "persist.adb.tls_server.enable"
+10-12 13:28:14.156 W/libc    ( 3262): Access denied finding property "service.adb.tls.port"
+10-12 13:28:14.369 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:14.369 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:14.372 W/SearchServiceCore( 1841): Abort, client detached.
+10-12 13:28:14.372 W/SearchServiceCore( 1841): Abort, client detached.
