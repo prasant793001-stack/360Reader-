@@ -13,6 +13,8 @@ import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.saveable.listSaver
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import com.reader360.app.data.RecentFiles
 import com.reader360.app.ui.AppTheme
@@ -30,7 +32,13 @@ import kotlinx.coroutines.launch
 fun App(platform: Platform, openRequests: Flow<DocumentRef>) {
     val scope = rememberCoroutineScope()
     val recents = remember(platform) { RecentFiles(platform) }
-    var current by remember { mutableStateOf<DocumentRef?>(null) }
+    // Saveable: the open file survives Android recreating the screen (rotation, system changes).
+    var current by rememberSaveable(
+        stateSaver = listSaver<DocumentRef?, String>(
+            save = { ref -> if (ref == null) emptyList() else listOf(ref.id, ref.name) },
+            restore = { if (it.size == 2) DocumentRef(it[0], it[1]) else null },
+        ),
+    ) { mutableStateOf<DocumentRef?>(null) }
     var now by remember { mutableLongStateOf(platform.now()) }
     val engineStatus = remember(platform) { platform.office.status() }
 
